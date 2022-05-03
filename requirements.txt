@@ -7,3 +7,4 @@ tqdm
 filelock
 typer
 sh
+python-docx
