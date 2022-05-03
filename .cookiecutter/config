@@ -1,0 +1,5 @@
+# Change these at your peril:
+export PROJECT_NAME=comp_sci_gender_bias
+export REPO_NAME=comp_sci_gender_bias
+export DESCRIPTION=Code for project analysing gender bias in computer science school course descriptions
+export PROJECT_OPENNESS=public
