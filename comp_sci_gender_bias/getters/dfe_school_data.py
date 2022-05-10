@@ -7,6 +7,18 @@ from comp_sci_gender_bias.utils.process_pandas import cols_replace_space_and_low
 DFE_DIR = PROJECT_DIR / "inputs/data/dfe_school_info/"
 DFE_2021_DIR = DFE_DIR / "2020-2021/"
 DFE_2019_DIR = DFE_DIR / "2018-2019/"
+SCHOOL_INFO_RENAME_COLS = {
+    "indicates_whether_it's_a_mixed_or_single_sex_school": "school_sex_type"
+}
+CENSUS_RENAME_COLS = {
+    "percentage_of_pupils_eligible_for_fsm_at_any_time_during_the_past_6_years": "percentage_pupils_fsm_past_6_years",
+}
+KS4_RENAME_COLS = {
+    "average_attainment_8_score_per_girl_-_gcse_only": "average_girls_attainment_8_gcse_score",
+    "average_attainment_8_score_per_boy_-_gcse_only": "average_boys_attainment_8_gcse_score",
+    "%_of_boys_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percent_boys_strong_9to5_passes_eng_math_gcses",
+    "%_of_girls_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percent_girls_strong_9to5_passes_eng_math_gcses",
+}
 
 
 def col_map(path: pathlib.Path, map_from: str, map_to: str) -> dict:
@@ -39,11 +51,7 @@ def school_info() -> pd.DataFrame:
         pd.read_csv(DFE_2021_DIR / "england_school_information.csv")
         .rename(columns=school_info_col_map)
         .pipe(cols_replace_space_and_lowercase)
-        .rename(
-            columns={
-                "indicates_whether_it's_a_mixed_or_single_sex_school": "school_sex_type"
-            }
-        )
+        .rename(columns=SCHOOL_INFO_RENAME_COLS)
     )
 
 
@@ -62,11 +70,7 @@ def census() -> pd.DataFrame:
         pd.read_csv(DFE_2021_DIR / "england_census.csv")
         .rename(columns=census_col_map)
         .pipe(cols_replace_space_and_lowercase)
-        .rename(
-            columns={
-                "percentage_of_pupils_eligible_for_fsm_at_any_time_during_the_past_6_years": "percentage_pupils_fsm_past_6_years",
-            }
-        )
+        .rename(columns=CENSUS_RENAME_COLS)
         .query("school_unique_reference_number != 'NAT'")
         .astype({"school_unique_reference_number": "int64"})
     )
@@ -88,14 +92,7 @@ def ks4_results() -> pd.DataFrame:
         pd.read_csv(DFE_2019_DIR / "2018-2019_england_ks4final.csv")
         .rename(columns=ks4_col_map)
         .pipe(cols_replace_space_and_lowercase)
-        .rename(
-            columns={
-                "average_attainment_8_score_per_girl_-_gcse_only": "average_girls_attainment_8_gcse_score",
-                "average_attainment_8_score_per_boy_-_gcse_only": "average_boys_attainment_8_gcse_score",
-                "%_of_boys_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percent_boys_strong_9to5_passes_eng_math_gcses",
-                "%_of_girls_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percent_girls_strong_9to5_passes_eng_math_gcses",
-            }
-        )
+        .rename(columns=KS4_RENAME_COLS)
         .dropna(subset="school_unique_reference_number")
         .astype({"school_unique_reference_number": "int64"})
     )
