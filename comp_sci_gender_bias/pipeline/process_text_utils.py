@@ -1,4 +1,44 @@
 import spacy_udpipe
+from hunspell import Hunspell
+
+import re
+
+
+class TextCleaner:
+    def __init__(self, replace_char=" "):
+        self.hunspell = Hunspell()
+        self.replace_char = replace_char
+
+    def strip_nonalphanumeric(self, text):
+        """
+        Replace all nonalphanumeric characters in a text string
+        with replace_char
+        """
+
+        return re.sub("[^0-9a-zA-Z]+", self.replace_char, text)
+
+    def spell_check(self, word):
+        """
+        Spell check a word unless it is an abbreviation or acronym
+        hunspell = Hunspell()
+        """
+        if (len(word) <= 3) or word.isupper():
+            # Assumed abbreviation or acronym
+            return word
+        else:
+            # Spellcheck and return first suggestion
+            if self.hunspell.spell(word):
+                return word
+            else:
+                return self.hunspell.suggest(word)[0]
+
+    def clean(self, text):
+        """
+        Apply all the cleaning steps to a text string
+        """
+        text = self.strip_nonalphanumeric(text)
+
+        return " ".join([self.spell_check(word) for word in text.split()])
 
 
 class TokenTagger:
