@@ -8,3 +8,5 @@ filelock
 typer
 sh
 python-docx
+spacy-udpipe
+cyhunspell
