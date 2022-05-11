@@ -1,4 +1,4 @@
-from comp_sci_gender_bias.pipeline.additional_school_info.combine_additional_school_info import (
+from comp_sci_gender_bias.pipeline.additional_school_info.combine_dfe_school_data import (
     save_combined_dfe_data,
 )
 from comp_sci_gender_bias import PROJECT_DIR
