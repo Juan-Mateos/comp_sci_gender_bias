@@ -20,17 +20,14 @@ class TextCleaner:
     def spell_check(self, word):
         """
         Spell check a word unless it is an abbreviation or acronym
+        and return first suggestion
         hunspell = Hunspell()
         """
-        if (len(word) <= 3) or word.isupper():
-            # Assumed abbreviation or acronym
-            return word
-        else:
-            # Spellcheck and return first suggestion
-            if self.hunspell.spell(word):
-                return word
-            else:
-                return self.hunspell.suggest(word)[0]
+        return (
+            word
+            if (len(word) <= 3) or word.isupper() or self.hunspell.spell(word)
+            else self.hunspell.suggest(word)[0]
+        )
 
     def clean(self, text):
         """
