@@ -1,6 +1,10 @@
 import pytest
 
-from comp_sci_gender_bias.pipeline.process_text_utils import TokenTagger, TextCleaner
+from comp_sci_gender_bias.pipeline.process_text_utils import (
+    TokenTagger,
+    TextCleaner,
+    GloveDistances,
+)
 
 
 def test_TokenTagger():
@@ -30,3 +34,25 @@ def test_CleanText():
     # Check short words aren't corrected
     text = "a cta and dgo"
     assert text_cleaner.clean(text) == text
+
+
+def test_GloveDistances():
+
+    glove_dists = GloveDistances()
+    glove_dists.load_glove2word2vec()
+
+    mother_score = glove_dists.gender_similarity_difference_word_list(["mother"])
+    father_score = glove_dists.gender_similarity_difference_word_list(["father"])
+
+    # At the very least 'mother' should be less masculine than 'father'
+    assert mother_score["mother"] < father_score["father"]
+
+    not_word_scores = glove_dists.gender_similarity_difference_word_list("notawordkd")
+
+    assert not_word_scores == None
+
+    some_scores = glove_dists.gender_similarity_difference_word_list(
+        ["mother", "notawordkd"]
+    )
+    assert len(some_scores) == 1
+    assert "notawordkd" not in some_scores

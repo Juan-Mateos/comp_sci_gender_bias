@@ -10,3 +10,5 @@ sh
 python-docx
 spacy-udpipe
 cyhunspell
+wget
+gensim
