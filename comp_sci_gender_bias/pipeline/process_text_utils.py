@@ -135,10 +135,10 @@ class GloveDistances:
 def get_word_freq(word_pos_df):
     """
     Get the word frequencies for a corpus
-    Input:
+    Args:
         word_pos_df: DataFrame with 2 columns ["Word", "POS"]
         Each row is every word in the corpus along with it's POS tag
-    Output:
+    Returns:
         A dictionary of the frequency of words in the corpus
         as computed by frequency of a word in all corpus / frequency of
         the specific part of speech type in all corpus
@@ -165,10 +165,10 @@ def get_word_comparisons(comp_df, geo_df):
     commonly occuring one is used
     (e.g. 'students' is NOUN 585 times and a VERB 3 times)
 
-    Input: comp_df and geo_df are the two DataFrames of each
+    Args: comp_df and geo_df are the two DataFrames of each
         word and POS tag in the CS and the geography corpuses
 
-    Output: A DataFrame where for each word there is the
+    Returns: A DataFrame where for each word there is the
         geo-CS word frequencies, as well as the most common POS tag
         for this word, and the word frequency and word count in both
         corpuses combined.
