@@ -3,6 +3,7 @@ from hunspell import Hunspell
 from gensim.scripts.glove2word2vec import glove2word2vec
 from gensim.models.keyedvectors import KeyedVectors
 import numpy as np
+import pandas as pd
 
 import os
 import re
@@ -24,14 +25,17 @@ class TextCleaner:
     def spell_check(self, word):
         """
         Spell check a word unless it is an abbreviation or acronym
-        and return first suggestion
+        and return first suggestion (if any given)
         hunspell = Hunspell()
         """
-        return (
-            word
-            if (len(word) <= 3) or word.isupper() or self.hunspell.spell(word)
-            else self.hunspell.suggest(word)[0]
-        )
+        if (len(word) <= 3) or word.isupper() or self.hunspell.spell(word):
+            return word
+        else:
+            spelling_suggestions = self.hunspell.suggest(word)
+            if spelling_suggestions:
+                return spelling_suggestions[0]
+            else:
+                return ""
 
     def clean(self, text):
         """
@@ -100,7 +104,10 @@ class GloveDistances:
             word_list = [word_list]
 
         # There will be an error if the word isn't in the vocab
-        word_list = [word for word in word_list if word in self.model.index_to_key]
+        # also all words need to be lower case to be found in vocab
+        word_list = [
+            word.lower() for word in word_list if word in self.model.index_to_key
+        ]
 
         if word_list:
             word_vecs = self.model[word_list]
@@ -123,3 +130,75 @@ class GloveDistances:
             )
         else:
             return None
+
+
+def get_word_freq(word_pos_df):
+    """
+    Get the word frequencies for a corpus
+    Input:
+        word_pos_df: DataFrame with 2 columns ["Word", "POS"]
+        Each row is every word in the corpus along with it's POS tag
+    Output:
+        A dictionary of the frequency of words in the corpus
+        as computed by frequency of a word in all corpus / frequency of
+        the specific part of speech type in all corpus
+    """
+
+    pos_freq = (word_pos_df.groupby("POS").count() / len(word_pos_df))["Word"].to_dict()
+    word_pos = (
+        word_pos_df.groupby("Word")["POS"].agg(lambda x: pd.Series.mode(x)[0])
+    ).to_dict()
+    word_corpus_freq = (word_pos_df.groupby("Word").count() / len(word_pos_df))[
+        "POS"
+    ].to_dict()
+
+    return {
+        word: freq / pos_freq[word_pos[word]] for word, freq in word_corpus_freq.items()
+    }
+
+
+def get_word_comparisons(comp_df, geo_df):
+    """
+    Calculate the word frequency differences between Geography course
+    data and the CS course data.
+    If multiple POS tags are given for a particular word then the most
+    commonly occuring one is used
+    (e.g. 'students' is NOUN 585 times and a VERB 3 times)
+
+    Input: comp_df and geo_df are the two DataFrames of each
+        word and POS tag in the CS and the geography corpuses
+
+    Output: A DataFrame where for each word there is the
+        geo-CS word frequencies, as well as the most common POS tag
+        for this word, and the word frequency and word count in both
+        corpuses combined.
+    """
+
+    # Get frequency information for the two corpuses separately
+    comp_word_freq = get_word_freq(comp_df)
+    geo_word_freq = get_word_freq(geo_df)
+
+    # Get frequency information for the two corpuses combined
+    pos_all_words = pd.concat([comp_df, geo_df]).reset_index(drop=True)
+    all_word_pos = (
+        pos_all_words.groupby("Word")["POS"].agg(lambda x: pd.Series.mode(x)[0])
+    ).to_dict()
+    word_counts = pos_all_words.groupby("Word").count()
+    all_word_booklet_freq = (word_counts / len(pos_all_words))["POS"].to_dict()
+    all_word_booklet_count = word_counts["POS"].to_dict()
+
+    # Calculate the differences between CS and Geography
+    word_differences = {}
+    for word in set(comp_word_freq.keys()).union(set(geo_word_freq.keys())):
+        word_differences[word] = (
+            geo_word_freq.get(word, 0) - comp_word_freq.get(word, 0),
+            all_word_pos[word],
+            all_word_booklet_freq[word],
+            all_word_booklet_count[word],
+        )
+
+    word_differences_df = pd.DataFrame(
+        word_differences, index=["Geo - CS freq", "POS", "Word freq", "Word count"]
+    ).T
+
+    return word_differences_df
