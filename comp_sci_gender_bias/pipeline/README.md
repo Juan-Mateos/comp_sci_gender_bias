@@ -56,3 +56,17 @@ python comp_sci_gender_bias/pipeline/additional_school_info/combine_dfe_school_d
 This will save a file `dfe_combined_dataset.csv` in `inputs/data/dfe_school_info`
 
 This file can be loaded using the getter `comp_sci_gender_bias.getters.dfe_combined_school_data.dfe_combined_school_data`
+
+## Create lookup for school name and school unique reference number
+
+The `school_master_table.csv` file in `inputs/data/` does not have a column for school unique reference number and so cannot be easily joined to datasets which use the school unique reference number.
+
+To create a lookup containing `school_name` and `school_unique_reference_number`, run:
+
+```
+python comp_sci_gender_bias/pipeline/pipeline/urn_to_school_name_lookup/urn_to_school_name_lookup.py
+```
+
+This will save a file `urn_school_lookup_full.csv` to `inputs/data/urn_school_lookups`
+
+This file can be loaded using the getter `comp_sci_gender_bias.getters.urn_school_lookup.urn_to_school_name_lookup`
