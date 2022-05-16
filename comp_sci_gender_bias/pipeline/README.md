@@ -43,3 +43,16 @@ from comp_sci_gender_bias.getters.embedding import load_embedding
 geo_embedding = load_embedding(subject="geo")
 cs_embedding = load_embedding(subject="compsci")
 ```
+## Combine Department for Education datasets
+
+Department for Education datasets are stored in `inputs/data/dfe_school_info`. They include information about schools including: unique school reference number, location, ofsted rating, gender split, average attainment by gender.
+
+To combine these datasets together, run:
+
+```bash
+python comp_sci_gender_bias/pipeline/additional_school_info/combine_dfe_school_data.py
+```
+
+This will save a file `dfe_combined_dataset.csv` in `inputs/data/dfe_school_info`
+
+This file can be loaded using the getter `comp_sci_gender_bias.getters.dfe_combined_school_data.dfe_combined_school_data`
