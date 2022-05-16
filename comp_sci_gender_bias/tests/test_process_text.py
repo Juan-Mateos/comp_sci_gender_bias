@@ -53,7 +53,7 @@ def test_GloveDistances():
 
     not_word_scores = glove_dists.gender_similarity_difference_word_list("notawordkd")
 
-    assert not_word_scores == None
+    assert not_word_scores is None
 
     some_scores = glove_dists.gender_similarity_difference_word_list(
         ["mother", "notawordkd"]
