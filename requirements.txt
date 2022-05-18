@@ -12,3 +12,4 @@ spacy-udpipe
 cyhunspell
 wget
 gensim
+sentence-transformers
