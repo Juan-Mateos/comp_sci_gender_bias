@@ -35,11 +35,11 @@ python comp_sci_gender_bias/pipeline/sentence_embeddings/create_sentence_embeddi
 
 This will save the embeddings to `comp_sci_gender_bias/outputs/embeddings`.
 
-These embeddings can be loaded using the embedding getter, for example:
+These embeddings can be loaded using the `load_embedding` getter, for example:
 
 ```python
-from comp_sci_gender_bias.getters.embedding import embedding
+from comp_sci_gender_bias.getters.embedding import load_embedding
 
-geo_embedding = embedding(subject="geo")
-cs_embedding = embedding(subject="compsci")
+geo_embedding = load_embedding(subject="geo")
+cs_embedding = load_embedding(subject="compsci")
 ```

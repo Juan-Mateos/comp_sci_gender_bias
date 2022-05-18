@@ -8,7 +8,7 @@ import pathlib
 EMBEDDING_DIR = PROJECT_DIR / "outputs/embeddings"
 
 
-def embedding(
+def load_embedding(
     subject: str, embedding_dir: pathlib.Path = EMBEDDING_DIR
 ) -> Union[torch.Tensor, np.ndarray]:
     """Load sentence embedding for school course descriptions
