@@ -24,3 +24,22 @@ mkdir $GLOVE_PATH
 python -m wget "https://nlp.stanford.edu/data/glove.6B.zip" -o $GLOVE_PATH
 unzip $GLOVE_PATH/glove.6B.zip -d $GLOVE_PATH && rm $GLOVE_PATH/glove.6B.zip
 ```
+
+## Make sentence embeddings of school course descriptions
+
+To make and save the school course description sentence embeddings, run:
+
+```bash
+python comp_sci_gender_bias/pipeline/sentence_embeddings/create_sentence_embeddings.py
+```
+
+This will save the embeddings to `comp_sci_gender_bias/outputs/embeddings`.
+
+These embeddings can be loaded using the `load_embedding` getter, for example:
+
+```python
+from comp_sci_gender_bias.getters.embedding import load_embedding
+
+geo_embedding = load_embedding(subject="geo")
+cs_embedding = load_embedding(subject="compsci")
+```
