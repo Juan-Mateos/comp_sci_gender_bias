@@ -8,6 +8,24 @@ from comp_sci_gender_bias.pipeline.process_text_utils import (
     GloveDistances,
     get_word_freq,
     get_word_comparisons,
+    combined_pos_freq_and_count,
+    subject_from_df,
+    word_differences,
+)
+
+geo_word_pos = pd.DataFrame(
+    {
+        "Word": ["world", "world", "computer"],
+        "POS": ["Noun", "Noun", "Noun"],
+        "Corpus": ["Geo", "Geo", "Geo"],
+    }
+)
+cs_word_pos = pd.DataFrame(
+    {
+        "Word": ["computer", "computer", "world"],
+        "POS": ["Noun", "Noun", "Noun"],
+        "Corpus": ["CS", "CS", "CS"],
+    }
 )
 
 
@@ -73,13 +91,47 @@ def test_get_word_freq():
 
 
 def test_get_word_comparisons():
-    comp_df = pd.DataFrame({"Word": ["computer", "work"], "POS": ["NOUN", "NOUN"]})
-    geo_df = pd.DataFrame({"Word": ["geography", "work"], "POS": ["NOUN", "NOUN"]})
+    word_differences_df = get_word_comparisons(geo_word_pos, cs_word_pos)
 
-    word_differences_df = get_word_comparisons(comp_df, geo_df)
-
-    assert len(word_differences_df) == 3
+    assert len(word_differences_df) == 2
     assert (
         word_differences_df.loc["computer"]["Geo - CS freq"]
-        < word_differences_df.loc["geography"]["Geo - CS freq"]
+        < word_differences_df.loc["world"]["Geo - CS freq"]
     )
+
+
+def test_combined_pos_freq_and_count():
+    (
+        all_word_pos,
+        all_word_booklet_freq,
+        all_word_booklet_count,
+    ) = combined_pos_freq_and_count(geo_word_pos, cs_word_pos)
+
+    assert all_word_pos == {"computer": "Noun", "world": "Noun"}
+    assert all_word_booklet_freq == {"world": 0.5, "computer": 0.5}
+    assert all_word_booklet_count == {"computer": 3, "world": 3}
+
+
+def test_subject_from_df():
+    assert subject_from_df(geo_word_pos) == "Geo"
+
+
+def test_word_differences():
+    sub1_word_freq = get_word_freq(geo_word_pos)
+    sub2_word_freq = get_word_freq(cs_word_pos)
+    (
+        all_word_pos,
+        all_word_booklet_freq,
+        all_word_booklet_count,
+    ) = combined_pos_freq_and_count(geo_word_pos, cs_word_pos)
+
+    assert word_differences(
+        sub1_word_freq,
+        sub2_word_freq,
+        all_word_pos,
+        all_word_booklet_freq,
+        all_word_booklet_count,
+    ) == {
+        "computer": (-0.3333333333333333, "Noun", 0.5, 3),
+        "world": (0.3333333333333333, "Noun", 0.5, 3),
+    }
