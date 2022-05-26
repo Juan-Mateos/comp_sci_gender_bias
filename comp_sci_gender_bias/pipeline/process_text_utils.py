@@ -4,7 +4,7 @@ from gensim.scripts.glove2word2vec import glove2word2vec
 from gensim.models.keyedvectors import KeyedVectors
 import numpy as np
 import pandas as pd
-
+from typing import Tuple
 import os
 import re
 
@@ -157,48 +157,124 @@ def get_word_freq(word_pos_df):
     }
 
 
-def get_word_comparisons(comp_df, geo_df):
+def combined_pos_freq_and_count(
+    sub1_word_pos: pd.DataFrame, sub2_word_pos: pd.DataFrame
+) -> Tuple[dict, dict, dict]:
+    """For each word, calculate POS label, frequency and counts
+    across two corpuses combined
+
+    Args:
+        sub1_word_pos: Dataframe containing columns
+            for 'Word', 'POS', 'Corpus'
+        sub2_word_pos: Dataframe containing columns
+            for 'Word', 'POS', 'Corpus'
+
+    Returns:
+        A tuple of dictionaries:
+            - word: most common POS label across both subjects
+            - word: frequency across both subjects
+            - word: count across both subjects
     """
-    Calculate the word frequency differences between Geography course
-    data and the CS course data.
-    If multiple POS tags are given for a particular word then the most
-    commonly occuring one is used
-    (e.g. 'students' is NOUN 585 times and a VERB 3 times)
 
-    Args: comp_df and geo_df are the two DataFrames of each
-        word and POS tag in the CS and the geography corpuses
-
-    Returns: A DataFrame where for each word there is the
-        geo-CS word frequencies, as well as the most common POS tag
-        for this word, and the word frequency and word count in both
-        corpuses combined.
-    """
-
-    # Get frequency information for the two corpuses separately
-    comp_word_freq = get_word_freq(comp_df)
-    geo_word_freq = get_word_freq(geo_df)
-
-    # Get frequency information for the two corpuses combined
-    pos_all_words = pd.concat([comp_df, geo_df]).reset_index(drop=True)
+    pos_all_words = pd.concat([sub1_word_pos, sub2_word_pos]).reset_index(drop=True)
     all_word_pos = (
         pos_all_words.groupby("Word")["POS"].agg(lambda x: pd.Series.mode(x)[0])
     ).to_dict()
     word_counts = pos_all_words.groupby("Word").count()
     all_word_booklet_freq = (word_counts / len(pos_all_words))["POS"].to_dict()
     all_word_booklet_count = word_counts["POS"].to_dict()
+    return all_word_pos, all_word_booklet_freq, all_word_booklet_count
 
-    # Calculate the differences between CS and Geography
-    word_differences = {}
-    for word in set(comp_word_freq.keys()).union(set(geo_word_freq.keys())):
-        word_differences[word] = (
-            geo_word_freq.get(word, 0) - comp_word_freq.get(word, 0),
+
+def subject_from_df(sub_word_pos: pd.DataFrame) -> str:
+    """Return the subject relating to the course descriptions"""
+    return sub_word_pos.Corpus.values[0]
+
+
+def word_differences(
+    sub1_word_freq: dict,
+    sub2_word_freq: dict,
+    all_word_pos: dict,
+    all_word_booklet_freq: dict,
+    all_word_booklet_count: dict,
+) -> dict:
+    """Create dictionary containing frequency difference between the two
+    subjects, POS label, word frequency across the combined subjects, word
+    count across the combined subjects
+
+    Args:
+        sub1_word_freq: Frequency of words in subject1
+        sub2_word_freq: Frequency of words in subject2
+        all_word_pos: Most common POS label across both subjects
+            for each word
+        all_word_booklet_freq: Frequency of words across
+            both subjects
+        all_word_booklet_count: Count of words across
+            both subjects
+
+    Returns:
+        Dictionary in the format
+            word: (sub1 - sub2 frequency, POS, Word freq, Word count)
+    """
+    return {
+        word: (
+            sub1_word_freq.get(word, 0) - sub2_word_freq.get(word, 0),
             all_word_pos[word],
             all_word_booklet_freq[word],
             all_word_booklet_count[word],
         )
+        for word in set(sub1_word_freq.keys()).union(set(sub2_word_freq.keys()))
+    }
 
-    word_differences_df = pd.DataFrame(
-        word_differences, index=["Geo - CS freq", "POS", "Word freq", "Word count"]
+
+def get_word_comparisons(
+    sub1_word_pos: pd.DataFrame, sub2_word_pos: pd.DataFrame
+) -> pd.DataFrame:
+    """Calculate the word frequency differences between
+    two subjects. If multiple POS tags are given for a
+    particular word then the most commonly occuring one is used
+    (e.g. 'students' is NOUN 585 times and a VERB 3 times)
+
+    Args:
+        sub1_word_pos: Dataframe containing columns
+            for 'Word', 'POS', 'Corpus'
+        sub2_word_pos: Dataframe containing columns
+            for 'Word', 'POS', 'Corpus'
+
+    Returns:
+        DataFrame containing columns for:
+            - Word (index)
+            - subject1 - subject2 frequency difference
+            - POS label
+            - Word frequency (in both corpuses combined)
+            - Word count
+    """
+    # Get frequency information for the two corpuses separately
+    sub1_word_freq = get_word_freq(sub1_word_pos)
+    sub2_word_freq = get_word_freq(sub2_word_pos)
+
+    # Get POS, frequency and count information for the two corpuses combined
+    (
+        all_word_pos,
+        all_word_booklet_freq,
+        all_word_booklet_count,
+    ) = combined_pos_freq_and_count(sub1_word_pos, sub2_word_pos)
+
+    # Calculate the differences between the subjects
+    word_diffs = word_differences(
+        sub1_word_freq,
+        sub2_word_freq,
+        all_word_pos,
+        all_word_booklet_freq,
+        all_word_booklet_count,
+    )
+
+    return pd.DataFrame(
+        word_diffs,
+        index=[
+            f"{subject_from_df(sub1_word_pos)} - {subject_from_df(sub2_word_pos)} freq",
+            "POS",
+            "Word freq",
+            "Word count",
+        ],
     ).T
-
-    return word_differences_df
