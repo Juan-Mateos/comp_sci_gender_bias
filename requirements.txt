@@ -13,3 +13,4 @@ cyhunspell
 wget
 gensim
 sentence-transformers
+python-dotenv
