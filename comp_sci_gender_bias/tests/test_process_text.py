@@ -1,8 +1,5 @@
 import pandas as pd
-
-import pytest
-
-from comp_sci_gender_bias.pipeline.process_text_utils import (
+from comp_sci_gender_bias.pipeline.glove_differences.process_text_utils import (
     TokenTagger,
     TextCleaner,
     GloveDistances,
@@ -11,6 +8,7 @@ from comp_sci_gender_bias.pipeline.process_text_utils import (
     combined_pos_freq_and_count,
     subject_from_df,
     word_differences,
+    word_pos_corpus_df,
 )
 
 geo_word_pos = pd.DataFrame(
@@ -27,12 +25,11 @@ cs_word_pos = pd.DataFrame(
         "Corpus": ["CS", "CS", "CS"],
     }
 )
+token_tagger = TokenTagger()
+text_cleaner = TextCleaner()
 
 
 def test_TokenTagger():
-
-    token_tagger = TokenTagger()
-
     sentence = "London is in England"
     tags = token_tagger.tag(sentence)
     assert len(tags) == 4
@@ -43,9 +40,6 @@ def test_TokenTagger():
 
 
 def test_CleanText():
-
-    text_cleaner = TextCleaner()
-
     cleaned_text = text_cleaner.clean("clean_me!!1")
     assert cleaned_text == "clean me 1"
 
@@ -135,3 +129,31 @@ def test_word_differences():
         "computer": (-0.3333333333333333, "Noun", 0.5, 3),
         "world": (0.3333333333333333, "Noun", 0.5, 3),
     }
+
+
+def test_word_pos_corpus_df():
+    cs_descriptions = ["Computer science is good", "Computer science uses computers"]
+    cs_word_pos_corpus_df = word_pos_corpus_df(
+        subject_descs=cs_descriptions,
+        text_cleaner=text_cleaner,
+        token_tagger=token_tagger,
+        subject_label="CS",
+        word_or_lemma="word",
+    )
+    cs_word_pos_corpus_df_check = pd.DataFrame(
+        {
+            "Word": [
+                "computer",
+                "science",
+                "is",
+                "good",
+                "computer",
+                "science",
+                "uses",
+                "computers",
+            ],
+            "POS": ["NOUN", "NOUN", "AUX", "ADJ", "NOUN", "NOUN", "VERB", "NOUN"],
+            "Corpus": ["CS"] * 8,
+        }
+    )
+    assert cs_word_pos_corpus_df.equals(cs_word_pos_corpus_df_check)
