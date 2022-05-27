@@ -80,7 +80,6 @@ class GloveDistances:
         fem_comparisons=["woman", "she", "her", "feminine", "female"],
         glove_d=100,
     ):
-        # MY_ENV_VAR = os.getenv('MY_ENV_VAR')
         self.glove_path = os.environ.get("GLOVE_PATH")
         self.masc_comparisons = masc_comparisons
         self.fem_comparisons = fem_comparisons
