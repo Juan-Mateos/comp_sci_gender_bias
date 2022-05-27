@@ -80,10 +80,6 @@ class GloveDistances:
         fem_comparisons=["woman", "she", "her", "feminine", "female"],
         glove_d=100,
     ):
-<<<<<<< HEAD
-=======
-        # MY_ENV_VAR = os.getenv('MY_ENV_VAR')
->>>>>>> 09d5046 (Move process_text_utils)
         self.glove_path = os.environ.get("GLOVE_PATH")
         self.masc_comparisons = masc_comparisons
         self.fem_comparisons = fem_comparisons
@@ -138,7 +134,6 @@ class GloveDistances:
             return None
 
 
-<<<<<<< HEAD
 def get_word_freq(word_pos_df: pd.DataFrame, divide_by_pos_freq: bool = False) -> dict:
     """
     Get the word frequencies for a corpus.
@@ -153,18 +148,6 @@ def get_word_freq(word_pos_df: pd.DataFrame, divide_by_pos_freq: bool = False) -
         A dictionary of the frequency of words in the corpus.
         If divide_by_pos_freq is True, frequency is divided by
         frequency of the specific part of speech type in all corpus.
-=======
-def get_word_freq(word_pos_df):
-    """
-    Get the word frequencies for a corpus
-    Args:
-        word_pos_df: DataFrame with 2 columns ["Word", "POS"]
-        Each row is every word in the corpus along with it's POS tag
-    Returns:
-        A dictionary of the frequency of words in the corpus
-        as computed by frequency of a word in all corpus / frequency of
-        the specific part of speech type in all corpus
->>>>>>> 09d5046 (Move process_text_utils)
     """
 
     pos_freq = (word_pos_df.groupby("POS").count() / len(word_pos_df))["Word"].to_dict()
@@ -174,17 +157,10 @@ def get_word_freq(word_pos_df):
     word_corpus_freq = (word_pos_df.groupby("Word").count() / len(word_pos_df))[
         "POS"
     ].to_dict()
-<<<<<<< HEAD
     word_corpus_freq_div_by_pos_freq = {
         word: freq / pos_freq[word_pos[word]] for word, freq in word_corpus_freq.items()
     }
     return word_corpus_freq_div_by_pos_freq if divide_by_pos_freq else word_corpus_freq
-=======
-
-    return {
-        word: freq / pos_freq[word_pos[word]] for word, freq in word_corpus_freq.items()
-    }
->>>>>>> 09d5046 (Move process_text_utils)
 
 
 def combined_pos_freq_and_count(
