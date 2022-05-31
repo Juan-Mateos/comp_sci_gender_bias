@@ -55,18 +55,7 @@ def combine_dfe_datasets() -> pd.DataFrame:
             how="left",
         )
         .query("type_of_school == 'State-funded secondary'")
-        .replace({"NE": -1, "SUPP": -1})
-        .fillna(
-            {
-                "percentage_of_girls_on_roll": -1,
-                "percentage_of_boys_on_roll": -1,
-                "percentage_pupils_fsm_past_6_years": -1,
-                "average_girls_attainment_8_gcse_score": -1,
-                "average_boys_attainment_8_gcse_score": -1,
-                "percentage_boys_strong_9to5_passes_eng_math_gcses": -1,
-                "percentage_girls_strong_9to5_passes_eng_math_gcses": -1,
-            }
-        )
+        .replace({"NE": pd.NA, "SUPP": pd.NA})
         .reset_index(drop=True)
     )
 
