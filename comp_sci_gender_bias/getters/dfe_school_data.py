@@ -22,7 +22,8 @@ KS4_RENAME_COLS = {
 
 
 def col_map(path: pathlib.Path, map_from: str, map_to: str) -> dict:
-    """Create a lookup mapping dictionary
+    """Create a lookup mapping dictionary between
+    two columns in a csv file
 
     Args:
         path: Path to create mapping from
