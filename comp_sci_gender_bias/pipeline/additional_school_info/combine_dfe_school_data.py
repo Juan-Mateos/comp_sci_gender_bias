@@ -52,7 +52,7 @@ def combine_dfe_datasets():
             on="school_unique_reference_number",
             how="left",
         )
-        .query("type_of_school== 'State-funded secondary'")
+        .query("type_of_school == 'State-funded secondary'")
         .replace({"NE": -1, "SUPP": -1})
         .fillna(
             {
