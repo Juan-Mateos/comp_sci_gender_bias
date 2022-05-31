@@ -14,7 +14,7 @@ MANUAL_LOOKUP_PATH = URN_SCHOOL_LOOKUPS_PATH / "urn_school_lookup_manual.csv"
 def make_auto_lookup() -> pd.DataFrame:
     """Produce a unique reference number to school name lookup by matching
     between the combined Department for Education dataset and the school master table.
-    There is some simple processing performed on the school names to enable more matches"""
+    There is some simple processing performed on the school names to enable more matches."""
     schools = school_table()
     dfe = dfe_combined_school_data()
     dfe["school_name_clean"] = remove_nonalphanum_lowercase(dfe["school_name"])
