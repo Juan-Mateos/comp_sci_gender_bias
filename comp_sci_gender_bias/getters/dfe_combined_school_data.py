@@ -1,5 +1,5 @@
 from comp_sci_gender_bias.pipeline.additional_school_info.combine_dfe_school_data import (
-    save_combined_dfe_data,
+    make_and_save_combined_dfe_data,
 )
 from comp_sci_gender_bias import PROJECT_DIR
 import pandas as pd
@@ -14,5 +14,5 @@ def dfe_combined_school_data() -> pd.DataFrame:
     The combined dataset will be created if it doesn't exist already.
     """
     if not DFE_COMBINED_PATH.exists():
-        save_combined_dfe_data()
+        make_and_save_combined_dfe_data()
     return pd.read_csv(DFE_COMBINED_PATH, index_col=0)

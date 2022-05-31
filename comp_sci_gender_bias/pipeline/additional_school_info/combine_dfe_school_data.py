@@ -69,11 +69,11 @@ def combine_dfe_datasets():
     )
 
 
-def save_combined_dfe_data(path=SAVE_PATH):
+def make_and_save_combined_dfe_data(path=SAVE_PATH):
     """Save combined department for education dataset to
     specified path"""
     combine_dfe_datasets().to_csv(path)
 
 
 if __name__ == "__main__":
-    save_combined_dfe_data()
+    make_and_save_combined_dfe_data()
