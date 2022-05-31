@@ -5,6 +5,7 @@ from comp_sci_gender_bias.getters.dfe_combined_school_data import (
 )
 from comp_sci_gender_bias.utils.process_pandas import remove_nonalphanum_lowercase
 import pandas as pd
+import pathlib
 
 URN_SCHOOL_LOOKUPS_PATH = PROJECT_DIR / "inputs/data/urn_school_lookups"
 SAVE_FULL_LOOKUP_PATH = URN_SCHOOL_LOOKUPS_PATH / "urn_school_lookup_full.csv"
@@ -46,7 +47,7 @@ def combine_auto_manual_lookups() -> pd.DataFrame:
     )
 
 
-def save_full_urn_school_lookup(path=SAVE_FULL_LOOKUP_PATH):
+def save_full_urn_school_lookup(path: pathlib.Path = SAVE_FULL_LOOKUP_PATH):
     """Save full school unique reference number to school
     name lookup to specified path"""
     combine_auto_manual_lookups().to_csv(path)

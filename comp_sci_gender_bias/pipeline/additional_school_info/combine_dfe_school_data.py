@@ -4,6 +4,8 @@ from comp_sci_gender_bias.getters.dfe_school_data import (
     ks4_results,
 )
 from comp_sci_gender_bias import PROJECT_DIR
+import pandas as pd
+import pathlib
 
 INFO_KEEP_COLS = [
     "school_unique_reference_number",
@@ -37,7 +39,7 @@ KS4_RESULTS_KEEP_COLS = [
 SAVE_PATH = PROJECT_DIR / "inputs/data/dfe_school_info/dfe_combined_dataset.csv"
 
 
-def combine_dfe_datasets():
+def combine_dfe_datasets() -> pd.DataFrame:
     """Combine department for education school info, census and
     key stage 4 datasets together"""
     return (
@@ -69,7 +71,7 @@ def combine_dfe_datasets():
     )
 
 
-def make_and_save_combined_dfe_data(path=SAVE_PATH):
+def make_and_save_combined_dfe_data(path: pathlib.Path = SAVE_PATH):
     """Save combined department for education dataset to
     specified path"""
     combine_dfe_datasets().to_csv(path)

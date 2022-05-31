@@ -6,7 +6,7 @@ URN_SCHOOL_NAME_LOOKUP_PATH = (
 )
 
 
-def urn_to_school_name_lookup():
+def urn_to_school_name_lookup() -> pd.DataFrame:
     """Load dataframe containing school names and
     related school unique reference number"""
     return pd.read_csv(URN_SCHOOL_NAME_LOOKUP_PATH, index_col=0)
