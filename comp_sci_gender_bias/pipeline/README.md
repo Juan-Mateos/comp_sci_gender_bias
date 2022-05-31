@@ -43,6 +43,7 @@ from comp_sci_gender_bias.getters.embedding import load_embedding
 geo_embedding = load_embedding(subject="geo")
 cs_embedding = load_embedding(subject="compsci")
 ```
+
 ## Combine Department for Education datasets
 
 Department for Education datasets are stored in `inputs/data/dfe_school_info`. They include information about schools including: unique school reference number, location, ofsted rating, gender split, average attainment by gender.
@@ -63,7 +64,7 @@ The `school_master_table.csv` file in `inputs/data/` does not have a column for 
 
 To create a lookup containing `school_name` and `school_unique_reference_number`, run:
 
-```
+```bash
 python comp_sci_gender_bias/pipeline/pipeline/urn_to_school_name_lookup/urn_to_school_name_lookup.py
 ```
 
