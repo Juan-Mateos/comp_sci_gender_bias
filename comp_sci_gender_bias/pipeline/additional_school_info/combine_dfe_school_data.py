@@ -45,7 +45,7 @@ def combine_dfe_datasets():
         .merge(
             right=census()[CENSUS_KEEP_COLS],
             on="school_unique_reference_number",
-            how="inner",
+            how="left",
         )
         .merge(
             right=ks4_results()[KS4_RESULTS_KEEP_COLS],
