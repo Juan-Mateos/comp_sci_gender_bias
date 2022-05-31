@@ -69,7 +69,7 @@ def make_query_save_differences(
         sub1_descriptions: Subject 1 course descriptions
         sub1_lbl: Label for subject 1 e.g 'CS'
         sub2_descriptions: Subject 2 course descriptions
-        sub2_lbl: Label for subject 1 e.g 'GEO'
+        sub2_lbl: Label for subject 2 e.g 'GEO'
         word_or_lemma: Use the word or the lemma
         glove_dists: GloveDistances class object
         source: Label to use in csv filename to indicate
