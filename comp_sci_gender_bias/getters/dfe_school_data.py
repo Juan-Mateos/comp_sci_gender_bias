@@ -16,8 +16,8 @@ CENSUS_RENAME_COLS = {
 KS4_RENAME_COLS = {
     "average_attainment_8_score_per_girl_-_gcse_only": "average_girls_attainment_8_gcse_score",
     "average_attainment_8_score_per_boy_-_gcse_only": "average_boys_attainment_8_gcse_score",
-    "%_of_boys_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percent_boys_strong_9to5_passes_eng_math_gcses",
-    "%_of_girls_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percent_girls_strong_9to5_passes_eng_math_gcses",
+    "%_of_boys_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percentage_boys_strong_9to5_passes_eng_math_gcses",
+    "%_of_girls_achieving_strong_9-5_passes_in_both_english_and_mathematics_gcses_": "percentage_girls_strong_9to5_passes_eng_math_gcses",
 }
 
 
@@ -82,8 +82,8 @@ def ks4_results() -> pd.DataFrame:
         - school_unique_reference_number
         - average_girls_attainment_8_gcse_score
         - average_boys_attainment_8_gcse_score
-        - percent_boys_strong_9to5_passes_eng_math_gcses
-        - percent_girls_strong_9to5_passes_eng_math_gcses
+        - percentage_boys_strong_9to5_passes_eng_math_gcses
+        - percentage_girls_strong_9to5_passes_eng_math_gcses
     """
     ks4_col_map = col_map(
         DFE_2019_DIR / "ks4_final_meta.csv", "Metafile heading", "Metafile description"

@@ -30,8 +30,8 @@ KS4_RESULTS_KEEP_COLS = [
     "school_unique_reference_number",
     "average_girls_attainment_8_gcse_score",
     "average_boys_attainment_8_gcse_score",
-    "percent_boys_strong_9to5_passes_eng_math_gcses",
-    "percent_girls_strong_9to5_passes_eng_math_gcses",
+    "percentage_boys_strong_9to5_passes_eng_math_gcses",
+    "percentage_girls_strong_9to5_passes_eng_math_gcses",
 ]
 
 SAVE_PATH = PROJECT_DIR / "inputs/data/dfe_school_info/dfe_combined_dataset.csv"
@@ -61,8 +61,8 @@ def combine_dfe_datasets():
                 "percentage_pupils_fsm_past_6_years": -1,
                 "average_girls_attainment_8_gcse_score": -1,
                 "average_boys_attainment_8_gcse_score": -1,
-                "percent_boys_strong_9to5_passes_eng_math_gcses": -1,
-                "percent_girls_strong_9to5_passes_eng_math_gcses": -1,
+                "percentage_boys_strong_9to5_passes_eng_math_gcses": -1,
+                "percentage_girls_strong_9to5_passes_eng_math_gcses": -1,
             }
         )
         .reset_index(drop=True)
