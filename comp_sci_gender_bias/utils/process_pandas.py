@@ -20,6 +20,6 @@ def remove_nonalphanum_lowercase(column: pd.Series) -> pd.Series:
         column.astype(str)
         .str.strip()
         .str.lower()
-        .str.replace("[^a-z0-9 ]", "")
+        .str.replace("[^a-z0-9 ]", "", regex=True)
         .str.strip()
     )
