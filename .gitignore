@@ -1,3 +1,10 @@
+# specific inputs
+inputs/data/compsci_descr.json
+inputs/data/geo_descr.json
+
+# specific outputs
+outputs/embeddings/
+
 .recipes/
 .cookiecutter/state/
 
