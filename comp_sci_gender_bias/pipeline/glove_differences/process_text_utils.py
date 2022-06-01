@@ -134,16 +134,20 @@ class GloveDistances:
             return None
 
 
-def get_word_freq(word_pos_df):
+def get_word_freq(word_pos_df: pd.DataFrame, divide_by_pos_freq: bool = False) -> dict:
     """
-    Get the word frequencies for a corpus
+    Get the word frequencies for a corpus.
+
     Args:
-        word_pos_df: DataFrame with 2 columns ["Word", "POS"]
-        Each row is every word in the corpus along with it's POS tag
+        word_pos_df: DataFrame with 2 columns ["Word", "POS"].
+            Each row is every word in the corpus along with it's POS tag
+        divide_by_pos_freq: Whether to divide by frequency of the specific
+            part of speech type in all corpus.
+
     Returns:
-        A dictionary of the frequency of words in the corpus
-        as computed by frequency of a word in all corpus / frequency of
-        the specific part of speech type in all corpus
+        A dictionary of the frequency of words in the corpus.
+        If divide_by_pos_freq is True, frequency is divided by
+        frequency of the specific part of speech type in all corpus.
     """
 
     pos_freq = (word_pos_df.groupby("POS").count() / len(word_pos_df))["Word"].to_dict()
@@ -153,10 +157,10 @@ def get_word_freq(word_pos_df):
     word_corpus_freq = (word_pos_df.groupby("Word").count() / len(word_pos_df))[
         "POS"
     ].to_dict()
-
-    return {
+    word_corpus_freq_div_by_pos_freq = {
         word: freq / pos_freq[word_pos[word]] for word, freq in word_corpus_freq.items()
     }
+    return word_corpus_freq_div_by_pos_freq if divide_by_pos_freq else word_corpus_freq
 
 
 def combined_pos_freq_and_count(
