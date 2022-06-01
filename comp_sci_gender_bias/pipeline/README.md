@@ -28,10 +28,11 @@ unzip $GLOVE_PATH/glove.6B.zip -d $GLOVE_PATH && rm $GLOVE_PATH/glove.6B.zip
 ## Make male - female differences for most frequent subject words
 
 To produce csv files comparing two subjects' with columns for:
-_ Top most frequent words in subject relative to the other subject
-_ Part of Speech tag
-_ Word frequency across combined course descriptions
-_ Word count across combined course descriptions \* Male - female difference (calculated as the average cosine similarity to masculine words - average cosine similarity to feminine words)
+
+- Top most frequent words in subject relative to the other subject
+- Part of Speech tag
+- Word frequency across combined course descriptions
+- Word count across combined course descriptions Male - female difference (calculated as the average cosine similarity to masculine words - average cosine similarity to feminine words)
 
 ```bash
 python comp_sci_gender_bias/pipeline/glove_differences/make_differences.py
