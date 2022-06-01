@@ -34,6 +34,8 @@ To produce csv files comparing two subjects' with columns for:
 - Word frequency across combined course descriptions
 - Word count across combined course descriptions Male - female difference (calculated as the average cosine similarity to masculine words - average cosine similarity to feminine words)
 
+Run:
+
 ```bash
 python comp_sci_gender_bias/pipeline/glove_differences/make_differences.py
 ```
