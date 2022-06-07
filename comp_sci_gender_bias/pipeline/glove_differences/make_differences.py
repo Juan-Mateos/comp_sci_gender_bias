@@ -18,7 +18,7 @@ POS_QUERIES = ["POS == 'NOUN'", "POS in ['ADJ', 'ADV']", "POS == 'VERB'"]
 POS_LABELS = ["noun", "adjadv", "verb"]
 
 
-def make_top_freq_word_male_fem_diff(
+def make_freq_word_male_fem_diff(
     sub1_word_pos_corpus_df: pd.DataFrame,
     sub2_word_pos_corpus_df: pd.DataFrame,
     glove_dists: GloveDistances,
@@ -94,10 +94,10 @@ def make_query_save_differences(
         subject_label=sub2_lbl,
         word_or_lemma=word_or_lemma,
     )
-    sub1_geo_word_diffs_df = make_top_freq_word_male_fem_diff(
+    sub1_geo_word_diffs_df = make_freq_word_male_fem_diff(
         sub1_word_pos_corpus_df, sub2_word_pos_corpus_df, glove_dists
     )
-    sub2_geo_word_diffs_df = make_top_freq_word_male_fem_diff(
+    sub2_geo_word_diffs_df = make_freq_word_male_fem_diff(
         sub2_word_pos_corpus_df, sub1_word_pos_corpus_df, glove_dists
     )
 
