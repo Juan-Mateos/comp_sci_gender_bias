@@ -94,22 +94,22 @@ def make_query_save_differences(
         subject_label=sub2_lbl,
         word_or_lemma=word_or_lemma,
     )
-    sub1_geo_word_diffs_df = make_freq_word_male_fem_diff(
+    sub1_sub2_word_diffs_df = make_freq_word_male_fem_diff(
         sub1_word_pos_corpus_df, sub2_word_pos_corpus_df, glove_dists
     )
-    sub2_geo_word_diffs_df = make_freq_word_male_fem_diff(
+    sub2_sub1_word_diffs_df = make_freq_word_male_fem_diff(
         sub2_word_pos_corpus_df, sub1_word_pos_corpus_df, glove_dists
     )
 
     make_path_if_not_exist(save_dir)
 
     for query, lbl in zip(pos_queries, pos_labels):
-        sub1_geo_word_diffs_df.query(query).sort_values(
+        sub1_sub2_word_diffs_df.query(query).sort_values(
             f"{sub1_lbl} - {sub2_lbl} freq", ascending=False
         ).head(top_n).to_csv(
             SAVE_DIR / f"{sub1_lbl}_{sub2_lbl}_diff_{lbl}_{source}_data.csv"
         )
-        sub2_geo_word_diffs_df.query(query).sort_values(
+        sub2_sub1_word_diffs_df.query(query).sort_values(
             f"{sub2_lbl} - {sub1_lbl} freq", ascending=False
         ).head(top_n).to_csv(
             SAVE_DIR / f"{sub2_lbl}_{sub1_lbl}_diff_{lbl}_{source}_data.csv"
