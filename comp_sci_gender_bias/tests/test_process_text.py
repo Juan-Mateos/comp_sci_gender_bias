@@ -75,13 +75,17 @@ def test_GloveDistances():
 
 
 def test_get_word_freq():
-
-    # frequency of a word / frequency of the specific POS type
     word_pos_df = pd.DataFrame(
         {"Word": ["and", "and", "and", "the"], "POS": ["NOUN", "ADJ", "NOUN", "NOUN"]}
     )
-    word_freq = get_word_freq(word_pos_df)
-    assert word_freq["and"] == 1
+    # Frequency of a word / frequency of the specific POS type
+    word_freq_dbpf = get_word_freq(word_pos_df, divide_by_pos_freq=True)
+    assert word_freq_dbpf["and"] == 0.75 / 0.75
+    assert word_freq_dbpf["the"] == 0.25 / 0.75
+    # Frequency of a word without divided by frequency of the specific POS type
+    word_freq = get_word_freq(word_pos_df, divide_by_pos_freq=False)
+    assert word_freq["and"] == 3 / 4
+    assert word_freq["the"] == 1 / 4
 
 
 def test_get_word_comparisons():
