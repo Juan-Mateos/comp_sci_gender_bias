@@ -286,7 +286,7 @@ def get_word_comparisons(
     ).T
 
 
-def word_pos_corpus_df(
+def word_pos_corpus(
     subject_descs: list,
     text_cleaner: TextCleaner,
     token_tagger: TokenTagger,

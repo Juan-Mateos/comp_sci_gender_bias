@@ -4,7 +4,7 @@ from comp_sci_gender_bias.pipeline.glove_differences.process_text_utils import (
     TextCleaner,
     GloveDistances,
     get_word_comparisons,
-    word_pos_corpus_df,
+    word_pos_corpus,
 )
 import pandas as pd
 from comp_sci_gender_bias import PROJECT_DIR
@@ -19,17 +19,17 @@ POS_LABELS = ["noun", "adjadv", "verb"]
 
 
 def make_freq_word_male_fem_diff(
-    sub1_word_pos_corpus_df: pd.DataFrame,
-    sub2_word_pos_corpus_df: pd.DataFrame,
+    sub1_word_pos_corpus: pd.DataFrame,
+    sub2_word_pos_corpus: pd.DataFrame,
     glove_dists: GloveDistances,
 ) -> pd.DataFrame:
     """Make dataframe containing columns for subject1 - subject2 freq, POS,
     Word freq, Word count, Male - Female
 
     Args:
-        sub1_word_pos_corpus_df: Dataframe containing columns for Word, POS, Corpus
+        sub1_word_pos_corpus: Dataframe containing columns for Word, POS, Corpus
             for subject 1
-        sub2_word_pos_corpus_df: Dataframe containing columns for Word, POS, Corpus
+        sub2_word_pos_corpus: Dataframe containing columns for Word, POS, Corpus
             for subject 2
         glove_dists: GloveDistances class object
 
@@ -38,7 +38,7 @@ def make_freq_word_male_fem_diff(
             Word freq, Word count, Male - Female
     """
     word_differences_df = get_word_comparisons(
-        sub1_word_pos_corpus_df, sub2_word_pos_corpus_df
+        sub1_word_pos_corpus, sub2_word_pos_corpus
     )
     glove_sims = glove_dists.gender_similarity_difference_word_list(
         word_differences_df.index.tolist()
@@ -80,14 +80,14 @@ def make_query_save_differences(
         top_n: Top n results
         save_dir: Directory to save csv files to
     """
-    sub1_word_pos_corpus_df = word_pos_corpus_df(
+    sub1_word_pos_corpus = word_pos_corpus(
         subject_descs=sub1_descriptions,
         text_cleaner=text_cleaner,
         token_tagger=token_tagger,
         subject_label=sub1_lbl,
         word_or_lemma=word_or_lemma,
     )
-    sub2_word_pos_corpus_df = word_pos_corpus_df(
+    sub2_word_pos_corpus = word_pos_corpus(
         subject_descs=sub2_descriptions,
         text_cleaner=text_cleaner,
         token_tagger=token_tagger,
@@ -95,10 +95,10 @@ def make_query_save_differences(
         word_or_lemma=word_or_lemma,
     )
     sub1_sub2_word_diffs_df = make_freq_word_male_fem_diff(
-        sub1_word_pos_corpus_df, sub2_word_pos_corpus_df, glove_dists
+        sub1_word_pos_corpus, sub2_word_pos_corpus, glove_dists
     )
     sub2_sub1_word_diffs_df = make_freq_word_male_fem_diff(
-        sub2_word_pos_corpus_df, sub1_word_pos_corpus_df, glove_dists
+        sub2_word_pos_corpus, sub1_word_pos_corpus, glove_dists
     )
 
     make_path_if_not_exist(save_dir)

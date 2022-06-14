@@ -8,7 +8,7 @@ from comp_sci_gender_bias.pipeline.glove_differences.process_text_utils import (
     combined_pos_freq_and_count,
     subject_from_df,
     word_differences,
-    word_pos_corpus_df,
+    word_pos_corpus,
 )
 
 geo_word_pos = pd.DataFrame(
@@ -135,16 +135,16 @@ def test_word_differences():
     }
 
 
-def test_word_pos_corpus_df():
+def test_word_pos_corpus():
     cs_descriptions = ["Computer science is good", "Computer science uses computers"]
-    cs_word_pos_corpus_df = word_pos_corpus_df(
+    cs_word_pos_corpus = word_pos_corpus(
         subject_descs=cs_descriptions,
         text_cleaner=text_cleaner,
         token_tagger=token_tagger,
         subject_label="CS",
         word_or_lemma="word",
     )
-    cs_word_pos_corpus_df_check = pd.DataFrame(
+    cs_word_pos_corpus_check = pd.DataFrame(
         {
             "Word": [
                 "computer",
@@ -160,4 +160,4 @@ def test_word_pos_corpus_df():
             "Corpus": ["CS"] * 8,
         }
     )
-    assert cs_word_pos_corpus_df.equals(cs_word_pos_corpus_df_check)
+    assert cs_word_pos_corpus.equals(cs_word_pos_corpus_check)
