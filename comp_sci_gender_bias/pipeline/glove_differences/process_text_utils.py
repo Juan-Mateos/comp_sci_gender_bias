@@ -291,7 +291,7 @@ def word_pos_corpus(
     text_cleaner: TextCleaner,
     token_tagger: TokenTagger,
     subject_label: str,
-    word_or_lemma: str,
+    lemma: bool = False,
 ) -> pd.DataFrame:
     """Turn subject descriptions into a dataframe containing
     columns for Word, POS, Corpus
@@ -302,8 +302,8 @@ def word_pos_corpus(
         token_tagger: Class to part of speech tag text
         subject_label: Subject label that the descriptions are from
             e.g Geo, CS, Drama
-        word_or_lemma: Whether to use the text from the descriptions
-            or the lemmatized text
+        lemma: True to use lemmatized words,
+            False to use the words from the descriptions
 
     Returns:
         Dataframe containing columns for Word, POS, Corpus
@@ -313,7 +313,7 @@ def word_pos_corpus(
     clean_tagged_flatten = [
         clean_tag for sublist in clean_tagged for clean_tag in sublist
     ]
-    word_or_lemma_index = 0 if word_or_lemma == "word" else 1
+    word_or_lemma_index = 1 if lemma else 0
     return pd.DataFrame(
         {
             "Word": [

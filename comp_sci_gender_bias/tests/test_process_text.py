@@ -141,7 +141,7 @@ def test_word_pos_corpus():
         text_cleaner=text_cleaner,
         token_tagger=token_tagger,
         subject_label="CS",
-        word_or_lemma="word",
+        lemma=False,
     )
     cs_word_pos_corpus_check = pd.DataFrame(
         {

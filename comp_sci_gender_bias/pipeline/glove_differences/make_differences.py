@@ -52,9 +52,9 @@ def make_query_save_differences(
     sub1_lbl: str,
     sub2_descriptions: list,
     sub2_lbl: str,
-    word_or_lemma: str,
     glove_dists: GloveDistances,
     source: str,
+    lemma: bool = False,
     pos_queries: list = POS_QUERIES,
     pos_labels: list = POS_LABELS,
     top_n: int = 20,
@@ -70,7 +70,7 @@ def make_query_save_differences(
         sub1_lbl: Label for subject 1 e.g 'CS'
         sub2_descriptions: Subject 2 course descriptions
         sub2_lbl: Label for subject 2 e.g 'GEO'
-        word_or_lemma: Use the word or the lemma
+        lemma: If True use lemma, else use word
         glove_dists: GloveDistances class object
         source: Label to use in csv filename to indicate
             where the data came from
@@ -85,14 +85,14 @@ def make_query_save_differences(
         text_cleaner=text_cleaner,
         token_tagger=token_tagger,
         subject_label=sub1_lbl,
-        word_or_lemma=word_or_lemma,
+        lemma=lemma,
     )
     sub2_word_pos_corpus = word_pos_corpus(
         subject_descs=sub2_descriptions,
         text_cleaner=text_cleaner,
         token_tagger=token_tagger,
         subject_label=sub2_lbl,
-        word_or_lemma=word_or_lemma,
+        lemma=lemma,
     )
     sub1_sub2_word_diffs_df = make_freq_word_male_fem_diff(
         sub1_word_pos_corpus, sub2_word_pos_corpus, glove_dists
@@ -102,17 +102,22 @@ def make_query_save_differences(
     )
 
     make_path_if_not_exist(save_dir)
+    word_or_lemma = "Lemma" if lemma else "Word"
 
     for query, lbl in zip(pos_queries, pos_labels):
         sub1_sub2_word_diffs_df.query(query).sort_values(
             f"{sub1_lbl} - {sub2_lbl} freq", ascending=False
         ).head(top_n).to_csv(
-            SAVE_DIR / f"{sub1_lbl}_{sub2_lbl}_diff_{lbl}_{source}_data.csv"
+            SAVE_DIR
+            / f"{sub1_lbl}_{sub2_lbl}_diff_{lbl}_{source}_data_{word_or_lemma.lower()}.csv",
+            index_label=word_or_lemma,
         )
         sub2_sub1_word_diffs_df.query(query).sort_values(
             f"{sub2_lbl} - {sub1_lbl} freq", ascending=False
         ).head(top_n).to_csv(
-            SAVE_DIR / f"{sub2_lbl}_{sub1_lbl}_diff_{lbl}_{source}_data.csv"
+            SAVE_DIR
+            / f"{sub2_lbl}_{sub1_lbl}_diff_{lbl}_{source}_data_{word_or_lemma.lower()}.csv",
+            index_label=word_or_lemma,
         )
 
 
@@ -131,7 +136,7 @@ if __name__ == "__main__":
         sub1_lbl="CS",
         sub2_descriptions=geo_descr,
         sub2_lbl="Geo",
-        word_or_lemma="word",
+        lemma=False,
         glove_dists=glove_dists,
         source="bit",
     )
@@ -146,7 +151,7 @@ if __name__ == "__main__":
         sub1_lbl="CS",
         sub2_descriptions=drama_descr_scraped,
         sub2_lbl="Drama",
-        word_or_lemma="word",
+        lemma=False,
         glove_dists=glove_dists,
         source="scraped",
     )
