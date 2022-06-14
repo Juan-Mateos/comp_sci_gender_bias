@@ -13,16 +13,16 @@ from comp_sci_gender_bias.pipeline.glove_differences.process_text_utils import (
 
 geo_word_pos = pd.DataFrame(
     {
-        "Word": ["world", "world", "computer"],
-        "POS": ["Noun", "Noun", "Noun"],
-        "Corpus": ["Geo", "Geo", "Geo"],
+        "Word": ["world", "world", "world", "computer"],
+        "POS": ["Noun"] * 4,
+        "Corpus": ["Geo"] * 4,
     }
 )
 cs_word_pos = pd.DataFrame(
     {
-        "Word": ["computer", "computer", "world"],
-        "POS": ["Noun", "Noun", "Noun"],
-        "Corpus": ["CS", "CS", "CS"],
+        "Word": ["computer", "computer", "computer", "world"],
+        "POS": ["Noun"] * 4,
+        "Corpus": ["CS"] * 4,
     }
 )
 token_tagger = TokenTagger()
@@ -107,7 +107,7 @@ def test_combined_pos_freq_and_count():
 
     assert all_word_pos == {"computer": "Noun", "world": "Noun"}
     assert all_word_booklet_freq == {"world": 0.5, "computer": 0.5}
-    assert all_word_booklet_count == {"computer": 3, "world": 3}
+    assert all_word_booklet_count == {"computer": 4, "world": 4}
 
 
 def test_subject_from_df():
@@ -122,7 +122,6 @@ def test_word_differences():
         all_word_booklet_freq,
         all_word_booklet_count,
     ) = combined_pos_freq_and_count(geo_word_pos, cs_word_pos)
-
     assert word_differences(
         sub1_word_freq,
         sub2_word_freq,
@@ -130,8 +129,8 @@ def test_word_differences():
         all_word_booklet_freq,
         all_word_booklet_count,
     ) == {
-        "computer": (-0.3333333333333333, "Noun", 0.5, 3),
-        "world": (0.3333333333333333, "Noun", 0.5, 3),
+        "computer": (-0.5, "Noun", 0.5, 4),
+        "world": (0.5, "Noun", 0.5, 4),
     }
 
 
