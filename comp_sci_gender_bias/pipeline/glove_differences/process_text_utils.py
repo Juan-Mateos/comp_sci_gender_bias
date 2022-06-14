@@ -313,11 +313,11 @@ def word_pos_corpus(
     clean_tagged_flatten = [
         clean_tag for sublist in clean_tagged for clean_tag in sublist
     ]
-    world_or_lemma_index = 0 if word_or_lemma == "word" else 1
+    word_or_lemma_index = 0 if word_or_lemma == "word" else 1
     return pd.DataFrame(
         {
             "Word": [
-                tags[world_or_lemma_index].lower() for tags in clean_tagged_flatten
+                tags[word_or_lemma_index].lower() for tags in clean_tagged_flatten
             ],
             "POS": [tags[2] for tags in clean_tagged_flatten],
             "Corpus": [subject_label] * len(clean_tagged_flatten),
