@@ -117,12 +117,6 @@ def mean_gender_cosine_sim(text:str) -> float:
 # %%
 
 # %%
-n_most_gender_cosine_sim(list(scraped_urn["CompSci"].values)[0])
-
-# %%
-list(scraped_urn["CompSci"].values)[0]
-
-# %%
 dfe_data = dfe_combined_school_data()
 urn_web = urn_website_lookup().pipe(clean_website_col, "SchoolWebsite")
 scraped = scraped_data().pipe(clean_website_col, "Website")
