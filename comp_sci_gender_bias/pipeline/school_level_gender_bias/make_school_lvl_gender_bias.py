@@ -41,10 +41,22 @@ SUBJECT_COLS = ["CompSci", "Geography", "Drama"]
 SCHOOL_LVL_SAVE_DIR = PROJECT_DIR / "outputs/school_level"
 
 
-def mean_gender_cosine_difference(text: str) -> float:
+def mean_gender_cosine_difference(text: str, lemma: bool = False) -> float:
+    """Calculate the mean gender cosine difference of all the words
+    in the input text.
+
+    Args:
+        text: School GCSE subject text
+        lemma: If True will use the lemmas of the words in the text,
+            if False will use the words in the text
+
+    Returns:
+        Mean gender cosine difference value
+    """
     clean_text = text_cleaner.clean(text)
     tags = token_tagger.tag(clean_text)
-    words_list = [tag[0].lower() for tag in tags]
+    world_or_lemma_index = 1 if lemma else 0
+    words_list = [tag[world_or_lemma_index].lower() for tag in tags]
     word_male_minus_fem_distances = glove_dists.gender_similarity_difference_word_list(
         words_list
     )
