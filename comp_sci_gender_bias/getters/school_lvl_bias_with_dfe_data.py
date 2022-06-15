@@ -2,7 +2,7 @@ from comp_sci_gender_bias import PROJECT_DIR
 import pandas as pd
 
 SCHOOL_LVL_BIAS_WITH_DFE_DATA_PATH = (
-    PROJECT_DIR / "outputs/data/scraped_data/semi_manual/course_descriptions.csv"
+    PROJECT_DIR / "outputs/data/school_level/scraped_schools_urn_dfe.csv"
 )
 
 
