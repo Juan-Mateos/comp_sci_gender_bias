@@ -25,6 +25,24 @@ python -m wget "https://nlp.stanford.edu/data/glove.6B.zip" -o $GLOVE_PATH
 unzip $GLOVE_PATH/glove.6B.zip -d $GLOVE_PATH && rm $GLOVE_PATH/glove.6B.zip
 ```
 
+## Make male - female differences for most frequent subject words
+
+To produce csv files comparing two subjects with columns for:
+
+- Top most frequent words in one subject relative to the other subject
+- Part of Speech tag
+- Word frequency across both subjects' course descriptions
+- Word count across both subjects' course descriptions
+- Male - female difference (calculated as the average cosine similarity to masculine words - average cosine similarity to feminine words)
+
+Run:
+
+```bash
+python comp_sci_gender_bias/pipeline/glove_differences/make_differences.py
+```
+
+Results are produced for Computer Science and Geography (using data collected by BIT) and Computer Science and Drama (using data collected by Nesta) for the top adjectives/adverbs, nouns and verbs. The results are saved to csv files in `comp_sci_gender_bias/outputs/outputs/differences`.
+
 ## Make sentence embeddings of school course descriptions
 
 To make and save the school course description sentence embeddings, run:
