@@ -46,7 +46,7 @@ def save_single_histplot(
     save_dir: pathlib.Path,
     save_fn: str,
 ):
-    """Plots and save a hist plot and saves related data
+    """Plots and saves a hist plot and saves related data
 
     Args:
         data: Data to be used in the plots
@@ -132,6 +132,7 @@ def save_mgd_barplot(
     y: str = "mean_gender_diff",
 ):
     """Plots and saves a mean gender difference barplot
+    and saves related data
 
     Args:
         data: Data to be used in the plot
