@@ -14,4 +14,4 @@ wget
 gensim
 sentence-transformers
 python-dotenv
-Seaborn
+seaborn
