@@ -54,8 +54,8 @@ def mean_gender_cosine_difference(text: str, lemma: bool = False) -> float:
     """
     clean_text = text_cleaner.clean(text)
     tags = token_tagger.tag(clean_text)
-    world_or_lemma_index = 1 if lemma else 0
-    words_list = [tag[world_or_lemma_index].lower() for tag in tags]
+    word_or_lemma_index = 1 if lemma else 0
+    words_list = [tag[word_or_lemma_index].lower() for tag in tags]
     word_male_minus_fem_distances = glove_dists.gender_similarity_difference_word_list(
         words_list
     )
