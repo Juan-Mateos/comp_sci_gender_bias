@@ -25,6 +25,16 @@ python -m wget "https://nlp.stanford.edu/data/glove.6B.zip" -o $GLOVE_PATH
 unzip $GLOVE_PATH/glove.6B.zip -d $GLOVE_PATH && rm $GLOVE_PATH/glove.6B.zip
 ```
 
+## Calculate girls entry percentage into GCSE subjects
+
+To calculate the girls entry percentage into GCSE subjects, run:
+
+```bash
+python comp_sci_gender_bias/pipeline/subject_entry/girls_subject_entry.py
+```
+
+This will save a csv to `comp_sci_gender_bias/outputs/girls_entry_percentage/girls_entry_percentage.csv`
+
 ## Make male - female differences for most frequent subject words
 
 To produce csv files comparing two subjects with columns for:
@@ -41,7 +51,19 @@ Run:
 python comp_sci_gender_bias/pipeline/glove_differences/make_differences.py
 ```
 
-Results are produced for Computer Science and Geography (using data collected by BIT) and Computer Science and Drama (using data collected by Nesta) for the top adjectives/adverbs, nouns and verbs. The results are saved to csv files in `comp_sci_gender_bias/outputs/outputs/differences`.
+Results are produced for Computer Science and Geography (using data collected by BIT) and Computer Science and Drama (using data collected by Nesta) for the top adjectives/adverbs, nouns and verbs. The results are saved to csv files in `comp_sci_gender_bias/outputs/differences`.
+
+## Make male - female mean differences for each POS and corpus
+
+To produce the mean male - female mean differences for each POS and corpus (for both BIT and Nesta collected data), run:
+
+```bash
+python comp_sci_gender_bias/pipeline/glove_differences/make_mean_differences.py
+```
+
+The results are saved to csv files in `comp_sci_gender_bias/outputs/mean_differences`.
+
+The results can be loaded with getter at `comp_sci_gender_bias.getters.mean_gender_differences.mean_gender_differences`
 
 ## Make sentence embeddings of school course descriptions
 
