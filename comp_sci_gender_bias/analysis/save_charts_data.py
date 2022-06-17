@@ -59,7 +59,7 @@ def save_single_histplot(
         save_fn: Filename to be used for the chart and data
     """
     ax = sns.histplot(
-        data=school_lvl_dfe,
+        data=data,
         x=x,
         kde=True,
         binwidth=0.001,
