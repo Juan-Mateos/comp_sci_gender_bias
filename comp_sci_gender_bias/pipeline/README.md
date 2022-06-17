@@ -107,7 +107,7 @@ This file can be loaded using the getter `comp_sci_gender_bias.comp_sci_gender_b
 To calculate the readability scores and generate the chart and table outputs, run:
 
 ```bash
-python comp_sci_gender_bias/pipeline/readbility/subj_readability.py
+python comp_sci_gender_bias/pipeline/readability/subj_readability.py
 ```
 
 This will generate boxplots and their underlying data in `outputs/figures/readability` and tables of descriptive statistics and description examples in `outputs/tables/readability`.
