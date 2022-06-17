@@ -98,6 +98,6 @@ To make a dataset containing the scraped subject descriptions, school level mean
 python comp_sci_gender_bias/pipeline/school_level_gender_bias/make_school_lvl_gender_bias.py
 ```
 
-This will save a csv file `scraped_schools_urn_dfe.csv` to `comp_sci_gender_bias/outputs/school_level`.
+This will save a csv file `scraped_schools_urn_dfe.csv` to `comp_sci_gender_bias/outputs/school_level/`.
 
 This file can be loaded using the getter `comp_sci_gender_bias.comp_sci_gender_bias.getters.school_lvl_bias_with_dfe_data.school_lvl_bias_with_dfe_data`
