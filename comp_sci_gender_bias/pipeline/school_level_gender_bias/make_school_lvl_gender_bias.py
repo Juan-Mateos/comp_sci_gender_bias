@@ -29,7 +29,6 @@ PERCENTAGE_COLS = [
     "percentage_girls_strong_9to5_passes_eng_math_gcses",
 ]
 
-
 MEAN_GENDER_SIM_COLS = [
     "CompSci_Mean_Gender_Difference",
     "Geography_Mean_Gender_Difference",
