@@ -28,28 +28,27 @@ def remove_nonalphanum_lowercase(column: pd.Series) -> pd.Series:
 def remove_fw_slash(df: pd.DataFrame, col: str) -> pd.DataFrame:
     """Remove '/' from the end of all rows in specified
     df and col"""
-    df[col] = df[col].map(lambda x: str(x)[:-1] if str(x)[-1] == "/" else x)
+    df[col] = df[col].str.rstrip("/")
     return df
 
 
 def remove_http_https(df: pd.DataFrame, col: str) -> pd.DataFrame:
     """Remove http:// and https:// from the start of all rows in
     specified df and col"""
-    df[col] = df[col].map(lambda x: str(x).replace("https://", ""))
-    df[col] = df[col].map(lambda x: str(x).replace("http://", ""))
+    df[col] = df[col].str.replace("https://", "").str.replace("http://", "")
     return df
 
 
 def remove_new_para(df: pd.DataFrame, col: str) -> pd.DataFrame:
     "Remove \n from specified df and col"
-    df[col] = df[col].map(lambda x: str(x).replace("\n", ""))
+    df[col] = df[col].str.replace("\n", "")
     return df
 
 
 def add_www(df: pd.DataFrame, col: str) -> pd.DataFrame:
     """Add www. to start of all rows in specified
     df and col"""
-    df[col] = df[col].map(lambda x: f"www.{str(x)}" if str(x)[:4] != "www." else x)
+    df[col] = df[col].map(lambda x: x if str(x).startswith("www.") else f"www.{str(x)}")
     return df
 
 
