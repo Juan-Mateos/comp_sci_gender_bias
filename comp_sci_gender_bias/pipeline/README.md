@@ -101,3 +101,13 @@ python comp_sci_gender_bias/pipeline/school_level_gender_bias/make_school_lvl_ge
 This will save a csv file `scraped_schools_urn_dfe.csv` to `comp_sci_gender_bias/outputs/school_level/`.
 
 This file can be loaded using the getter `comp_sci_gender_bias.comp_sci_gender_bias.getters.school_lvl_bias_with_dfe_data.school_lvl_bias_with_dfe_data`
+
+## Calculate readability of course descriptions scraped by Nesta and export charts and tables
+
+To calculate the readability scores and generate the chart and table outputs, run:
+
+```bash
+python comp_sci_gender_bias/pipeline/readability/subj_readability.py
+```
+
+This will generate boxplots and their underlying data in `outputs/figures/readability` and tables of descriptive statistics and description examples in `outputs/tables/readability`.

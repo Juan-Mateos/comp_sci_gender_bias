@@ -1,3 +1,6 @@
+# specific outputs
+outputs/embeddings/
+
 .recipes/
 .cookiecutter/state/
 

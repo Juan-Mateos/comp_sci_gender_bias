@@ -15,6 +15,6 @@ if __name__ == "__main__":
         embedding = model.encode(list_of_course_descriptions)
         save_pickle(
             obj=embedding,
-            save_path=EMBEDDING_SAVE_PATH,
+            save_dir=EMBEDDING_SAVE_PATH,
             file_name=f"{subject}_embedding.pkl",
         )
