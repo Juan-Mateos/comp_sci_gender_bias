@@ -51,7 +51,7 @@ Run:
 python comp_sci_gender_bias/pipeline/glove_differences/make_differences.py
 ```
 
-Results are produced for Computer Science and Geography (using data collected by BIT) and Computer Science and Drama (using data collected by Nesta) for the top adjectives/adverbs, nouns and verbs. The results are saved to csv files in `comp_sci_gender_bias/outputs/differences`.
+Results are produced for Computer Science and Geography (using data collected by BIT) and Computer Science and Drama (using data collected by Nesta) for the top adjectives/adverbs, nouns and verbs. The results are saved to csv files in `outputs/tables/most_frequent_word_gender_differences/`.
 
 ## Make male - female mean differences for each POS and corpus
 
@@ -61,7 +61,7 @@ To produce the mean male - female mean differences for each POS and corpus (for 
 python comp_sci_gender_bias/pipeline/glove_differences/make_mean_differences.py
 ```
 
-The results are saved to csv files in `comp_sci_gender_bias/outputs/mean_differences`.
+The results are saved to csv files in `comp_sci_gender_bias/outputs/mean_differences/`.
 
 The results can be loaded with getter at `comp_sci_gender_bias.getters.mean_gender_differences.mean_gender_differences`
 
@@ -73,7 +73,7 @@ To make and save the school course description sentence embeddings, run:
 python comp_sci_gender_bias/pipeline/sentence_embeddings/create_sentence_embeddings.py
 ```
 
-This will save the embeddings to `comp_sci_gender_bias/outputs/embeddings`.
+This will save the embeddings to `comp_sci_gender_bias/outputs/embeddings/`.
 
 These embeddings can be loaded using the `load_embedding` getter, for example:
 
@@ -94,7 +94,7 @@ To combine these datasets together, run:
 python comp_sci_gender_bias/pipeline/additional_school_info/combine_dfe_school_data.py
 ```
 
-This will save a file `dfe_combined_dataset.csv` in `inputs/data/dfe_school_info`
+This will save a file `dfe_combined_dataset.csv` in `inputs/data/dfe_school_info/`
 
 This file can be loaded using the getter `comp_sci_gender_bias.getters.dfe_combined_school_data.dfe_combined_school_data`
 
@@ -108,7 +108,7 @@ To create a lookup containing `school_name` and `school_unique_reference_number`
 python comp_sci_gender_bias/pipeline/pipeline/urn_to_school_name_lookup/urn_to_school_name_lookup.py
 ```
 
-This will save a file `urn_school_lookup_full.csv` to `inputs/data/urn_school_lookups`
+This will save a file `urn_school_lookup_full.csv` to `inputs/data/urn_school_lookups/`
 
 This file can be loaded using the getter `comp_sci_gender_bias.getters.urn_school_lookup.urn_to_school_name_lookup`
 
