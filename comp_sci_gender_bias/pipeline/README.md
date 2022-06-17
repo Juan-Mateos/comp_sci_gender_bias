@@ -89,3 +89,15 @@ python comp_sci_gender_bias/pipeline/pipeline/urn_to_school_name_lookup/urn_to_s
 This will save a file `urn_school_lookup_full.csv` to `inputs/data/urn_school_lookups`
 
 This file can be loaded using the getter `comp_sci_gender_bias.getters.urn_school_lookup.urn_to_school_name_lookup`
+
+## Make dataset containing scraped subject descriptions, mean gender difference and secondary DfE data
+
+To make a dataset containing the scraped subject descriptions, school level mean gender difference for each subject and the secondary DfE data, run:
+
+```bash
+python comp_sci_gender_bias/pipeline/school_level_gender_bias/make_school_lvl_gender_bias.py
+```
+
+This will save a csv file `scraped_schools_urn_dfe.csv` to `comp_sci_gender_bias/outputs/school_level/`.
+
+This file can be loaded using the getter `comp_sci_gender_bias.comp_sci_gender_bias.getters.school_lvl_bias_with_dfe_data.school_lvl_bias_with_dfe_data`
