@@ -14,6 +14,10 @@ COLOURS_DICT = {"cs": "#b1d1fc", "drama": "#ffb07c", "geo": "#90e4c1"}
 SUBJECT_PALETTE = [COLOURS_DICT["cs"], COLOURS_DICT["drama"], COLOURS_DICT["geo"]]
 CS_GEO_PALETTE = [COLOURS_DICT["cs"], COLOURS_DICT["geo"]]
 SAVE_FIGS_DIR = PROJECT_DIR / "outputs/figures/"
+SAVE_FIGS_SCHOOL_LVL_DIR = SAVE_FIGS_DIR / "school_lvl_distributions/"
+SAVE_FIGS_SEC_DATA_DIR = SAVE_FIGS_DIR / "secondary_data_scatterplots/"
+SAVE_FIGS_GIRLS_ENTRY_DIR = SAVE_FIGS_DIR / "girls_entry_percentage/"
+SAVE_FIGS_MGD_DIR = SAVE_FIGS_DIR / "mean_gender_differences/"
 
 GEO_MGD = "Geography_Mean_Gender_Difference"
 DRAMA_MGD = "Drama_Mean_Gender_Difference"
@@ -63,6 +67,7 @@ def save_single_histplot(
         color=color,
     )
     ax.set(xlabel=xlabel, ylabel=ylabel, ylim=(0, 16), title=title)
+    make_path_if_not_exist(save_dir)
     plt.savefig(save_dir / f"{save_fn}_img", dpi=300)
     plt.close()
     data.to_csv(save_dir / f"{save_fn}_data.csv")
@@ -109,6 +114,7 @@ def save_scatterplot(
     )
     if move_legend is not None:
         sns.move_legend(ax, move_legend)
+    make_path_if_not_exist(save_dir)
     plt.savefig(save_dir / f"{save_fn}_img", dpi=300)
     plt.close()
     data.to_csv(save_dir / f"{save_fn}_data.csv")
@@ -150,6 +156,7 @@ def save_mgd_barplot(
     )
 
     ax.set(xlabel=xlabel, ylabel=ylabel, title=title, ylim=(0, 0.018))
+    make_path_if_not_exist(save_dir)
     plt.savefig(save_dir / f"{save_fn}_img", dpi=300)
     plt.close()
     data.to_csv(save_dir / f"{save_fn}_data.csv")
@@ -181,8 +188,6 @@ if __name__ == "__main__":
         [cs_mean_gender_diff, drama_mean_gender_diff, geo_mean_gender_diff]
     ).reset_index(drop=True)
 
-    make_path_if_not_exist(SAVE_FIGS_DIR)
-
     ax = sns.histplot(
         data=stacked_mean_gender_diff,
         x="Mean_Gender_Difference",
@@ -202,10 +207,11 @@ if __name__ == "__main__":
         ylim=(0, 16),
     )
     sns.move_legend(ax, "upper left")
-    plt.savefig(SAVE_FIGS_DIR / "dist_overlay_img.png", dpi=300)
+    make_path_if_not_exist(SAVE_FIGS_SCHOOL_LVL_DIR)
+    plt.savefig(SAVE_FIGS_SCHOOL_LVL_DIR / "dist_overlay_img.png", dpi=300)
     plt.close()
     stacked_mean_gender_diff[["Mean_Gender_Difference", "Subject"]].to_csv(
-        SAVE_FIGS_DIR / "dist_overlay_data.csv"
+        SAVE_FIGS_SCHOOL_LVL_DIR / "dist_overlay_data.csv"
     )
 
     save_single_histplot(
@@ -215,7 +221,7 @@ if __name__ == "__main__":
         xlabel="CS mean gender difference",
         ylabel="Number of schools",
         title="Distribution of CS mean gender difference",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_SCHOOL_LVL_DIR,
         save_fn="dist_cs_mean_gender_diff",
     )
 
@@ -226,7 +232,7 @@ if __name__ == "__main__":
         xlabel="Drama mean gender difference",
         ylabel="Number of schools",
         title="Distribution of Drama mean gender difference",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_SCHOOL_LVL_DIR,
         save_fn="dist_drama_mean_gender_diff",
     )
 
@@ -237,7 +243,7 @@ if __name__ == "__main__":
         xlabel="Geography mean gender difference",
         ylabel="Number of schools",
         title="Distribution of Geography mean gender difference",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_SCHOOL_LVL_DIR,
         save_fn="dist_geo_mean_gender_diff",
     )
 
@@ -251,7 +257,7 @@ if __name__ == "__main__":
         palette=SUBJECT_PALETTE,
         xlabel="Mean gender difference",
         ylabel="Percentage of boys on roll",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_SEC_DATA_DIR,
         save_fn="mean_gender_diff_vs_boys_on_roll",
     )
 
@@ -265,7 +271,7 @@ if __name__ == "__main__":
         palette=SUBJECT_PALETTE,
         xlabel="Mean gender difference",
         ylabel="Percentage of pupils with free school meals",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_SEC_DATA_DIR,
         save_fn="mean_gender_diff_vs_fsm",
         move_legend="upper left",
     )
@@ -284,7 +290,7 @@ if __name__ == "__main__":
         palette=SUBJECT_PALETTE,
         xlabel="Mean gender difference",
         ylabel="Mean girls attainment 8 gcse score",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_SEC_DATA_DIR,
         save_fn="mean_gender_diff_vs_girls_attainment8",
     )
 
@@ -302,7 +308,7 @@ if __name__ == "__main__":
         palette=SUBJECT_PALETTE,
         xlabel="Mean gender difference",
         ylabel="Mean boys attainment 8 gcse score",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_SEC_DATA_DIR,
         save_fn="mean_gender_diff_vs_boys_attainment8",
     )
 
@@ -335,9 +341,10 @@ if __name__ == "__main__":
         ylabel="Subject",
     )
     plt.tight_layout()
-    plt.savefig(SAVE_FIGS_DIR / "girls_entry_percentage_img.png", dpi=300)
+    make_path_if_not_exist(SAVE_FIGS_GIRLS_ENTRY_DIR)
+    plt.savefig(SAVE_FIGS_GIRLS_ENTRY_DIR / "girls_entry_percentage_img.png", dpi=300)
     plt.close()
-    girls_entry.to_csv(SAVE_FIGS_DIR / "girls_entry_percentage_data.csv")
+    girls_entry.to_csv(SAVE_FIGS_GIRLS_ENTRY_DIR / "girls_entry_percentage_data.csv")
 
     mgd_bit = mean_gender_differences("bit")
 
@@ -345,7 +352,7 @@ if __name__ == "__main__":
         data=mgd_bit.query("POS == 'Noun'"),
         palette=CS_GEO_PALETTE,
         title="Nouns",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_MGD_DIR,
         save_fn="mean_gend_diff_noun_bit",
     )
 
@@ -353,7 +360,7 @@ if __name__ == "__main__":
         data=mgd_bit.query("POS == 'Verb'"),
         palette=CS_GEO_PALETTE,
         title="Verbs",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_MGD_DIR,
         save_fn="mean_gend_diff_verb_bit",
     )
 
@@ -361,7 +368,7 @@ if __name__ == "__main__":
         data=mgd_bit.query("POS == 'Adj/Adv'"),
         palette=CS_GEO_PALETTE,
         title="Adj/Adv",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_MGD_DIR,
         save_fn="mean_gend_diff_adjadv_bit",
     )
 
@@ -371,7 +378,7 @@ if __name__ == "__main__":
         data=mgd_scraped.query("POS == 'Noun'"),
         palette=SUBJECT_PALETTE,
         title="Nouns",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_MGD_DIR,
         save_fn="mean_gend_diff_noun_scraped",
     )
 
@@ -379,7 +386,7 @@ if __name__ == "__main__":
         data=mgd_scraped.query("POS == 'Verb'"),
         palette=SUBJECT_PALETTE,
         title="Verbs",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_MGD_DIR,
         save_fn="mean_gend_diff_verb_scraped",
     )
 
@@ -387,6 +394,6 @@ if __name__ == "__main__":
         data=mgd_scraped.query("POS == 'Adj/Adv'"),
         palette=SUBJECT_PALETTE,
         title="Adj/Adv",
-        save_dir=SAVE_FIGS_DIR,
+        save_dir=SAVE_FIGS_MGD_DIR,
         save_fn="mean_gend_diff_adjadv_scraped",
     )
