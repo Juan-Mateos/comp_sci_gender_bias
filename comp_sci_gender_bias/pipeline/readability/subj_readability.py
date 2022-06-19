@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import re
 import seaborn as sns
 import textstat
 
@@ -9,7 +8,7 @@ import numpy.typing as npt
 from typing import List
 
 from comp_sci_gender_bias import PROJECT_DIR
-from comp_sci_gender_bias.getters.scraped_data import scraped_data
+from comp_sci_gender_bias.getters.scraped_data import scraped_data_no_extra_whitespace
 from comp_sci_gender_bias.utils.io import make_path_if_not_exist
 
 
@@ -26,24 +25,6 @@ SCORE_NAMES = {"fr": "Flesch Reading Ease", "dc": "Dale-Chall Readability"}
 CMAP = {"cs": "#B1D1FC", "geo": "#90E4C1", "drama": "#FFB07C"}
 
 sns.set_style("whitegrid", {"axes.grid": False})
-
-
-def get_clean_scraped_descriptions() -> pd.DataFrame:
-    """Gets course descriptions scraped by Nesta for all subjects and removes
-    extraeneous whitepsace.
-
-    Returns:
-        Dataframe of clean course descriptions for all subjects.
-    """
-    scraped = scraped_data()
-
-    scraped = scraped.drop("Website", axis=1).rename(
-        columns={"CompSci": "cs", "Drama": "drama", "Geography": "geo"}
-    )
-    for subj in SUBJECTS:
-        scraped[subj] = scraped[subj].apply(lambda x: re.sub("\s+", " ", x)).str.strip()
-
-    return scraped
 
 
 def calculate_subject_readability(
@@ -201,7 +182,7 @@ def descriptions_at_subj_readability_quantiles(
 
 if __name__ == "__main__":
 
-    scraped = get_clean_scraped_descriptions()
+    scraped = scraped_data_no_extra_whitespace()
     readability = calculate_subject_readability(scraped, SUBJECTS)
 
     readability_stats_table(readability)
