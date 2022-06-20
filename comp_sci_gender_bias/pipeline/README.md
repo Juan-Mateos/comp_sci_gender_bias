@@ -133,3 +133,19 @@ python comp_sci_gender_bias/pipeline/readability/subj_readability.py
 ```
 
 This will generate boxplots and their underlying data in `outputs/figures/readability` and tables of descriptive statistics and description examples in `outputs/tables/readability`.
+
+## Generate sentence clusters for manual grouping
+
+:warning: Running this will overwrite previous results, which may contain manually grouped clusters. It is not advised to run this step unless you plan to revise the cluster categories.
+
+If this step is run, the process for grouping the clusters can be found and used in the notebook, `comp_sci_gender_bias/analysis/sentence_cluster_inspection.ipynb`.
+
+To split the course descriptions (scraped by Nesta) into sentences, vectorise the sentences and cluster them, run:
+
+```bash
+python comp_sci_gender_bias/pipeline/sentence_clusters/create_clusters.py
+```
+
+This will save three csv files `{subj}_sentence_clusters.csv` to `comp_sci_gender_bis/outputs/sentence_clusters`.
+
+After running this, the clusters will need to be manually inspected and grouped into categories.
