@@ -13,7 +13,7 @@ from comp_sci_gender_bias.getters.scraped_data import scraped_data
 import pathlib
 
 GLOVE_DIMENSIONS = 300
-SAVE_DIR = PROJECT_DIR / "outputs/differences"
+SAVE_DIR = PROJECT_DIR / "outputs/tables/most_frequent_word_gender_differences"
 POS_QUERIES = ["POS == 'NOUN'", "POS in ['ADJ', 'ADV']", "POS == 'VERB'"]
 POS_LABELS = ["noun", "adjadv", "verb"]
 
