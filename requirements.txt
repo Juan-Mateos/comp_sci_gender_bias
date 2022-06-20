@@ -20,3 +20,4 @@ tabulate
 umap-learn
 scikit-learn
 toolz
+hdbscan
