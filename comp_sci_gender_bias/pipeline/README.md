@@ -116,6 +116,8 @@ This will generate boxplots and their underlying data in `outputs/figures/readab
 
 :warning: Running this will overwrite previous results, which may contain manually grouped clusters. It is not advised to run this step unless you plan to revise the cluster categories.
 
+If this step is run, the process for grouping the clusters can be found and used in the notebook, `comp_sci_gender_bias/analysis/sentence_cluster_inspection.ipynb`.
+
 To split the course descriptions (scraped by Nesta) into sentences, vectorise the sentences and cluster them, run:
 
 ```bash
