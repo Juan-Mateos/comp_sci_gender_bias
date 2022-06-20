@@ -117,19 +117,44 @@ def cluster_sents(embeddings: np.array, min_cluster_size: int) -> np.array:
     return np.argmax(hdbscan.membership_vector(clusterer, embeddings), axis=1)
 
 
+def get_n_tokens(texts: List[str]) -> List[int]:
+    """Returns number of tokens in a corpus of texts.
+
+    Args:
+        texts: Corpus of documents.
+
+    Returns:
+        lengths: Token count in each document.
+    """
+    docs = nlp.pipe(texts)
+    lengths = [len(d) for d in docs]
+    return lengths
+
+
 if __name__ == "__main__":
 
-    spacy_udpipe.download("en")
-    nlp = spacy_udpipe.load("en")
+    proceed = input(
+        (
+            "WARNING - Executing this code will overwrite previous outputs "
+            "and require manual cluster inspection again. Proceed? (y/n)"
+        )
+    )
 
-    for subject in SUBJECTS:
-        sents = scraped_sents(subject)
-        sent_embeddings = embed(list(sents["sentence"])).astype("double")
-        sent_umap = reduce_dimensions(sent_embeddings)
+    if proceed.lower() == "y":
 
-        cluster_labels = cluster_sents(sent_umap, MIN_CLUSTER_SIZES[subject])
-        sents["cluster"] = cluster_labels
+        spacy_udpipe.download("en")
+        nlp = spacy_udpipe.load("en")
 
-        out_dir = PROJECT_DIR / "outputs/sentence_clusters/"
-        make_path_if_not_exist(out_dir)
-        sents.to_csv(out_dir / f"{subject}_sentence_clusters.csv", index=False)
+        for subject in SUBJECTS:
+            sents = scraped_sents(subject)
+            sent_embeddings = embed(list(sents["sentence"])).astype("double")
+            sent_umap = reduce_dimensions(sent_embeddings)
+
+            cluster_labels = cluster_sents(sent_umap, MIN_CLUSTER_SIZES[subject])
+            sents["cluster"] = cluster_labels
+
+            sents["n_tokens"] = get_n_tokens(sents["sentence"])
+
+            out_dir = PROJECT_DIR / "outputs/sentence_clusters/"
+            make_path_if_not_exist(out_dir)
+            sents.to_csv(out_dir / f"{subject}_sentence_clusters.csv", index=False)
