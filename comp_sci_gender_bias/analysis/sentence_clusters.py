@@ -8,7 +8,11 @@ from comp_sci_gender_bias.getters.sentence_clusters import get_sentence_clusters
 
 
 SUBJECTS = ["cs", "geo", "drama"]
-CMAP = {"cs": "#B1D1FC", "geo": "#90E4C1", "drama": "#FFB07C"}
+CMAP = {
+    "cs": "#B1D1FC",
+    "geo": "#90E4C1",
+    "drama": "#FFB07C",
+}
 
 OUT_DIR = PROJECT_DIR / "outputs/figures/sentence_clusters/"
 
@@ -41,7 +45,11 @@ def category_token_distribution(sentences: pd.DataFrame) -> pd.DataFrame:
 
 def category_token_distribution_boxplot(distribution, subj):
     _, ax = plt.subplots()
-    sns.boxplot(data=distribution, color=CMAP[subj], ax=ax)
+    sns.boxplot(
+        data=distribution,
+        color=CMAP[subj],
+        ax=ax,
+    )
     ax.set_xlabel("Sentence Type")
     ax.set_ylabel("% of Tokens")
 
