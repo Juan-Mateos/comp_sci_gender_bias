@@ -16,14 +16,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 1,"You will study a wide range of current issues facing our world including climate change, natural hazards, poverty, deprivation, shifts in economic power and the challenge of sustainability.",14,content,33
 1,"You will also study topics that are closer to home, such as the UK’s landscapes, the opportunities and challenges that Bristol faces and weather hazards.",0,content,29
 1,"A strong geographer is world aware, a capable writer and confident in their use of data.",7,motivation,18
-1,They can recall a range of evidence learned in the course and apply it to unfamiliar contexts.,21,transferrable,18
-1,"They are able to consider their role within society and consider differing viewpoints, values and attitudes when reaching a decision.",11,transferrable,22
+1,They can recall a range of evidence learned in the course and apply it to unfamiliar contexts.,21,transferable,18
+1,"They are able to consider their role within society and consider differing viewpoints, values and attitudes when reaching a decision.",11,transferable,22
 1,"Exam 1 – Living with the physical environment – 35% – 90 minutes Natural hazards, the living world, physical landscapes in the UK, geographical skills Exam 2 – Challenges in the human environment – 35% – 90 minutes Urban issues, the changing economic world, resource management, geographical skills",15,logistics,56
 1,"Exam 3 – Geographical applications – 30% – 75 minutes Issue evaluation, fieldwork, geographical skills",15,logistics,18
 2,"Geography enables students to develop their geographical skills alongside investigative, mathematic and statistic skills.",7,motivation,16
 2,"Fieldwork will be carried out as part of the course, and this will feed in to the written exams.",18,logistics,21
 2,Key topics within the specification include: ,16,logistics,8
-2,The influence of people on their surroundings ,11,transferrable,8
+2,The influence of people on their surroundings ,11,transferable,8
 2,Where different geographical features are located in the world ,7,motivation,10
 2,Using maps to describe and explain patterns  Understanding local geographical features ,7,motivation,13
 2,The impact of volcanoes and earthquakes  Possible consequences of global warming  Problems associated with an increase in the global population ,1,content,23
@@ -32,12 +32,12 @@ description_id,sentence,cluster,cluster_type,n_tokens
 3,Aims of the Course GCSE Geography offers students the opportunity to study aspects of both the physical and human world and their associated processes.,3,logistics,25
 3,"The course aims to make students of Geography effective and independent learners, critical and reflective with enquiring minds.",7,motivation,20
 3,We develop a knowledge and understanding of geographical concepts and the relevance of these concepts to our changing world.,7,motivation,20
-3,"We explore the differences and similarities between people’s views of the world, its environments, societies and cultures.",11,transferrable,21
-3,We also strive to understand the significance of values and attitudes towards the development and resolution of issues.,11,transferrable,19
+3,"We explore the differences and similarities between people’s views of the world, its environments, societies and cultures.",11,transferable,21
+3,We also strive to understand the significance of values and attitudes towards the development and resolution of issues.,11,transferable,19
 3,Our students apply their learning to the real world through fieldwork and other out of classroom activities.,10,content,18
 3,Course Content Unit 1: Living with the Physical Environment,6,content,10
 3,This unit is concerned with the dynamic nature of physical processes and systems.,13,content,14
-3,We also explore the human interaction within them.,11,transferrable,9
+3,We also explore the human interaction within them.,11,transferable,9
 3,"We develop an understanding of the tectonic, geomorphological, biological and meteorological processes and features in different environments.",1,content,20
 3,We then look at the need for management strategies within these and consider the direct and indirect effects of human interaction with the Earth and the atmosphere.,14,content,28
 3,"The challenges of natural hazards Earthquakes, Volcanoes, Tropical Storms, Extreme Weather in the UK and Climate Change ▪ The living world Ecosystems, Tropical Rainforest and Hot Environments ▪ Physical landscapes UK Physical Landscapes, Coasts and Rivers Unit 2:",1,content,44
@@ -56,20 +56,20 @@ description_id,sentence,cluster,cluster_type,n_tokens
 3,Students will undertake a two - day residential fieldtrip during the July of Year 10 to Edale.,18,logistics,18
 3,Here we will complete two pieces of fieldwork; one on the changing characteristics of a river and one on the impact of quarrying on a National Park.,0,content,29
 3,This work will be assessed in unit three.,16,logistics,9
-3,A wide variety of skills will be developed throughout the course.,21,transferrable,12
+3,A wide variety of skills will be developed throughout the course.,21,transferable,12
 3,"These are Cartographic, Graphical, Numerical and Statistical skills",7,motivation,10
 4,Why study Geography?,7,motivation,4
 4,"Geography is one of the most exciting, adventurous and valuable subjects to study at GCSE level.",3,logistics,18
 4,"So important, in fact, that the Guardian newspaper in 2015 named Geography as a ‘must- have GCSE and A Level’ to help you make sense of the world.",3,logistics,34
 4,Geography focuses on the world today.,7,motivation,7
-4,"It involves the study of places, people and the relationships between the human and natural environments.",11,transferrable,18
+4,"It involves the study of places, people and the relationships between the human and natural environments.",11,transferable,18
 4,The subject highlights issues that are happening in the world right now.,12,motivation,13
 4,"Geography is widely viewed as one of the most useful optional GCSE subjects, as it provides skills which colleges, universities and employers look for in applicants.",3,logistics,29
-4,What skills will I develop and what will I study?,19,transferrable,11
-4,You will learn how to investigate issues in the real world.,19,transferrable,12
-4,You will improve your literacy through your report writing and you will also learn how to put forward your own point of view and convince others that you are right.,19,transferrable,31
-4,You will make practical use of your numeracy skills when you interpret data and construct graphs.,19,transferrable,17
-4,Your memory skills will also be boosted as you learn key memory techniques to help you remember case study information (facts and figures about places).,19,transferrable,28
+4,What skills will I develop and what will I study?,19,transferable,11
+4,You will learn how to investigate issues in the real world.,19,transferable,12
+4,You will improve your literacy through your report writing and you will also learn how to put forward your own point of view and convince others that you are right.,19,transferable,31
+4,You will make practical use of your numeracy skills when you interpret data and construct graphs.,19,transferable,17
+4,Your memory skills will also be boosted as you learn key memory techniques to help you remember case study information (facts and figures about places).,19,transferable,28
 4,"The Geography syllabus covers a range of exciting and relevant Physical Geography topics including: Natural Hazards,",7,motivation,18
 4,The Living World and UK River and Coastal Landscapes.,0,content,10
 4,"With a further study into Human Geography, including: Urban Issues and Challenges, the Changing Economic World and the Challenge of Managing Natural Resources.",5,content,27
@@ -78,7 +78,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 4,There are three examinations at the end of Year 11:,16,logistics,11
 4,What are the post-16 opportunities?,18,logistics,7
 4,Such a wide variety of skills gained in Geography will be useful to you after you leave school.,7,motivation,19
-4,"These skills are highly sought after by sixth form colleges, universities and employers.",21,transferrable,15
+4,"These skills are highly sought after by sixth form colleges, universities and employers.",21,transferable,15
 4,"Pupils who have studied Geography have gone on to work in the following sectors: Environmental Engineering, Law, Science, Meteorology, Business, Information Technology, Management, Finance, Banking, Marketing, Research, Manufacturing, Teaching, Childcare, Arts, Design and Media, Town Planning, working abroad and many more.",7,motivation,60
 5,What you will cover:,12,motivation,5
 5,"Geography helps you to be more aware of everyday situations and issues faced by the people who live around you, in other parts of the UK, and across the world.",7,motivation,34
@@ -91,21 +91,21 @@ description_id,sentence,cluster,cluster_type,n_tokens
 5,Why choose this subject:,12,motivation,5
 5,This course is for students who have an interest in the world around them and why events occur as they do.,10,content,22
 5,"Students need to use a wide range of skills in geography including teamwork, problem solving and fieldwork techniques.",7,motivation,20
-5,The course uses a wide variety of different learning styles as well as a practical element whilst conducting fieldwork.,21,transferrable,20
+5,The course uses a wide variety of different learning styles as well as a practical element whilst conducting fieldwork.,21,transferable,20
 5,This subject is worth one GCSE grade.,12,motivation,8
 5,Students achieving grade 5 or above will be able to access A-level Geography or Geology and have the potential to study Geography or other Environmental Sciences at Degree level.,7,motivation,32
 5,"The geography specification content complements topics such as ecosystems from Biology, as well as gaining skills also used in Maths.",7,motivation,22
 5,"The ‘human’ side of the course links well with many careers that have come to the fore recently, including those in resource management and energy generation.",17,motivation,30
 5,"Geography has one of the highest rates of graduate employability, as well as being highly valued by employers worldwide.",7,motivation,21
 5,"Geography develops a whole range of employability skills including numeracy, teamwork through regular field trips, analytical skills and an awareness of ICT programmes that can be taken into the world of work.",7,motivation,35
-5,You will learn to work independently and develop resilience through working on problems.,19,transferrable,14
-5,"By the end of the course, you will have a broader view of the world and be sensitive to other cultures.",11,transferrable,23
-5,These skills will all help you to stand out in the broadening labour market.,19,transferrable,15
+5,You will learn to work independently and develop resilience through working on problems.,19,transferable,14
+5,"By the end of the course, you will have a broader view of the world and be sensitive to other cultures.",11,transferable,23
+5,These skills will all help you to stand out in the broadening labour market.,19,transferable,15
 6,This course has a focus on both physical and human geography which incorporates a variety of skills that can enhance a variety of career paths.,7,motivation,26
-6,"The aim is to develop values and attitudes towards the world while investigating relevant case studies from a local, national and global scale.",11,transferrable,25
+6,"The aim is to develop values and attitudes towards the world while investigating relevant case studies from a local, national and global scale.",11,transferable,25
 6,"The key concept throughout the course focuses on sustainability in terms of social, economic and environmental impacts.",14,content,19
 6,"GCSE specifications in geography should enable students to build on their key stage 3 knowledge and skills to: • develop and extend their knowledge of locations, places, environments, and processes.",3,logistics,35
-6,"• gain understanding of the interactions between people and environments, change in places and processes over space and time •",11,transferrable,21
+6,"• gain understanding of the interactions between people and environments, change in places and processes over space and time •",11,transferable,21
 6,"develop and extend their competence in a range of skills including those used in fieldwork, in using maps and Geographical Information Systems (GIS) and in researching secondary evidence •",7,motivation,32
 6,"apply geographical knowledge, understanding, skills and approaches appropriately and creatively to real world contexts, including fieldwork, and to contemporary situations and issues",7,motivation,26
 7,What is GCSE Geography ? •,3,logistics,6
@@ -113,9 +113,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 7,It is a subject about both now and the future.,12,motivation,11
 7,Why should I choose Geography ? •,7,motivation,7
 7,You will become more socially and environmentally aware. •,14,content,10
-7,"You will develop your communication, problem solving, numeracy, literacy, ICT and field work enquiry skills. •",19,transferrable,21
-7,You will be able to think more independently and work better in a team. •,19,transferrable,16
-7,"The skills you learn will be very useful in many jobs such as tourism, environmental management, law, medicine and the media. •",19,transferrable,26
+7,"You will develop your communication, problem solving, numeracy, literacy, ICT and field work enquiry skills. •",19,transferable,21
+7,You will be able to think more independently and work better in a team. •,19,transferable,16
+7,"The skills you learn will be very useful in many jobs such as tourism, environmental management, law, medicine and the media. •",19,transferable,26
 7,"You can apply the skills and knowledge from Geography to nearly all the other subjects you study, such as Mathematics, Science and Business Studies.",7,motivation,27
 7,What will I do in Geography? •,7,motivation,8
 7,"You will study Physical Geography topics including: volcanoes, earthquakes, extreme weather, coastal & river landscapes in the UK and ecosystems. •",0,content,26
@@ -147,14 +147,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 8,"The course offers an interesting range of fieldwork opportunities from major cities like London to dynamic British coastlines, allowing pupils to explore the real world and discover their place within it.",10,content,33
 8,BUILD FUTURES BY: Many of the future global problems will be solved by geographers and our course will provide our pupils with the capacity to be one of those leading problem solvers.,7,motivation,34
 8,"A key part of this qualification is the decision making exercise, which challenges pupils to make an effective decision about a contextual real world issue.",10,content,27
-8,"The course inspires critical thinking and evaluation skills, which are key skills for future life, both at home and in the work place.",21,transferrable,26
+8,"The course inspires critical thinking and evaluation skills, which are key skills for future life, both at home and in the work place.",21,transferable,26
 8,"By providing the depth and breadth of knowledge in this course, pupils will be equipped to discuss and engage with a variety of topics, allowing them to become active global citizens.",10,content,34
 8,FULL COURSE SPECIFICATION AND DETAILS CAN BE FOUND HERE:,20,logistics,10
 9,nformation about the course Exam board: OCR Geography B (Geography for Enquiring Minds),7,motivation,16
 9,(9-1) - J384.,12,motivation,7
 9,"This specification includes inspiring content throughout eight topics areas, encapsulating both the geography of the UK and the rest of the world, brought to life by engaging enquiry questions.",7,motivation,32
 9,The students will study the following units:,16,logistics,8
-9,Our Natural World (01) •,11,transferrable,7
+9,Our Natural World (01) •,11,transferable,7
 9,Fieldwork and Geographical Skills People and Society (02) • Urban Futures •,7,motivation,14
 9,Dynamic Development • UK in the 21st Century •,8,content,9
 9,Fieldwork and Geographical Skills Geographical Exploration (03) •,7,motivation,10
@@ -178,8 +178,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 10,Hazards and People –,1,content,4
 10,"Earthquakes, volcanoes and tropical storms Teaching and Learning styles involved:",7,motivation,12
 10,"By studying Geography, pupils develop important and sometimes complex skills important for their future education and the world of employment including: •",7,motivation,24
-10,Investigative skills using primary and secondary sources. •,19,transferrable,9
-10,Handling a wide variety of data confidently and clear communication of your findings. •,19,transferrable,15
+10,Investigative skills using primary and secondary sources. •,19,transferable,9
+10,Handling a wide variety of data confidently and clear communication of your findings. •,19,transferable,15
 10,"Making decisions based on environmental, economic and social evidence and taking into account the opinions of different stakeholders. •",14,content,21
 10,"Interpretation of maps, diagrams, graphs, satellite images and photographs.",7,motivation,13
 10,"Assessment methods: 100% examination at the end of year 11, testing geographical knowledge and understanding, but also with skill assessment, exploring fieldwork and data interpretation.",16,logistics,31
@@ -191,13 +191,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 10,"Geographical Skills (decision making, fieldwork methodology and resource interpretation)",7,motivation,12
 10,How is ICT used:,7,motivation,5
 10,Used by teachers and pupils regularly with new developments in GIS being explored.,7,motivation,14
-10,Any special requirements:,21,transferrable,4
+10,Any special requirements:,21,transferable,4
 10,For Exam paper 3 pupils must have completed one human and one physical fieldwork.,16,logistics,15
 10,"These are compulsory fieldwork activities, for which there may be a small cost for transport.",18,logistics,17
 10,What the pupils say: “Geography teaches you about the world that we live in.,7,motivation,17
-10,It makes you consider how the world has changed and might be changed in the future.”,11,transferrable,18
+10,It makes you consider how the world has changed and might be changed in the future.”,11,transferable,18
 10,“It is a gateway to many job opportunities.”,17,motivation,11
-10,"“I have learnt many skills that will help me including analysing information, making decisions and processing facts.",19,transferrable,21
+10,"“I have learnt many skills that will help me including analysing information, making decisions and processing facts.",19,transferable,21
 11,Qualification Type GCSE Examination Board AQA,16,logistics,6
 11,"This exciting and highly varied course is based upon the challenges and opportunities that the world offers, explored through a range of topics.",10,content,25
 11,"A blend of human and physical geography helps us to explore the world in which we live, and the connections people and places have.",7,motivation,26
@@ -232,10 +232,10 @@ description_id,sentence,cluster,cluster_type,n_tokens
 14,"Learning about today’s world; looking after tomorrow’s The Geography Department thoroughly believes that Geography is an essential subject to allow students to understand, respect and sustainably utilise the world around them.",7,motivation,36
 14,"Our ethos is based around 5 key aims: Environment - to develop an understanding of the physical and human interactions on the Earth’s surface, leading to a sense of responsibility.",14,content,34
 14,Excitement - to instil a sense of wonder at the awesome beauty of the natural world and the power of natural processes.,14,content,23
-14,"Empathy - to experience/investigate different cultures and lifestyles leading to tolerance, broad horizons and a well developed sense of place.",11,transferrable,24
+14,"Empathy - to experience/investigate different cultures and lifestyles leading to tolerance, broad horizons and a well developed sense of place.",11,transferable,24
 14,Enquiry - to develop the skills and motivation of a Geographer through experience of fieldwork and geographical research.,7,motivation,19
 14,"Excellence - to strive to achieve high standards in the presentation of geographical information and a broad knowledge of Physical, Human and Environmental Geography.",7,motivation,26
-15,The course aims to equip students with the knowledge and skills to become independent learners.,21,transferrable,16
+15,The course aims to equip students with the knowledge and skills to become independent learners.,21,transferable,16
 15,"Students will be able to appreciate the differences and similarities between people, places and cultures leading to an improved understanding of societies and economies.",10,content,26
 15,Students will also understand how physical processes and factors produce diverse and dynamic landscapes that change over time.,10,content,19
 15,We will also look at the interaction between people and the environment to develop an understanding of the need for sustainable management.,14,content,23
@@ -250,7 +250,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 16,President of the Royal Geographical Society Geography is taught in mixed ability groups across Key Stages 3 and 4.,7,motivation,20
 16,"All students are encouraged to develop their subject knowledge, to write well, to improve their ability to debate and analyse, and to think creatively when demonstrating their understanding of patterns and processes",17,motivation,35
 17,"Students will learn about the world they live in on a local, national and international scale.",10,content,18
-17,They will learn how the physical and human world interact and come into conflict.,11,transferrable,15
+17,They will learn how the physical and human world interact and come into conflict.,11,transferable,15
 17,We will empower students to formulate and voice opinions whilst empathising with alternative views.,10,content,15
 17,The future of our planet may depend on our education of sustainable futures.,14,content,14
 17,Students will undertake two fieldwork experiences in a local river and a visit to a local town,10,content,17
@@ -272,15 +272,15 @@ description_id,sentence,cluster,cluster_type,n_tokens
 18,"In order to complete Paper 3: Geographical Applications, students will be required to undertake field work, investigating both human and physical environments.",7,motivation,26
 18,Paper 3 also includes a pre-release section for which students receive the information 12 weeks prior to the exam.,16,logistics,20
 18,"Geography is a subject which relies on a range of skills including observation, investigation, critical thinking, making connections, communication and discussion.",7,motivation,26
-18,"Students will develop literacy skills to critically discuss source information, and also numeracy skills in order to create and interpret maps, graphs and data.",19,transferrable,27
+18,"Students will develop literacy skills to critically discuss source information, and also numeracy skills in order to create and interpret maps, graphs and data.",19,transferable,27
 18,"To succeed in GCSE Geography, students will demonstrate the ability to formulate enquiries, interpret findings and evaluate their own work.",3,logistics,23
-18,The course requires students to become independent learners who have the inclination to extend their own learning beyond the classroom.,21,transferrable,21
+18,The course requires students to become independent learners who have the inclination to extend their own learning beyond the classroom.,21,transferable,21
 18,Geography is concerned with real world and current issues and students will gain awareness of these.,7,motivation,17
 18,"Above all, students will need to be curious about the earth, and be able to apply ideas to new and changing settings.",10,content,25
 19,"Year 9, 10, 11 QUALIFICATION: GCSE Geography (8035)",3,logistics,13
 19,AWARDING BODY: AQA,9,motivation,4
 19,What will I learn?,17,motivation,5
-19,You will study physical and human themes and investigate the link between them.,11,transferrable,14
+19,You will study physical and human themes and investigate the link between them.,11,transferable,14
 19,"Students will travel the world from their classroom, exploring case studies in the United Kingdom (UK), higher income countries (HICs), newly emerging economies (NEEs) and lower income countries (LICs).",10,content,41
 19,"Topics of study include natural hazards, climate change, River landscapes, coastal management, global ecosystems, the economic world and urban studies.",1,content,26
 19,"Students are also encouraged to understand their role in society, by considering different viewpoints, values and attitudes.",10,content,20
@@ -368,7 +368,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 24,What will I be studying?,17,motivation,6
 24,Paper 1 – Living with the Physical Environment Section A –,6,content,11
 24,"Natural Hazards – Tectonic Hazards, Weather Hazards and Climate Change Section B –",1,content,14
-24,The Living World –,11,transferrable,4
+24,The Living World –,11,transferable,4
 24,"Biomes and ecosystems, Tropical Rainforests and Hot Deserts Section C –",13,content,12
 24,UK’s Physical Landscapes –,0,content,5
 24,River and Coasts Paper 2 – Challenges of the Human Environment Section A –,6,content,14
@@ -387,7 +387,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 24,http://www.coolgeography.co.uk/gcsen/challenge_natural_hazards.php Seneca Learning –,1,content,4
 25,"Aim Throughout the GCSE geography course students have the opportunity to consider a variety of geographical issues and, in doing so, become knowledgeable and critical geographers.",3,logistics,29
 25,"There is a strong emphasis on the understanding of physical processes in the environment, as well as the management and mismanagement of resources by people.",14,content,27
-25,Students also have the opportunity during this course to develop their fieldwork skills.,21,transferrable,14
+25,Students also have the opportunity during this course to develop their fieldwork skills.,21,transferable,14
 25,Grades Available 1 - 9 Outline of the Course,20,logistics,9
 25,The course is divided into three main themes:,20,logistics,9
 25,Section 1: Living with the physical environment,6,content,8
@@ -411,12 +411,12 @@ description_id,sentence,cluster,cluster_type,n_tokens
 25,There is no controlled assessment for geography.,7,motivation,8
 25,The examinations makes up 100% of the final grade.,15,logistics,11
 25,"Further Study Geography is a strong, traditional subject that can be of use to students when taking up a variety of further educational courses, as well as in the world of work.",7,motivation,35
-25,It also gives students an excellent platform and skills base to move on to A level studies and beyond in a wide range of subject areas.,21,transferrable,27
+25,It also gives students an excellent platform and skills base to move on to A level studies and beyond in a wide range of subject areas.,21,transferable,27
 26,Geography GCSE Course Outline YOU WILL DO WELL ON THIS COURSE IF...,3,logistics,13
 26,You will do well on this course if you have a passion for learning about the World we live in.,10,content,21
 26,There are so many ways of learning in Geography.,7,motivation,10
 26,"It is a very practical subject with opportunities to learn new skills such as modern computer based mapping (called GIS such as Google Earth), map skills, interpreting photographs, fieldwork skills plus presenting and debating techniques.",7,motivation,41
-26,You will improve your literacy through your report writing and written work and make practical use of your numeracy skills when you study data and construct graphs.,19,transferrable,28
+26,You will improve your literacy through your report writing and written work and make practical use of your numeracy skills when you study data and construct graphs.,19,transferable,28
 26,"Geography develops many different skills and this course is well respected by colleges, universities and employers.",7,motivation,18
 26,The course will open up many options for you in the future.,20,logistics,13
 26,HOW IS THE COURSE ASSESSED?,20,logistics,6
@@ -428,7 +428,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 26,"Geographical Applications: issue evaluation, Fieldwork and Geographical skills.",7,motivation,11
 26,Written exam with pre- release resources made available 12 weeks before the exam: 1 hour 15 minutes – 30% of GCSE COURSE OUTLINE Geography is the study of where places are and what they are like.,15,logistics,40
 26,It looks at how people live in different parts of the World and how and why places change.,7,motivation,19
-26,"You will learn about global, national and local issues.",11,transferrable,11
+26,"You will learn about global, national and local issues.",11,transferable,11
 26,The world in which we live is likely to change more in the next 50 years than it has ever done before.,14,content,23
 26,Geography explains why this is and helps us to prepare you for those changes.,7,motivation,15
 26,There has never been a better or more important time to study Geography; it is one of the most relevant courses you could choose to study.,7,motivation,28
@@ -448,8 +448,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 27,This course offers:,20,logistics,4
 27, engaging and topical content  a stimulating blend of traditional and contemporary Geography to suit students of all abilities  the study of physical and human Geography  a focus on physical processes and factors that produce diverse and dynamic landscapes over time.,7,motivation,45
 27,What can you do next with this subject:,12,motivation,9
-27,"This is an academic subject, highly regarded by employers and further education institutions since it develops a wide range of skills which are transferable to many career paths.",21,transferrable,30
-27,It compliments and combines well with many A Level and University courses.,21,transferrable,13
+27,"This is an academic subject, highly regarded by employers and further education institutions since it develops a wide range of skills which are transferable to many career paths.",21,transferable,30
+27,It compliments and combines well with many A Level and University courses.,21,transferable,13
 27,Some common careers directly linked to the study of Geography include: •,7,motivation,13
 27,Commercial/residential surveyor •,9,motivation,5
 27,Environmental/sustainability consultant •,9,motivation,5
@@ -457,10 +457,10 @@ description_id,sentence,cluster,cluster_type,n_tokens
 27,Resource and recycling manager •,4,content,5
 28,Is this the right subject for me?,12,motivation,8
 28,If you enjoy: •,12,motivation,5
-28,learning more about the world we live in; •,11,transferrable,10
+28,learning more about the world we live in; •,11,transferable,10
 28,developing skills that are unique to geography but are also transferable; •,7,motivation,13
 28,completing some of your own practical work away from the classroom e.g. fieldwork; •,10,content,15
-28,learning through investigating and enquiry; •,19,transferrable,7
+28,learning through investigating and enquiry; •,19,transferable,7
 28,learning about the big issues within our society; then this GCSE Geography course is the ideal subject for you.,3,logistics,21
 28,"Key Features  Unit 1, Living with the physical world Topics include:",6,content,14
 28,"The challenge of natural hazards (tectonics, hurricanes, climate change), Physical landscapes in the UK (coasts & rivers), The living world (ecosystems, tropical rainforests and hot desert environments), and Geographical skills.",1,content,43
@@ -477,7 +477,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 28,For more information please contact – Mr Davies or Miss Craig (Co-Heads of Geography),0,content,18
 29,Geography is building upon the knowledge already acquired at key stage 3 and many of the topics will be familiar.,7,motivation,21
 29,"GCSE lessons will consist of written work and discussions, as well as internet research and using ICT to produce work.",2,logistics,22
-29,"Overall, lessons will draw on a range of teaching techniques which will allow students to develop a range of skills.",19,transferrable,22
+29,"Overall, lessons will draw on a range of teaching techniques which will allow students to develop a range of skills.",19,transferable,22
 29,"Specification Content Global Geographical Issues: Topics in this unit include Plate tectonics, Tropical storms, a study of an emerging country, and a study of contemporary issues in a global mega city.",7,motivation,36
 29,"UK Geographical Issues: Studies of coastal and river landscapes and issues, studies of dynamic inner cities and changing rural landscapes, also two separate fieldwork investigations.",0,content,29
 29,"People and Environment Issues: Including People and the biosphere, Forests under threat and Consuming energy resources.",13,content,19
@@ -488,8 +488,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 29,People and Environment Issues: Decision making exercise exam accounting for 25% of the course and is 1.25 hours.,15,logistics,21
 29,Topics covered Natural Hazards Megacities Development Coasts Rivers Urban and Rural environments Forests under threat Climate change People and the biosphere Fieldwork skills Recommended revision guides / course resources CGP GCSE Geography revision guide,1,content,34
 30,Geography is a facilitating subject.,7,motivation,6
-30,This means that it prepares you for a range of courses and it gives you skills that are transferable in any role.,21,transferrable,23
-30,"Facilitating subjects are highly sought after by colleges, universities and employers alike.",21,transferrable,14
+30,This means that it prepares you for a range of courses and it gives you skills that are transferable in any role.,21,transferable,23
+30,"Facilitating subjects are highly sought after by colleges, universities and employers alike.",21,transferable,14
 30,Where will it take me?,17,motivation,6
 30,"Geography is now part of the English Baccalaureate, meaning that it is more important than ever before.",7,motivation,19
 30,Geography has become a sought after subject and will definitely help you in the future.,7,motivation,16
@@ -514,8 +514,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 32,Geography is a forward-looking subject and a part of everyday life.,7,motivation,15
 32,"The levels of interest span all scales, from a local planning enquiry to global warming.",14,content,17
 32,"Geography is highly regarded by employers, sixth forms and universities alike as it shows that a person has a broad educational background and a breadth of knowledge encompassing both Art and Science.",7,motivation,34
-32,"You will gain a good understanding of how the world operates, as well as current events and an appreciation of different cultures at home and abroad.",11,transferrable,28
-32,"You will also develop a diverse range of skills, including communication, teamwork, literacy, numeracy, analytical, investigative, ICT and decision making skills.",19,transferrable,29
+32,"You will gain a good understanding of how the world operates, as well as current events and an appreciation of different cultures at home and abroad.",11,transferable,28
+32,"You will also develop a diverse range of skills, including communication, teamwork, literacy, numeracy, analytical, investigative, ICT and decision making skills.",19,transferable,29
 32,OPTIONAL SUBJECT GCSE GEOGRAPHY Assessment Component Weighting Duration Paper 1 Unit 1 37.5% 1 hour 30 mins Paper 2 Unit 2 37.5% 1 hour 30 mins Paper 3 Unit 3 25% 1 hour 30 mins,15,logistics,38
 32,"The course will cover Unit 1 – Global Geographical Issues: Hazardous Earth (atmosphere, climate change, hurricanes, earthquakes, volcanoes), development dynamics (global inequality, including how an emerging country is developing), and challenges of an urbanising world (causes and challenges of urbanisation, including a study of a mega-city).",10,content,64
 32,"Unit 2 – UK Geographical Issues: The UK’s evolving physical landscape (overview of UK landscape, with detail on coasts and rivers), the UK’s evolving human landscape (overview of the varied UK human landscape, with detail of a major UK city), and Geographical investigations – including one physical fieldwork investigation and one human fieldwork investigation.",0,content,66
@@ -524,7 +524,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 33,Our GCSE Geography course is written by AQA who have a number of excellent resources available; including a brand new textbook and a number of online resources.,3,logistics,29
 33,"The course covers a wide range of topics, so students should never be bored.",10,content,16
 33,"Everything from the impacts of earthquakes, to the management of cities is covered.",1,content,15
-33,"There is also the opportunity to further develop and practice numeracy and literacy skills, as well as become a more independent learner, through building good research and investigation skills.",19,transferrable,32
+33,"There is also the opportunity to further develop and practice numeracy and literacy skills, as well as become a more independent learner, through building good research and investigation skills.",19,transferable,32
 33,There is no coursework for this GCSE but students will need to participate in 2 compulsory sessions of fieldwork which they will be examined on during Paper 3.,2,logistics,29
 33,The fieldwork will take place in the Summer term.,18,logistics,10
 33,"Students who take Geography GCSE will also have the opportunity to participate in the Department’s Year 10 enrichment trip, usually run during the summer term of Year 10.",3,logistics,31
@@ -543,7 +543,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 34,How will you be assessed?,2,logistics,6
 34,You will have three exams.,16,logistics,6
 34,"Paper 1: Physical Geography 35% (Natural hazards, living world, rivers and coasts), Paper 2: Human Geography 35% (Urban issues, economic world, resource management), Paper 3: Skills and issue evaluation 30% (Including fieldwork).",7,motivation,51
-34,How can your parents/ carers help you with this course?,21,transferrable,12
+34,How can your parents/ carers help you with this course?,21,transferable,12
 34,"Buy an atlas, newspapers, magazines such as Lonely Planet and travel!",7,motivation,14
 34,"Watch the news, encourage to visit websites with information on world affairs, such as BBC news, the Economist or the Guardian.",8,content,25
 34,"Exam board, specification and level of qualification –",16,logistics,9
@@ -551,14 +551,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 34,Miss Lambert – Head of Geography (clambert@bungayhigh.co.uk),0,content,8
 35,What is included in the course?,20,logistics,7
 35,Geography is a popular subject.,7,motivation,6
-35,"It teaches you to use a variety of skills which are useful in other subjects like English, Maths and Science.",21,transferrable,22
+35,"It teaches you to use a variety of skills which are useful in other subjects like English, Maths and Science.",21,transferable,22
 35,in GCSE Geography you will study the world at a range of scales from a local ecosystem up to global satellite images.,3,logistics,23
 35,You will look at how nature shaped the earth.,7,motivation,10
 35,"You will also study how people are affected by the earth and how they have changed it, not always for the better.",7,motivation,24
 35,Geography as a subject tests more skills than any other.,7,motivation,11
-35,Literacy and numeracy skills are improved throughout the course.,19,transferrable,10
+35,Literacy and numeracy skills are improved throughout the course.,19,transferable,10
 35,"Geography also creates ‘analytical thinkers’, ‘report writers’, ‘leaders’, people who can react in the field and show pragmatism.",7,motivation,26
-35,It truly is a subject which encourges a variety of skills.,21,transferrable,12
+35,It truly is a subject which encourges a variety of skills.,21,transferable,12
 35,How will I be assessed?,2,logistics,6
 35,The course taught at GCSE is the new AQA Geography GCSE (8035) and is assessed by three separate papers: Paper 1: Living with the physical environment (35%) Paper 2:,3,logistics,37
 35,Challenges in the human environment (35%) Paper 3: Geographical applications (30%),6,content,18
@@ -581,7 +581,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 35,Human rights officer •,9,motivation,4
 35,Refugee & asylum advisor •,9,motivation,5
 36,Who is it for?,12,motivation,5
-36,Do you want to make sense of the world around you?,11,transferrable,12
+36,Do you want to make sense of the world around you?,11,transferable,12
 36,Geography allows you to get to grips with some of the big questions which affect our world.,7,motivation,18
 36,"Geography will help you understand the social, economic and physical forces and processes which constantly shape and change our world.",7,motivation,22
 36,"If you are interested in the natural world and all of its challenges, and would like to develop a knowledge and understanding of current events then Geography is for you!",7,motivation,32
@@ -605,10 +605,10 @@ description_id,sentence,cluster,cluster_type,n_tokens
 37,"From choosing our summer holiday destination, to deciding what to eat and why, to informing our shopping habits, to witnessing the dramatic effects of hazards such as earthquakes and tsunamis; to understanding and acting on climate change we are immersed in Geography.",7,motivation,47
 37,Geography is ever changing and understanding it vital for managing the human and physical environment sustainability.,7,motivation,17
 37,The geography department’s approach to geography is one of discovery.,7,motivation,12
-37,"We live on an incredible, diverse planet and we encourage all our students to ask questions that deepen their understanding of the physical characteristics of real places and how humans interact with these.",11,transferrable,35
+37,"We live on an incredible, diverse planet and we encourage all our students to ask questions that deepen their understanding of the physical characteristics of real places and how humans interact with these.",11,transferable,35
 37,Course structure Year 9:,20,logistics,5
 37,"This course will help students to appreciate differences and similarities between places, people and environments.",7,motivation,17
-37,"Students will develop research, analysis and evaluation skills in order to draw and justify conclusions.",19,transferrable,17
+37,"Students will develop research, analysis and evaluation skills in order to draw and justify conclusions.",19,transferable,17
 37,The Ocean: The ocean’s role in the functioning of our planet.,14,content,14
 37,How are we harming the ocean and does it matter?,1,content,11
 37,Using the ocean more sustainably. •,14,content,7
@@ -625,7 +625,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 37,What can we do to make our eco-footprint more sustainable? •,14,content,12
 37,The Physical Landscape of the UK: Rivers and coasts GCSE:,0,content,12
 37,This course enables students to understand world issues whilst developing lifelong skills.,10,content,13
-37,"Students develop the ability to organise, problem solve, interpret data, text, maps and images, and to write detailed reports justifying decisions — skills that are highly valued by employers.",19,transferrable,35
+37,"Students develop the ability to organise, problem solve, interpret data, text, maps and images, and to write detailed reports justifying decisions — skills that are highly valued by employers.",19,transferable,35
 37,Economic Development. • Tectonic and Atmospheric Hazards.,1,content,9
 37,Environmental Challenges: Ecosystems and cold environments. •,13,content,9
 37,The challenges of Resource Management •,4,content,6
@@ -635,7 +635,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 37,"Students build problem solving and team work skills, they learn to write geographical enquiries based on fieldwork.",7,motivation,19
 37,They learn to evaluate different points of view and justify their own critical thinking.,10,content,15
 37,They learn critical thinking and so how to best act sustainably.,10,content,12
-37,All are critical skills in our changing challenging world.,21,transferrable,10
+37,All are critical skills in our changing challenging world.,21,transferable,10
 37,"Geography builds knowledge and skills that employers value, but our students value too.",7,motivation,15
 37,There are three exam papers at the end of Y11: •,16,logistics,12
 37,Paper 1: Physical Geography •,7,motivation,6
@@ -652,7 +652,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 38,"You should be, because geography tackles the big issues: •",7,motivation,12
 38,Environmental responsibility and sustainability •,14,content,5
 38,Our global interdependence •,8,content,4
-38,Cultural understanding and tolerance •,11,transferrable,5
+38,Cultural understanding and tolerance •,11,transferable,5
 38,"Commerce, trade and industry.",8,content,6
 38,If you enjoy studying geography – carry on studying it!,7,motivation,11
 38,You are more likely to obtain your best results in a subject you enjoy,17,motivation,14
@@ -660,14 +660,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 38,"It’s up-to-date, flexible and ALL AROUND YOU  Geography at GCSE builds on the foundations of topics and skills gained in Key Stage 3. ",3,logistics,32
 38,The specification followed at GCSE is the EDEXCEL Geography Specification B. ,3,logistics,13
 38,"The course has a highly relevant content that will give you access to modern world issues at a range of scales, from local to global.",10,content,27
-38,"You will develop and extend your knowledge of locations, places, environments and processes.",19,transferrable,16
+38,"You will develop and extend your knowledge of locations, places, environments and processes.",19,transferable,16
 38,"You will gain an excellent understanding of the interactions between people and environments, change in places and processes over time and enable you to ‘think like a geographer’.",7,motivation,32
 38,It gives an ideal foundation for students who want to study Geography at A Level or as a career as it covers a wide range of topics and skills.,7,motivation,30
 38,You will be able to experience Geography in the real world on your fieldtrip.,7,motivation,15
 38,There are three main areas to be covered for the exams: ‘Global Geographical Issues’ (01) ● Topic 1: Hazardous Earth ● Topic 2: Development dynamics ● Topic 3: Challenges of an urbanising world ‘UK Geographical issues’ (02)  Topic 4: The UK’s evolving physical landscape  Topic 5: The UK’s evolving human landscape  Topic 6: Geographical investigations People and Environment Issues’ (03) ● Topic 7: People and the biosphere ● Topic 8: Forests under threat ● Topic 9: Consuming energy resources Geographical Skills  Geographical Skills are embedded throughout the content in all three areas.,7,motivation,120
 38,"GEOGRAPHY 29 Geography is a broad subject, respected in Higher Education and business.",7,motivation,15
 38,"Studying Geography leads directly to dozens of careers, and is a big help for many other careers.",7,motivation,19
-38,Here are some examples:,11,transferrable,5
+38,Here are some examples:,11,transferable,5
 38,"Tourism and Leisure Services, Law, Local Government, Retailing, Architecture, Travel Agent, Environmental health, Government, Reporting, Sports, Energy conservation, Transport planning and management, Market Research, cartography, Meteorology, Armed Forces, Finance, Town Centre Management, Charity work.",7,motivation,53
 38,We look forward to welcoming Year 9 to our GCSE course – for more information please see any member of the Geography department.,3,logistics,24
 39,What is it?,12,motivation,4
@@ -676,7 +676,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 39,Why should I take it?,12,motivation,6
 39,Geography helps you to develop a wide range of skills.,7,motivation,11
 39,Many of these will help your studies in other subjects.,17,motivation,11
-39,"They will also be of use in later life in the sixth form, college and at work.",21,transferrable,19
+39,"They will also be of use in later life in the sixth form, college and at work.",21,transferable,19
 39,Geography goes well with all the other subjects you may wish to choose.,7,motivation,14
 39,"When a job or college course requires, for example, five GCSE passes, it will often ask for maths and English and 3 others.",2,logistics,27
 39,Geography will always be accepted as one of the others.,7,motivation,11
@@ -702,14 +702,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 39,"Unit 3: Geographical applications - 1 hour 15 minutes written exam, 30% of GCSE",15,logistics,17
 39,What else do I need to know?,17,motivation,8
 39,"There will be some trips throughout the GCSE course, some of which will be in Manningtree and the local area for the fieldwork aspect including Walton-on- the-Naze",3,logistics,33
-40,The world is your oyster!,11,transferrable,6
+40,The world is your oyster!,11,transferable,6
 40,Study it and learn how today’s world was shaped and understand the challenges and changes we face in the future!,10,content,22
 40,"Geography in the 21st century is central to understanding the causes of these changes and their consequences in different places, including the problems they pose for sustainable futures of societies, resources and landscapes.",7,motivation,36
 40,"Students will travel the world from their classroom, exploring case studies in the United Kingdom (UK), higher income countries (HICs), newly emerging economies (NEEs) and lower income countries (LICs), whilst being encouraged to understand their role in society, by considering different viewpoints, values and attitudes.",10,content,60
 40,As part of the course you will: •,20,logistics,9
 40,Actively engage in the process of geographical enquiry to develop as effective and independent learners. •,7,motivation,17
 40,Develop knowledge and understanding of geographical concepts and appreciate the relevance of these concepts to our changing world.,7,motivation,19
-40,"Appreciate that people have different views of, and attitudes to, the world, its environments and its issues. •",11,transferrable,22
+40,"Appreciate that people have different views of, and attitudes to, the world, its environments and its issues. •",11,transferable,22
 40,Develop and apply practical geographical enquiry skills. •,7,motivation,9
 40,"Undertake geographical investigations that include both primary and secondary data collection and presentation, analysis and drawing conclusions. •",7,motivation,20
 40,Develop and apply learning to the real world through fieldwork.,10,content,11
@@ -729,11 +729,11 @@ description_id,sentence,cluster,cluster_type,n_tokens
 40,Geography is a fun and engaging subject that is enjoyed by students who want to learn and discover new geographical ideas.,7,motivation,22
 40,GCSE Geography is very hard with lots of content to learn.,3,logistics,12
 40,It’s harder than I expected but I am glad I chose it because it’s one of my most interesting subjects and it’s engaging!,12,motivation,27
-41,What skills will I develop?,19,transferrable,6
-41,Skills in interpreting written and visual evidence •,19,transferrable,8
-41,Written communication and development of oracy skills •A real understanding of the key issues which are central to lives of both individuals and countries,19,transferrable,24
-41,What attributes will I need to be successful in this subject?,19,transferrable,12
-41,"An ability to produce good written English is a real help in producing extended, accurate answers •",19,transferrable,18
+41,What skills will I develop?,19,transferable,6
+41,Skills in interpreting written and visual evidence •,19,transferable,8
+41,Written communication and development of oracy skills •A real understanding of the key issues which are central to lives of both individuals and countries,19,transferable,24
+41,What attributes will I need to be successful in this subject?,19,transferable,12
+41,"An ability to produce good written English is a real help in producing extended, accurate answers •",19,transferable,18
 41,An ability to link ideas / facts to a given issue or geographical feature is helpful •,7,motivation,17
 41,"An ability to interpret visual information such as maps, photos, data tables, graphs and video",7,motivation,18
 41,What extra support is available ?,18,logistics,6
@@ -745,7 +745,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 41,Airlines / Cargo Services,12,motivation,4
 41,Paper 1: Living with the physical environment. •,6,content,10
 41,The challenge of natural hazards •,1,content,6
-41,The living world •,11,transferrable,4
+41,The living world •,11,transferable,4
 41,Physical landscapes of the UK.,0,content,6
 41,Paper 2: Challenges in the human environment.,6,content,9
 41,Urban issues and challenges •,5,content,5
@@ -759,20 +759,20 @@ description_id,sentence,cluster,cluster_type,n_tokens
 41,During Physical landscapes of the UK we will be looking at how coasts have shaped our environment and we will be looking at the key features and processes of rivers.,0,content,31
 41,Human paper: 1hr 30 minute examination and worth 35% of the overall grade.,15,logistics,17
 41,"Urban issues and challenges looks at how globally, the urban environments are changing.",5,content,15
-41,We also look specifically at UK examples.,11,transferrable,8
+41,We also look specifically at UK examples.,11,transferable,8
 41,Changing the economic environment identifies how the world is classified by development.,8,content,13
 41,We also look at how low income countries aim to develop their economies.,8,content,14
 41,"The challenge of resource management aims to enhance knowledge of the demands of food, water or energy in the global environment.",4,content,23
 41,Geographical Application 1 hr 15 minute examination worth 30% of overall grade.,15,logistics,14
 41,Pupils develop a range of skills through 2 compulsory fieldwork studies.,18,logistics,12
-41,"Pupils will also be required to develop a variety of skills including cartographic, numeric, and graphical skills.",19,transferrable,20
+41,"Pupils will also be required to develop a variety of skills including cartographic, numeric, and graphical skills.",19,transferable,20
 42,Geography encourages students to think like geographers through the study of geographical themes applied within the context of the UK and wider world.,7,motivation,24
 42,Fieldwork and geographical skills have a prominent position at GCSE and these can be embedded and contextualised through the content.,3,logistics,21
 42,"What you’ll study in Year 10:  Landscapes of the UK: the relief of upland and lowland areas, understanding of river and coastal landforms and processes  People of the UK: the geographical human patterns we find in modern Britain, how populations change over time and the impact of immigration  UK Environmental Challenges: we shine a light on our large flooding events and how we seek to manage them.",0,content,78
 42,"In order to better understand some of the human causes of climate change we explore how we obtain food, water and energy within the UK  Geographical Skills: construct, interpret and analyse maps and graphs.",7,motivation,39
 42,To aid analysis of these resources we develop further numerical and statistical skills  Fieldwork is no longer assessed through coursework.,16,logistics,22
 42,You will visit two locations: one urban/city and one rural/coast.,7,motivation,16
-42,"You will develop skills for presenting, analysing and drawing conclusions from fieldwork data.",19,transferrable,15
+42,"You will develop skills for presenting, analysing and drawing conclusions from fieldwork data.",19,transferable,15
 42,This will be assessed through a final examination paper,16,logistics,9
 42,What you’ll study in Year 11:  Ecosystems of the Planet: we will explore the dynamics of different ecosystems from rainforests to coral reefs and study the impact of human activities on these ecosystems  People of the Planet delves into the way that different countries develop over time.,13,content,53
 42,"We will investigate how models can help us understand these changes  Environmental Threats to our Planet explores concepts of biodiversity, energy production and climate change",13,content,27
@@ -801,7 +801,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 43,How is the GCSE Geography assessed?,3,logistics,7
 43,"Geography is assessed by three public examinations: units 1 and 2 each lasting one hour and thirty minutes which together are worth 70% of your GCSE, and an exam based on field work worth 30% lasting one hour.",15,logistics,43
 43,Examination questions focus mainly on the geographical skills that have been acquired as well as key geographical processes and concepts studied in the human and physical units.,7,motivation,28
-43,27 How does this help me at College and beyond?,21,transferrable,11
+43,27 How does this help me at College and beyond?,21,transferable,11
 43,Both Greenhead and New College also use the,20,logistics,8
 43,AQA exam board so pupils would experience a similar structure to both examinations and fieldwork investigations.,16,logistics,17
 43,There are a broad number of employers who actively look to recruit Geographers as they can combine and further develop the skills they have acquired during study into the world of work.,7,motivation,33
@@ -816,7 +816,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 44,The Edexcel B course takes an issues based approach with content organised by UK and global geography.,3,logistics,18
 44,"Students are given the opportunity to understand more about the world, the challenges it faces and their place within it.",10,content,22
 44,"The course will deepen understanding of geographical processes, change and complex people-environment interactions at different scales.",7,motivation,19
-44,It will develop students’ competence in using a wide range of investigative skills and approaches.,19,transferrable,17
+44,It will develop students’ competence in using a wide range of investigative skills and approaches.,19,transferable,17
 44,"Geography enables young people to become globally and environmentally informed and thoughtful, enquiring citizens.",7,motivation,16
 44,GCSE content - the geography GCSE course is split into 3 externally examined sections: Component 1: Global Geographical Issues,3,logistics,21
 44,This component draws across physical and human processes and people-environment interactions to consider key global geographical issues.,7,motivation,20
@@ -852,9 +852,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 45,The world is always changing and this course will give you a chance to learn about those changes.,10,content,19
 45,This is the subject for you if you enjoy: •,12,motivation,11
 45,learning more about the world we live in in terms of the human and physical geography •,7,motivation,17
-45,"developing skills that will help you in other areas, such as IT and research •",19,transferrable,16
+45,"developing skills that will help you in other areas, such as IT and research •",19,transferable,16
 45,completing some of your own practical work away from the classroom • working in a team with other students •,10,content,20
-45,"learning through investigating and doing, as well as listening and reading",19,transferrable,12
+45,"learning through investigating and doing, as well as listening and reading",19,transferable,12
 45,What you will study,17,motivation,4
 45,"The geography department’s key aim is to ensure students are taught engaging geography which is relevant to them, but manageable in the time available.",7,motivation,27
 45,Our course will offer a contemporary issues-based approach looking at global and national conflicts and include a decision making exam based on a topical issue.,10,content,28
@@ -877,7 +877,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 45,"GCSE Geography is excellent preparation for a career in planning, resource and countryside management, tourism and recreation and, environmental management and development.",3,logistics,26
 45,Many geographers also move into general management careers,7,motivation,8
 46,There has never been a better time to study Geography.,7,motivation,11
-46,It is relevant in our continually developing and changing world and it leads to a qualification that is highly valued by employers.,21,transferrable,23
+46,It is relevant in our continually developing and changing world and it leads to a qualification that is highly valued by employers.,21,transferable,23
 46,The course is based on a balanced framework of physical and human geography.,7,motivation,14
 46,"It allows students to investigate the link between the two themes, and approach and examine the battles between the man-made and natural worlds.",10,content,27
 46,"The course will give you the chance to get to grips with some of the big questions which affect our world and help you understand the social, economic and physical forces and processes which shape and change our world.",10,content,41
@@ -919,15 +919,15 @@ description_id,sentence,cluster,cluster_type,n_tokens
 46,What do our students think?,10,content,6
 46,“I find the subject interesting and I think the knowledge is useful in present times.,12,motivation,17
 46,I like the human side of Geography where you learn about cities and also I find animals interesting and natural hazards.,7,motivation,22
-46,It gives you a good idea of what is going on around the world.”,11,transferrable,16
+46,It gives you a good idea of what is going on around the world.”,11,transferable,16
 46,“I chose this subject because I find it interesting and you learn about different parts of the world.,12,motivation,20
 46,Geography is important because you get to know about the world and what condition it is in.,7,motivation,18
-46,You also learn about different ways you can help the less fortunate countries.”,11,transferrable,15
+46,You also learn about different ways you can help the less fortunate countries.”,11,transferable,15
 47,"Course Outline Unit 1: Living with the Physical Environment - This unit is composed of three physical geography units which cover volcanoes, earthquakes, weather hazards such as floods and hurricanes, climate change, ecosystems, coastal and river landscapes.",6,content,44
 47,"Unit 2: Challenges in the Human Environment - This unit is composed of three human geography units which cover how urban areas around the world are changing with case studies of Liverpool and Rio de Janeiro, how our economic world is changing with case studies of Nigeria as well at looking at how resources such as water are managed on our planet.",6,content,65
 47,Unit 3: Geographical Applications - This unit includes the investigation of one Physical Environment and one Human Environment .,6,content,20
 47,Students will have the opportunity to study geography out of the classroom by visiting two contrasting landscapes (usually a river landscape and a city landscape).,7,motivation,28
-47,They will also look in detail at one global issue where they will be expected to use all of the skills developed over the course to evaluate the different viewpoints around it.,21,transferrable,33
+47,They will also look in detail at one global issue where they will be expected to use all of the skills developed over the course to evaluate the different viewpoints around it.,21,transferable,33
 47,Students have an appreciation of many elements of this syllabus from their foundation study of geography at Wade Deacon.,7,motivation,20
 47,"Our GCSE syllabus has so many vital skills for life, not only a thorough coverage of the core aspects of the subject, but also the opportunity to see its dynamic nature in the field.",2,logistics,37
 47,Our international trips to Iceland and Italy are just examples of the many fieldwork opportunities on offer at Wade Deacon High School.,10,content,23
@@ -952,6 +952,6 @@ description_id,sentence,cluster,cluster_type,n_tokens
 48,"Issue evaluation, fieldwork, geographical skills.",7,motivation,8
 48,Where can this take me?,12,motivation,6
 48,"Studying geography will enhance skills needed for other subjects such as analytical, numerical and investigative skills.",7,motivation,18
-48,"It helps you to develop your writing ability, at the same time as using high levels of data, which will prepare you for higher education..",21,transferrable,28
+48,"It helps you to develop your writing ability, at the same time as using high levels of data, which will prepare you for higher education..",21,transferable,28
 48,"Geographers have transferable skills wanted by all universities and are also highly employable in a variety of careers Geography graduates are employed in many different occupations including: journalism, law, marketing, advertising, environmental awareness, education and the travel industry.",7,motivation,45
 48,Geography is an exciting topic and plays an important role in our future,7,motivation,13

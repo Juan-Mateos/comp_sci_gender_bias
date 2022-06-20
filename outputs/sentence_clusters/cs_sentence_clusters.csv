@@ -8,7 +8,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 0,"● understand and apply fundamental principles and concepts of computer science, including abstraction, decomposition, pattern recognition, logic, algorithms, and data representation; ● analyse problems in computational terms through practical experience of solving problems, including designing, writing and debugging your own programs; ● be creative and innovative and think analytically, logically and critically; ● understand the components that make up digital systems and how they communicate; ● understand the impact of digital technologies on society; ● apply mathematical skills relevant to computer science.",21,content,97
 1,"In a world where computers are used every day, this subject allows you to explore what makes them work, the evolution of technology as well as how to write computer programs.",16,content,34
 1,"You will learn an abundance of skills which are not only directly related to the assessment in this subject but can help with others as well including logical thinking, extended writing and programming.",12,logistics,35
-1,"There is a strong mathematical and scientific component to this course, so a grounding in those subjects is important.",14,transferrable,21
+1,"There is a strong mathematical and scientific component to this course, so a grounding in those subjects is important.",14,transferable,21
 1,The course is assessed through exam papers and a twenty hour programming project.,20,content,14
 1,Paper 1 – 50% 90 minutes ,10,logistics,8
 1,"How a computer works  CPU, memory and storage  Networks  Ethics and laws Paper 2 –",4,content,19
@@ -39,11 +39,11 @@ description_id,sentence,cluster,cluster_type,n_tokens
 3,"Problem solving is a key aspect of Computer Science and you will learn skills and techniques that will help you in your career, whatever you decide to do in the future.",22,motivation,33
 3,Course Content/Structure Paper 1: Computational thinking (50%),7,logistics,13
 3,In this unit the focus is on computing theory and will be taught alongside practical exercises to support the topics.,21,content,21
-3,Theory includes: •,13,transferrable,4
+3,Theory includes: •,13,transferable,4
 3,Algorithms and problem solving o What algorithms are and why they are at the heart modern computing o,6,content,18
 3,The importance of algorithms in the modern world and how they are used o Create your own algorithms using flowcharts and pseudocode •,6,content,23
 3,"You will be taught how to program, and will develop skills to create your own software by completing a number of mini projects o19Shared:Y9 GCSE OPT – 21-23 Paper 2: Computer systems (50%) In this unit the focus is on computing theory and will be taught alongside practical exercises to support the topics.",21,content,61
-3,Theory includes: •,13,transferrable,4
+3,Theory includes: •,13,transferable,4
 3,Data and binary o,5,content,4
 3,The importance of binary within computing and networking o,4,content,9
 3,"How binary is used to store images, sound and how it is compressed •",5,content,15
@@ -56,16 +56,16 @@ description_id,sentence,cluster,cluster_type,n_tokens
 3,"The importance of database technology and impact on the world o How databases work and are used o How to use SQL to manipulate data and use in programing projects Assessment Information Exam Assessment 100% of course A mix of multiple choice, short-answer, longer-answer and extended response questions assessing programming, practical problem-solving, computational thinking skill and theoretical knowledge",21,content,69
 4,Why study Computer Science?,22,motivation,5
 4,"Studying Computer Science develops your ability to solve complex, interesting and challenging problems.",22,motivation,15
-4,"It encourages you to think laterally, deeply and focus on developing solutions to real life problems.",15,transferrable,18
+4,"It encourages you to think laterally, deeply and focus on developing solutions to real life problems.",15,transferable,18
 4,It allows you to investigate how computers work and how they are used.,16,content,14
 4,"Computer Science underpins a great deal of what we do and understanding this will enable you to study a wide variety of subjects, including Computer Science, in the future.",22,motivation,32
 4,What skills will I develop and what will I study?,0,motivation,11
-4,You will learn to work independently and as part of a team.,14,transferrable,13
-4,You will develop critical thinking skills and how to analyse problems.,14,transferrable,12
+4,You will learn to work independently and as part of a team.,14,transferable,13
+4,You will develop critical thinking skills and how to analyse problems.,14,transferable,12
 4,This will enable you to solve problems using real life examples.,8,content,12
 4,You will develop computer programming skills and learn to apply these to the problems you have been given.,21,content,19
-4,You will develop written and oral communication skills that are essential to communicating with a wide range of audiences and for different purposes.,14,transferrable,24
-4,There is a balance between theory and practical work.,13,transferrable,10
+4,You will develop written and oral communication skills that are essential to communicating with a wide range of audiences and for different purposes.,14,transferable,24
+4,There is a balance between theory and practical work.,13,transferable,10
 4,"Through the Computer Systems unit you will learn about systems architecture, memory and storage, computer networks, connections and protocols, network security, system software and ethical, legal, cultural and environmental impacts of digital technology.",4,content,41
 4,How will I be assessed?,9,logistics,6
 4,Computer Science is 100% externally assessed.,22,motivation,8
@@ -121,7 +121,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 7,What are the important deadlines in this course?,12,logistics,9
 7,Exams Summer Year 1,9,logistics,4
 8,"CAREER PATHWAYS: Computer Programmer, Web Developer, App Developer, IT Technician, Network Manager, Systems Analyst, Database Administrator, User Experience Designer, Computer Scientist, Software Engineer, It Security Specialist, Ethical Hacker, Data Scientist, Cloud System Engineer.",2,motivation,48
-8,GET IN TOUCH: tjames-hammond@chiltern-academy.co.uk INSPIRE MINDS BY: •,15,transferrable,10
+8,GET IN TOUCH: tjames-hammond@chiltern-academy.co.uk INSPIRE MINDS BY: •,15,transferable,10
 8,Providing learners with an awareness of real world computational challenges that are faced by organisations and individuals. •,21,content,19
 8,During Computer Science lessons pupils learn problem solving skills that are transferable across all STEM subjects. •,22,motivation,18
 8,"Lessons are fun and engaging and are simple to start, interesting and then allow for immersive mastery of each topic. •",12,logistics,23
@@ -136,7 +136,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 9,Computer Science is an important subject because it underpins many careers and teaches many life- skills which are invaluable to all.,22,motivation,23
 9,Who is it for?,11,motivation,5
 9,GCSE Computer Science is a highly recognised qualification that teaches logical and computational thinking through an introduction to computer programming.,1,motivation,21
-9,It is a highly transferrable skill and is sought after by employers due to the problem solving and thinking skills it teaches.,14,transferrable,23
+9,It is a highly transferrable skill and is sought after by employers due to the problem solving and thinking skills it teaches.,14,transferable,23
 9,"In a highly competitive job market, this course will give you a critical advantage over your peers, demonstrating an ability to create software, solve problems creatively and high level thinking skills.",23,motivation,35
 9,What will I study?,0,motivation,5
 9,Computer Science offers students the opportunity to develop one of the key skills that industry is crying out for – creative problem solving.,22,motivation,24
@@ -153,11 +153,11 @@ description_id,sentence,cluster,cluster_type,n_tokens
 9,"Both are a mix of multiple choice, short answer, longer answered and extended response questions.",12,logistics,18
 9,"Students are also given the opportunity to undertake programming tasks, either to a specification or to solve a problem (or problems), during the course of study.",20,content,31
 9,Career Information Candidates achieving GCSE Computer Science have an industry recognised qualification and are ready to go on to employment or further study in Computing at A Level and beyond.,1,motivation,31
-9,"In the modern world, the need to understand how to create new systems and programs is increasingly important irrespective of your chosen career",14,transferrable,24
+9,"In the modern world, the need to understand how to create new systems and programs is increasingly important irrespective of your chosen career",14,transferable,24
 10,Brief outline of the course:,12,logistics,6
 10,"The Computer Science qualification will, above all else, be relevant to the modern and changing world in which we live.",22,motivation,23
 10,The computing course helps students decompose problems into their constituent parts so that solutions can be applied using text-based programming methods and algorithms.,21,content,26
-10,"The mental gymnastics that this involves, is extremely useful across the curriculum when facing exam questions and project work (particularly if they are thinking of moving on to A-Level courses).",15,transferrable,36
+10,"The mental gymnastics that this involves, is extremely useful across the curriculum when facing exam questions and project work (particularly if they are thinking of moving on to A-Level courses).",15,transferable,36
 10,"Greater understanding of hardware, software, network topologies, binary mathematics and problem solving in general presents challenges and sharpens highly sought-after skills.",21,content,27
 10,"Technology and computer skills are one of the fastest growing and largest employment sectors in the UK, if not the global market and thereby job prospects in this area can be lucrative and more prevalent.",17,motivation,37
 10,Subject Content: Component 01 – Computer Systems,4,content,8
@@ -167,7 +167,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 10,"Weighting 50% Component 02 – Computational Thinking, Algorithms and Programming.",7,logistics,13
 10,This component is focused on the core theory of computer science and the application of computer science principles.,5,content,19
 10,"E.g. Algorithms, Python programs and Problem Solving Duration 1hr 30mins Weighting 50% Component 03 – Programming Project (non-exam assessment).",20,content,27
-10,Candidates are challenged by a range of tasks that require problem solving and report writing skills.,15,transferrable,17
+10,Candidates are challenged by a range of tasks that require problem solving and report writing skills.,15,transferable,17
 10,Many of which will occur in their Component 02 exam.,9,logistics,11
 10,Teaching and Learning styles involved: •,12,logistics,7
 10,Logic Problems and Problem Decomposition •,6,content,6
@@ -184,7 +184,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 10,To be taken at the end of Year 11 How is ICT used:,17,motivation,14
 10,Computers are used 90% of the time but there are also physical “unplugged” challenges used to also help develop computational thinking skills.,22,motivation,26
 10,Any special requirements:,12,logistics,4
-10,A very good understanding of mathematical concepts and independent learning will be both helpful and nurtured at the same time.,14,transferrable,21
+10,A very good understanding of mathematical concepts and independent learning will be both helpful and nurtured at the same time.,14,transferable,21
 10,"Access to a PC, that has Python installed, at home is ideal but there is also plenty of availability after school as well",21,content,25
 11,"""Qualification Type GCSE Examination Board OCR GCSE Computer Science is for all students who wish to understand the deeper workings of a computer.",1,motivation,25
 11,Computing is at the forefront of almost every company and business.,18,motivation,12
@@ -201,13 +201,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 11,"Students will be assessed on these skills during the written examinations, in particular component 02 (section B).",9,logistics,21
 11,"How will the course be assessed Paper 1 - Computer Systems - 1 hour 30 min’s Exam - 50% Paper 2 - Computational thinking, algorithms and programming - 1 hour 30 min’s Exam - 50% Future Options With taking GCSE Computer science students will be able to transition seamlessly into Computer Science at AS Level and/or A Level.",7,logistics,66
 11,This GCSE course will enable students to develop valuable thinking and programming skills that are extremely attractive in the modern workplace and gain a deep understanding of computational thinking and how to apply it through a chosen programming language.,1,motivation,40
-12,"A friendly, supportive and creative learning environment.",15,transferrable,9
+12,"A friendly, supportive and creative learning environment.",15,transferable,9
 12,Dedicated air conditioned computer suites with interactive whiteboards and specialist software.,4,content,12
-12,An inclusive approach to teaching and learning where all students will feel valued.,15,transferrable,14
-12,High expectations of all students.,15,transferrable,6
+12,An inclusive approach to teaching and learning where all students will feel valued.,15,transferable,14
+12,High expectations of all students.,15,transferable,6
 12,A wide variety of course options allowing students to tailor their education to meet their own requirements.,12,logistics,18
 12,Opportunities to learn outside of the classroom including trips to the National Computing Museum.,23,motivation,15
-12,Specialist teachers with a proven passion for delivering skills pertinent for many years down the line.,14,transferrable,17
+12,Specialist teachers with a proven passion for delivering skills pertinent for many years down the line.,14,transferable,17
 12,Lunchtime and after-school clubs in application development and robotics.,12,logistics,12
 12,Curriculum Support Technology is ubiquitous in our modern society.,17,motivation,10
 12,"Everything from mobile phones, televisions, traffic lights, theme parks, agriculture to sport depend on technology.",19,motivation,20
@@ -215,7 +215,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 12,The computing syllabus will give you an in-depth understanding of how computer technology works and a look at what goes on ‘behind the scenes’.,16,content,29
 12,"As part of this, a large amount of the course will be spent learning computer programming.",21,content,18
 12,"Through this study of computer programming, the course will help you develop critical thinking, analysis and problem solving skills.",21,content,22
-12,"For many, it will be a fun and interesting way to develop these skills, which can be transferred to other subjects, especially mathematics and other sciences, and even applied in day-to-day life.",14,transferrable,41
+12,"For many, it will be a fun and interesting way to develop these skills, which can be transferred to other subjects, especially mathematics and other sciences, and even applied in day-to-day life.",14,transferable,41
 12,It is a fact that information technologies continue to have a growing importance.,19,motivation,14
 12,This means there will be a bigger demand for professionals who are qualified in this area.,2,motivation,17
 12,"If you want to go on to higher study and employment in the field of computer science, you will find that this course provides a superb stepping stone.",21,content,30
@@ -223,8 +223,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 12,We offer Computer Science at both KS4 and KS5.,23,motivation,10
 13,Two courses are offered to enable students to explore different aspects of ICT and Computing.,23,motivation,16
 13,"This new exciting course gives learners the opportunity to investigate and gain an in-depth understanding into how computers work, and how they are used.",16,content,28
-13,"This course offers learners the opportunity to study a diverse range of media topics, including video editing, camera operation, Sound editing, graphic design and media production.",14,transferrable,31
-13,"Please note, this course is for the beginner to intermediate students and is suitable for those who have no experience in the field of media production.",14,transferrable,28
+13,"This course offers learners the opportunity to study a diverse range of media topics, including video editing, camera operation, Sound editing, graphic design and media production.",14,transferable,31
+13,"Please note, this course is for the beginner to intermediate students and is suitable for those who have no experience in the field of media production.",14,transferable,28
 14,Computing and ICT The creative study and use of both Computing and ICT at Brimsham Green aims to provide pupils with a high quality of learning and achievement at all levels in: •,23,motivation,34
 14,"The ability to critically evaluate and assimilate the information they encounter, particularly through sources such as the internet •",16,content,20
 14,An appreciation of the role that computing and IT plays in the world around them. •,18,motivation,17
@@ -237,7 +237,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 15,Over 2 years learners will be encouraged to: •,12,logistics,10
 15,"Understand and apply the fundamental principles and concepts of Computer Science, including abstraction, decomposition, logic, algorithms, and data representation •",5,content,25
 15,"Analyse problems in computational terms through practical experience of solving such problems, including designing, writing and debugging programs •",8,content,21
-15,"Think creatively, innovatively, analytically, logically and critically •",13,transferrable,11
+15,"Think creatively, innovatively, analytically, logically and critically •",13,transferable,11
 15,"Understand the components that make up digital systems, and how they communicate with one another and with other systems •",4,content,21
 15,Understand the impacts of digital technology to the individual and to wider society •,19,motivation,14
 15,Apply mathematical skills relevant to Computer Science,21,content,7
@@ -252,9 +252,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 18,"The areas covered by the external exam are: System Architecture Memory and Storage Computer Networks, connections and protocols Network Security System Software Ethical, Legal, Cultural and Environment impact of Digital Technology Algorithms Programming Fundamentals Producing Robust Programs Boolean Logic Programming Languages and Integrated Development Environments",5,content,49
 19,"Years 10, 11 QUALIFICATION: Creative iMedia Level 1/2 Certificate AWARDING BODY: OCR Cambridge National",10,logistics,17
 19,What will I learn?,0,motivation,5
-19,You will learn about how to plan preproduction effectively and use this knowledge in the optional units when you develop your own media products.,14,transferrable,25
-19,"You will learn the basics of digital graphics editing for the creative and digital media sector, considering client requirements.",14,transferrable,21
-19,"You will follow a client brief to plan and create a digital animation using appropriate animation, and then review the final product.",14,transferrable,24
+19,You will learn about how to plan preproduction effectively and use this knowledge in the optional units when you develop your own media products.,14,transferable,25
+19,"You will learn the basics of digital graphics editing for the creative and digital media sector, considering client requirements.",14,transferable,21
+19,"You will follow a client brief to plan and create a digital animation using appropriate animation, and then review the final product.",14,transferable,24
 19,How will I learn?,0,motivation,5
 19,"You will participate in a variety of learning approaches including problem solving, hands-on computer access and responding to individual assessment feedback.",12,logistics,25
 19,"You will also learn through whole class discussion, paired work and individual practice.",12,logistics,15
@@ -267,7 +267,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 19,Creating interactive multimedia products Centre assessed task –,11,motivation,8
 19,60 Marks Possible Careers/Future Pathways:,2,motivation,8
 19,This qualification’s hands-on approach has strong relevance to the way young people use the technology required in creative media and prepares students for studying ICT at A-Level and the workplace.,23,motivation,36
-19,"The ability to analyse and design systems that are used in the workplace, the ability to see relationships and the broader perspective will all be important and marketable skills for future employment.",14,transferrable,34
+19,"The ability to analyse and design systems that are used in the workplace, the ability to see relationships and the broader perspective will all be important and marketable skills for future employment.",14,transferable,34
 20,"Component 1: Computer Systems Component 2: Computational thinking, algorithms and programming Programming Project",7,logistics,16
 21,Exam Board: OCR Subject Leader:,10,logistics,7
 21,Mr Kolawole Entry Requirement: Grade 6 or better,12,logistics,9
@@ -275,7 +275,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 21,Computer Science GCSE inspires students to engage with developments in technology with topics ranging from computer communications and networking to application development.,1,motivation,23
 21,"Computer Science encourages learners to: • understand Computer Science - abstraction, decomposition, logic, algorithms, and data representation •",5,content,23
 21,"analyse and solve computational problems, including designing, writing and debugging programs •",8,content,14
-21,"think creatively, innovatively, analytically, logically and critically •",13,transferrable,11
+21,"think creatively, innovatively, analytically, logically and critically •",13,transferable,11
 21,apply mathematical skills relevant to Computer Science.,21,content,8
 21,Where will this qualification take me?,12,logistics,7
 21,Computer Science prepares students for a varied future in technology from working with drones and driverless cars to programming and data analysis.,22,motivation,23
@@ -292,7 +292,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 22,30 GCSE Computer Science,1,motivation,4
 22,"Exam Board: OCR Grade: 9-1 This is the study of the theory, and practical that forms the basis for the design and use of computers.",1,motivation,30
 22,"If you are interested to know what happens inside a computer and the programming that helps it run, then this might be the right course for you.",16,content,29
-22,This qualification builds upon skills and content primarily learnt during key stage 3 IT lessons.,14,transferrable,17
+22,This qualification builds upon skills and content primarily learnt during key stage 3 IT lessons.,14,transferable,17
 22,The course is made up of two components:,12,logistics,9
 22,"Component 01: Computer systems Introduces students to the central processing unit (CPU), computer memory and storage, data representation, wired and wireless networks, network topologies, system security and system software.",4,content,38
 22,"It also looks at ethical, legal, cultural and environmental concerns associated with computer science.",16,content,17
@@ -307,7 +307,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 22,"Software Engineering, Computer Systems Analyst, Teacher, Computer Programming, Software Development and Web Development",2,motivation,17
 23,ICT ICT has become a crucial part of our everyday lives.,18,motivation,13
 23,"We are living in a world where technology is evolving rapidly, creating new subject areas to explore and changing the way people work in every area, from medicine and fashion to engineering and economics.",19,motivation,37
-23,"So whatever your career plans, you know it’s vital to develop your grasp of these ideas and concepts that will shape your world.",14,transferrable,26
+23,"So whatever your career plans, you know it’s vital to develop your grasp of these ideas and concepts that will shape your world.",14,transferable,26
 23,"ICT will help you think logically, solve puzzles and be tenacious when the going gets tough.",17,motivation,18
 23,But it is also really creative and you’ll get a real buzz out of getting something to work yourself.,11,motivation,21
 23,It’s no exaggeration to say the world runs on computers.,18,motivation,12
@@ -319,9 +319,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 24,What will I be studying?,0,motivation,6
 24,"J277/01: Computer systems 1 .1 Systems architecture 1.2 Memory and storage 1.3 Computer networks, connections and protocols 1.4 Network security 1.5 Systems software 1.6 Ethical, legal, cultural and environmental impacts of digital technology J277/02: Computational thinking, algorithms and programming 2.1 Algorithms 2.2 Programming fundamentals 2.3 Producing robust programs 2.4 Boolean logic 2.5 Programming languages and Integrated Development Environments Career Links Year 10 Careers –",4,content,72
 24,"Career pathways in Network Roles, Teacher Roles, Web Design Developer, Games Designer Developer, Data Analyst, Cyber Security Analyst/Consultant, Information Systems Managers, Database Administrator, Technical Writer, Data Scientist, Software Tester, Software Engineer and programmer.",2,motivation,47
-24,"Employability skills – analyse and critically evaluate information, effective communicators, team work, Proficiency with programming languages, Mathematical skill ,Problem-solving capability, Communication skills and Writing skills Year 11 Careers –",14,transferrable,37
+24,"Employability skills – analyse and critically evaluate information, effective communicators, team work, Proficiency with programming languages, Mathematical skill ,Problem-solving capability, Communication skills and Writing skills Year 11 Careers –",14,transferable,37
 24,"Career pathways in Network Roles, Teacher Roles, Web Design Developer, Games Designer Developer, Data Analyst, Cyber Security Analyst/Consultant, Information Systems Managers, Database Administrator, Technical Writer, Data Scientist, Software Tester, Software Engineer and programmer.",2,motivation,47
-24,"Employability skills – analyse and critically evaluate information, effective communicators, team work, Proficiency with programming languages, Mathematical skill ,Problem-solving capability, Communication skills and Writing skills.",14,transferrable,34
+24,"Employability skills – analyse and critically evaluate information, effective communicators, team work, Proficiency with programming languages, Mathematical skill ,Problem-solving capability, Communication skills and Writing skills.",14,transferable,34
 24,How will I be assessed?,9,logistics,6
 24,J277/01: Computer systems Written paper: 1 hour and 30 minutes 50% of total GCSE 80 marks This is a non-calculator paper All questions are mandatory,10,logistics,29
 24,"This paper consists of multiple choice questions Short response questions and extended response questions J277/02: Computational thinking, algorithms and programming Written paper: 1 hour and 30 minutes 50% of total GCSE 80 marks This is a non-calculator paper",7,logistics,45
@@ -356,13 +356,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 25,"Students can then progress to courses at university such as systems engineering, software engineering and artificial intelligence.",21,content,19
 25,Career prospects in the computing industry are wide ranging.,17,motivation,10
 25,"Other than for those who aspire to work in the computer industry, there are many others who may choose Computer Science.",23,motivation,23
-25,"Study of the subject supports progress in Science, Technology, Engineering and Mathematics.",14,transferrable,15
-25,"It develops transferable skills, particularly logical thinking and problem solving.",14,transferrable,12
+25,"Study of the subject supports progress in Science, Technology, Engineering and Mathematics.",14,transferable,15
+25,"It develops transferable skills, particularly logical thinking and problem solving.",14,transferable,12
 26,Computer Science GCSE Course Outline Employees with Computer Science based skills are highly sought after in industry and are in short supply.,1,motivation,23
 26,There are many ways of accessing technical careers including apprenticeships and more traditional academic routes.,2,motivation,16
 26,A level Computer Science will stretch your programming abilities and enhance your computational thinking skills in conjunction with building up a deeper understanding of the underlying concepts.,22,motivation,28
 26,YOU WILL DO WELL ON THIS COURSE IF...,12,logistics,9
-26,You enjoy solving puzzles and are an independent thinker who is capable of working as an individual or as part of a team.,15,transferrable,24
+26,You enjoy solving puzzles and are an independent thinker who is capable of working as an individual or as part of a team.,15,transferable,24
 26,You should also have an enquiring mind combined with good English and you must be predicted to achieve at least Level 5 in Maths.,12,logistics,25
 26,HOW IS THE COURSE ASSESSED?,9,logistics,6
 26,Unit 1 - Computer Systems - 100% Examination - Two 90 minute written paper examining students’ knowledge of computer systems.,4,content,23
@@ -375,7 +375,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 26,Students will no doubt be familiar with the use of computers and other related technology from their Computer Science lessons and elsewhere.,22,motivation,23
 26,"However, the course will give them an insight into what goes on ‘behind the scenes’.",12,logistics,19
 26,"There is an emphasis on computer programming using the Python programming language, and computational thinking which will equip students with the necessary skills required to succeed in many other areas.",21,content,32
-26,"These skills include independent learning, problem solving and the ability to think creatively, innovatively and logically to design and program solutions to real-world problems.",14,transferrable,29
+26,"These skills include independent learning, problem solving and the ability to think creatively, innovatively and logically to design and program solutions to real-world problems.",14,transferable,29
 26,"Students will investigate the components that make up digital systems and how they communicate with one another and with other systems, they will also develop an understanding of the impacts of digital technology to the individual and to wider society.",18,motivation,42
 27,"This course encourages learners to:  understand and apply the fundamental principles and concepts of Computer Science, including abstraction, decomposition, logic, algorithms and data representation  analyse problems in computational terms through practical experience of solving such problems, including designing, writing and debugging programs  think creatively, innovatively, analytically, logically and critically  understand the components that make up digital systems, and how they communicate with one another and with other systems  understand the impacts of digital technology to the individual and to wider society  apply mathematical skills relevant to Computer Science.",21,content,106
 27,Overview: Unit 1 Computer Systems,4,content,6
@@ -388,9 +388,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 27,"Assessment: Unit 1 - 50% of GCSE, Exam in Year 11, 80 marks, 1.5 hours Unit 2 - 50% of GCSE, Exam in Year 11, 80 marks, 1.5 hours",10,logistics,38
 27,Why choose this subject?,0,motivation,5
 27,It gives an excellent opportunity to investigate how computers work and how they are used ,16,content,16
-27,It enables you to develop your critical thinking and problem-solving skills which can be transferred to everyday life ,15,transferrable,22
+27,It enables you to develop your critical thinking and problem-solving skills which can be transferred to everyday life ,15,transferable,22
 27,It will give you a real advantage in today’s technology driven world.,17,motivation,14
-27,You will make the leap from using other people’s software to being able to design and create your own.,14,transferrable,21
+27,You will make the leap from using other people’s software to being able to design and create your own.,14,transferable,21
 27,What can you do next with this subject?,0,motivation,9
 27," A level Computing  Excellent preparation if you want to study or work in areas that rely on the skills you’ll develop, especially when they are applied to technical problems.",23,motivation,34
 27,"These areas include engineering, financial and resource management, science and medicine  Popular jobs for computer scientists: computer programmer, software developer, network engineer, web developer, database administrator, systems analyst etc.",2,motivation,39
@@ -409,7 +409,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 28,"Having a computing qualification will provide you with the knowledge, problem-solving skills and logical thinking capabilities that serve as a competitive advantage in your career.",23,motivation,29
 28,"Every industry uses computers, meaning computer scientists are important to every sector.",17,motivation,14
 28,This is a qualification that enables students to progress to A Level Computer Science or ICT qualifications.,23,motivation,18
-28,For more information please contact –,15,transferrable,6
+28,For more information please contact –,15,transferable,6
 29,"This carefully planned course gives students a real, in-depth understanding of how computer technology works.",16,content,19
 29,"It offers an insight into what goes on ‘behind the scenes’, including computer programming, which many students find absorbing.",16,content,24
 29,"Through this qualification, students will develop their understanding of current and emerging technologies and how they work, look at the use of algorithms in computer programs, become independent and discerning users of IT, acquire and apply creative and technical skills, knowledge and understanding of IT in a range of contexts, develop computer programs to solve problems, evaluate the effectiveness of computer programs / solutions and the impact of computer technology in society.",21,content,80
@@ -423,14 +423,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 29,Component 1 Principles of Computer Science Written examination 1hr 40 mins 40% Component 2 Application of Computational Thinking Written examination 2 hrs 40% Component 3 Computer Science Project Controlled Assessment 20 hrs 20% Topics covered Problem Solving Programming Data Computer hardware and software Communications and Networks The Internet and the Bigger Picture Recommended revision guides / course resources Revise Edexcel GCSE 9-1 Computer Science Revision Guide by Pearson Education,7,logistics,75
 29,Online resources www.python.org www.bbc.co.uk/schools/gcsebitesize/ict/,21,content,4
 30,To provide you with an in-depth understanding of how computer technology works and a look at what goes on behind the scenes. •,16,content,26
-30,"The course will help you learn about critical thinking, analysis and problem solving. •",14,transferrable,16
+30,"The course will help you learn about critical thinking, analysis and problem solving. •",14,transferable,16
 30,Computer systems and theory of Computer Science. •,5,content,9
 30,Systems development in a suitable programming language.,8,content,8
 30,What makes GCSE Computer Science a good choice for you?,1,motivation,11
-30,Enjoy being challenged?,15,transferrable,4
-30,Like pushing yourself to learn new things?,15,transferrable,8
-30,Enjoy difficult tasks?,15,transferrable,4
-30,Enjoy Maths and science?,14,transferrable,5
+30,Enjoy being challenged?,15,transferable,4
+30,Like pushing yourself to learn new things?,15,transferable,8
+30,Enjoy difficult tasks?,15,transferable,4
+30,Enjoy Maths and science?,14,transferable,5
 30,"Computer science offers you the opportunities to do all these and gain an understanding of the way computers work, create and review computer programs for real life purposes based on your own interests.",22,motivation,35
 30,"It encourages you to create your own applications and other systems, rather than simply use those designed by others.",23,motivation,21
 30,Every wonder how a computer actually works?,3,content,8
@@ -441,14 +441,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 30,"These areas include engineering, science, medicine, financial and resource management etc.",2,motivation,15
 30,What will I learn?,0,motivation,5
 30,Computer Science requires you to demonstrate the ability to: •,22,motivation,11
-30,"Think creatively, innovatively, analytically, algorithmically, logically and critically. •",13,transferrable,14
+30,"Think creatively, innovatively, analytically, algorithmically, logically and critically. •",13,transferable,14
 30,Show that you can follow a brief to meet requirements. •,12,logistics,12
 30,"Use computational thinking to design, create and develop your own programming solution to a problem. •",8,content,18
 30,"Use abstraction to model, decompose and generalise. •",6,content,10
 30,Detect errors in computer programs and correct them. •,8,content,10
 30,"Manipulate data, sequence instructions, test designs and explore ideas. •",8,content,13
 30,"Adopt safe, secure and responsible practice when using computers.",3,content,11
-30,Evaluate and improve systems you create as well as those of others.,14,transferrable,13
+30,Evaluate and improve systems you create as well as those of others.,14,transferable,13
 30,How will I learn?,0,motivation,5
 30,"You will have lessons where you will program using Python, combined with theory / research lessons.",21,content,18
 30,Lessons will be both hands-on and also paper based.,12,logistics,12
@@ -457,8 +457,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 30,What Homework can I expect?,12,logistics,6
 30,To develop examination techniques homework will be set frequently to cover the examined unit.,9,logistics,15
 30,"As well as paper-based and online programming challenges, if you don’t have internet at home you can use classrooms afterschool.",21,content,25
-30,A good understanding of Maths is beneficial.,14,transferrable,8
-30,Good resilience and staying power required.,15,transferrable,7
+30,A good understanding of Maths is beneficial.,14,transferable,8
+30,Good resilience and staying power required.,15,transferable,7
 30,Currently there are two parts to the course:,12,logistics,9
 30,There will be a 1.5hour paper based exam worth 50% of the qualification and a 2 hour onscreen examination where you will use a computer to complete Python programs.,20,content,32
 30,For more information please see: https: //qualifications.pearson.com/content/dam/pdf/GCSE/Computer%20 Science/2020/specification-and-sample-assessments/GCSE_L1_L2_Computer_,10,logistics,10
@@ -503,14 +503,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 32,You will develop your understanding of current and emerging technologies.,19,motivation,11
 32,"For the practical elements of the course, you will learn technical skills, programming (Python) and gain an understanding of the use of algorithms in computer programs.",21,content,31
 32,The aim will be that you can then solve problems using programming and develop computer programs.,21,content,17
-32,This course has a high maths content.,14,transferrable,8
+32,This course has a high maths content.,14,transferable,8
 33,GCSE Computer Science is an academically challenging course which suits students who enjoy science and have good mathematical ability.,1,motivation,20
 33,"Students completing this course will be equipped with the logical and computational skills necessary to succeed at A Level (or equivalent), the workplace or beyond.",21,content,29
 33,This is a course that has real relevance in our modern world.,12,logistics,13
 33,"While students will no doubt already have some knowledge of computers and related areas, the course will give them an in-depth understanding of how computer technology works and a look at what goes on ‘behind the scenes’.",16,content,43
 33,"As part of this, they will investigate computer programming, which many students find interesting.",21,content,17
 33,"Through this study of computer programming, the course will help students develop critical thinking, analysis and problem-solving skills.",21,content,23
-33,"For many, it will be a fun and interesting way to develop these skills, which can be transferred to other subjects and even applied in day-to-day life.",14,transferrable,34
+33,"For many, it will be a fun and interesting way to develop these skills, which can be transferred to other subjects and even applied in day-to-day life.",14,transferable,34
 33,"In this way, the course will stimulate interest and engagement with technology and technology-related careers.",23,motivation,19
 34,Why study Creative iMedia?,11,motivation,5
 34,"Digital Created Content has taken over the world by storm; we see them daily, and it’s all around us.",19,motivation,23
@@ -519,17 +519,17 @@ description_id,sentence,cluster,cluster_type,n_tokens
 34,Studying Creative iMedia introduces you to just that and beyond!,11,motivation,11
 34,What is Creative iMedia about?,11,motivation,6
 34,Creative iMedia is a media-focused hands-on course with IT at its heart.,11,motivation,16
-34,"The course provides knowledge in a number of key areas in this field from pre-production skills to digital production (animation, photography, film, television, web development, and animation).",14,transferrable,35
+34,"The course provides knowledge in a number of key areas in this field from pre-production skills to digital production (animation, photography, film, television, web development, and animation).",14,transferable,35
 34,The Creative iMedia course introduces you to how the media and entertainment industry works.,11,motivation,15
-34,Topics include learning how to create professional projects from scratch to understanding the law and rules surrounding digital media.,14,transferrable,20
+34,Topics include learning how to create professional projects from scratch to understanding the law and rules surrounding digital media.,14,transferable,20
 34,What pathways does this subject open up after Year 11?,12,logistics,11
 34,The skills and programs you’ll be taught in this course are industrial standard.,12,logistics,15
-34,This will give you an advantage over other courses if you are interested in taking this as a career.,14,transferrable,20
+34,This will give you an advantage over other courses if you are interested in taking this as a career.,14,transferable,20
 34,Creative IMedia is aimed at students whom are interested in entertainment and media industry.,11,motivation,15
 34,"These include: Writers and Authors, Multimedia Artists and Animators, Art Directors, Photographers, and Graphic Designers.",2,motivation,21
 34,How will you be assessed?,9,logistics,6
 34,"Over the 2 years, you are required to complete: 3 Controlled Assessment Modules (collectively 75% of the grade) 1 Written Exam (25% of the grade)",10,logistics,33
-34,Who is the contact in school for more information?,15,transferrable,10
+34,Who is the contact in school for more information?,15,transferable,10
 34,Mr M Cubitt – Head of ICT (mcubitt@bungayhigh.co.uk),17,motivation,9
 35,What is included in the course?,12,logistics,7
 35,The subject content is divided into six topics:,12,logistics,9
@@ -549,8 +549,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 35,A minimum score of 60% on your CDM exam,10,logistics,10
 35,"If a student does not meet this criteria, but wishes to study Computing at Key Stage 4, please contact Mr Mallinson to discuss further.",23,motivation,27
 35,Analytical skills- Being a computer science major involves identifying a problem and coming up with a technological solution to address it •,22,motivation,23
-35,Problem-solving skills •,14,transferrable,5
-35,Critical-thinking skills •,15,transferrable,5
+35,Problem-solving skills •,14,transferable,5
+35,Critical-thinking skills •,15,transferable,5
 35,Resilience Career Opportunities •,2,motivation,4
 35,Information systems manager •,2,motivation,4
 36,What will I learn?,0,motivation,5
@@ -576,7 +576,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 36,Do I need a computer at home?,18,motivation,8
 36,No – but you will need to be prepared to put in an equal amount of time outside lessons as in class to make sure you understand the theory and can apply it in practice.,12,logistics,36
 36,Coursework notes are kept in your own exercise book and on a number of online classroom environments so you can refer to your experiences throughout your studies to help you learn what you need.,12,logistics,35
-36,Can I go on to A Level?,15,transferrable,8
+36,Can I go on to A Level?,15,transferable,8
 36,Yes – this course leads directly into the A Level,12,logistics,10
 37,Computer Science is all about learning what happens inside computer systems.,22,motivation,12
 37,"Students will learn about the components that make up a computer system, how to break problems down into manageable chunks, to problem solve, to think creatively and innovatively, and program a computer system.",16,content,38
@@ -601,8 +601,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 37,Specification Awarding Body and Specification OCR Computing GCSE — Code J277,1,motivation,11
 38,THE GENERAL AIMS OF THE COURSE: This GCSE encourages you to explore how computers work and communicate.,1,motivation,19
 38,"You will carry out practical tasks that will develop your imaginative, innovative thinking, creativity and independence.",11,motivation,19
-38,"You will also develop the skills of design and evaluation, and how to test and problem-solve when errors occur.",14,transferrable,23
-38,"You will learn how to create games, apps and systems, rather than using programmes designed by others.",14,transferrable,20
+38,"You will also develop the skills of design and evaluation, and how to test and problem-solve when errors occur.",14,transferable,23
+38,"You will learn how to create games, apps and systems, rather than using programmes designed by others.",14,transferable,20
 38,WHY CHOOSE GCSE COMPUTER SCIENCE,1,motivation,5
 38,Try to imagine a world without computers.,18,motivation,8
 38,"There would be no PCs or laptops, no using the web, no mobile phones or digital cameras, because these are computers at heart.",18,motivation,27
@@ -630,7 +630,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 38,"It also looks at ethical, legal, cultural and environmental concerns associated with computer science.",16,content,17
 38,Written exam: 1 hour 30 minutes 80 marks 40% of GCSE Paper 2 –,10,logistics,16
 38,"Written assessment Questions to test skills and understanding in computational thinking: algorithms, programming techniques, producing robust programs, computational logic, translators and data representation.",7,logistics,29
-38,The skills and knowledge developed within this component will support the learner when completing the component 03 programming project.,14,transferrable,20
+38,The skills and knowledge developed within this component will support the learner when completing the component 03 programming project.,14,transferable,20
 38,Written exam set in practically based scenarios: 1 hour 30 minutes 80 marks 40% of GCSE Unit 3: Non Exam Assessment,10,logistics,24
 38,The non-exam assessment (NEA) assesses a student's ability to use the knowledge and skills gained through the course to solve a practical programming problem.,9,logistics,28
 38,Students will be expected to follow a systematic approach to problem solving.,12,logistics,13
@@ -645,12 +645,12 @@ description_id,sentence,cluster,cluster_type,n_tokens
 38,These will include visits to and from industry and software developers,2,motivation,11
 39,Why should I take it?,0,motivation,6
 39,"This exciting GCSE gives you an excellent opportunity to investigate how computers work and how they’re used, and to develop computer programming and problem-solving skills.",1,motivation,30
-39,"You’ll also do some fascinating in-depth research and practical work, both of which will help in a variety of different real-world scenarios.",14,transferrable,29
+39,"You’ll also do some fascinating in-depth research and practical work, both of which will help in a variety of different real-world scenarios.",14,transferable,29
 39,"If you have any interest in technological development, application developments, and in general programming, then this is the course for you.",21,content,25
 39,What will I be studying?,0,motivation,6
 39,"● Understand and apply the fundamental principles and concepts of Computer Science, including abstraction, decomposition, logic, algorithms, and data representation.",5,content,26
 39,"Analyse problems in computational terms through practical experience of solving such problems, including designing, writing, and debugging programs.",8,content,22
-39,"Think creatively, innovatively, analytically, logically and critically.",13,transferrable,11
+39,"Think creatively, innovatively, analytically, logically and critically.",13,transferable,11
 39,● Apply mathematical skills relevant to Computer Science.,21,content,9
 39,"● Understand the components that make up digital systems, and how they communicate with one another and with other systems.",4,content,22
 39,● Understand the impacts of digital technology to the individual and to wider society.,19,motivation,15
@@ -676,17 +676,17 @@ description_id,sentence,cluster,cluster_type,n_tokens
 40,Students will complete two examinations at the end of the course worth 50% each.,10,logistics,16
 40,Future Study and Careers: Students can go on to study A-Level Computing at Petroc or similar colleges.,23,motivation,21
 40,"At university, students could chose to study a broad range of computing subjects including; Network Management, Cyber-Security and Forensics, Video Game development, Digital Graphics, and Systems Analyst.",23,motivation,36
-40,Our Students Say...,15,transferrable,4
+40,Our Students Say...,15,transferable,4
 40,“Computer Science has given me many practical programming skills that I am now able to apply in a real world scenario.”,22,motivation,24
-40,“It’s always interesting and great fun.,15,transferrable,9
+40,“It’s always interesting and great fun.,15,transferable,9
 40,It can be used later on in life if you want to become a programmer.”,23,motivation,17
 40,“Computer Science is good as you learn a large amount about computers and how to code.,22,motivation,18
-40,It’s challenging and requires determination,15,transferrable,6
-41,What skills will I develop?,14,transferrable,6
+40,It’s challenging and requires determination,15,transferable,6
+41,What skills will I develop?,14,transferable,6
 41,•Programming languages •,8,content,4
 41,Hardware architecture and construction •Communication •,4,content,7
-41,Time management and organisation •,13,transferrable,5
-41,Presenting reasoned arguments •,13,transferrable,4
+41,Time management and organisation •,13,transferable,5
+41,Presenting reasoned arguments •,13,transferable,4
 41,Retrieval of information •Numeracy •Commercial awareness,19,motivation,6
 41,What career opportunities can this subject lead to?,2,motivation,9
 41,Experience in this qualification will benefit you in any employment that involves the use of computers.,23,motivation,17
@@ -700,10 +700,10 @@ description_id,sentence,cluster,cluster_type,n_tokens
 41,"An understanding of computer networks, the internet and the world wide web •",3,content,14
 41,Ability to construct web pages using HTML and CSS,21,content,9
 41,What attributes will I need to be successful in this Subject? •Enthusiasm for ICT and Computing •,23,motivation,18
-41,Positive attitude to learning •,15,transferrable,5
-41,Able to meet deadlines •Logical thinker •,13,transferrable,8
-41,Able to take and act on instructions •,15,transferrable,8
-41,Good Mathematics and Literacy skills •A problem solver,14,transferrable,8
+41,Positive attitude to learning •,15,transferable,5
+41,Able to meet deadlines •Logical thinker •,13,transferable,8
+41,Able to take and act on instructions •,15,transferable,8
+41,Good Mathematics and Literacy skills •A problem solver,14,transferable,8
 41,What extra support is available?,4,content,6
 41,•After school sessions •1:1 sessions •Revision Guides •,9,logistics,9
 41,Sample assessment materials for guidance,9,logistics,5
@@ -734,7 +734,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 43,The way Networks pass data to different parts of the world.,3,content,12
 43,You will learn ways to secure computer systems in order to stop hacking and viruses.,3,content,16
 43,Programming is a valuable skill that employers in every industry sector value.,23,motivation,13
-43,"It helps with logical thinking, creativity and structure of writing.",15,transferrable,12
+43,"It helps with logical thinking, creativity and structure of writing.",15,transferable,12
 43,Computer Science allows pupils to explore Programming Techniques and write Robust Programs for different scenarios.,21,content,16
 43,Could you write a program that will provide secure access to a website?,3,content,14
 43,Could you program a quiz game with multiple choice questions?,10,logistics,11
@@ -768,13 +768,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 44,"Web developers plan, create and code web pages, using both non-technical and technical skills to produce websites that fit the customer's requirements.",23,motivation,26
 44,"They are involved in the technical and graphical aspects of pages, producing not just the look of the website, but determining how it works as well.",16,content,29
 44,"Working in games design you'll be involved in the creation and production of games for personal computers, games consoles, social/online games, arcade games, tablets, mobile phones and other hand-held devices.",2,motivation,40
-44,Your work will usually be concerned with either design (including art and animation) or programming.,14,transferrable,18
+44,Your work will usually be concerned with either design (including art and animation) or programming.,14,transferable,18
 44, Software Architect.,2,motivation,4
 44,"Software architects apply their knowledge of computer science, engineering, and mathematics to design and develop computer programs and applications.",2,motivation,22
 44,"They may create new software or modify existing software with the goal of producing an efficient, reliable, and easy-to-maintain product.",23,motivation,27
 45,Edexcel’s GCSE Computer Science has been recognised as a Science subject in the English Baccalaureate (EBacc).,1,motivation,20
-45,"This means that a student who sits any three of the four separate sciences (Biology, Chemistry, Physics and Computer Science) and achieves a 5 or above in two of them will fulfil the Science requirement of the EBacc.",14,transferrable,43
-45,Please note this course has a high Mathematical content and is challenging.,14,transferrable,13
+45,"This means that a student who sits any three of the four separate sciences (Biology, Chemistry, Physics and Computer Science) and achieves a 5 or above in two of them will fulfil the Science requirement of the EBacc.",14,transferable,43
+45,Please note this course has a high Mathematical content and is challenging.,14,transferable,13
 45,It is suited to students who have a logical and analytical mind and who are interested to know more about programming and how computers operate.,21,content,26
 45,What you will study?,0,motivation,5
 45,During this course students will study the fundamental principles of computer science and use computational thinking skills to analyse problems and design solutions across a range of contexts.,21,content,29
@@ -790,10 +790,10 @@ description_id,sentence,cluster,cluster_type,n_tokens
 45,"The course lays a foundation for further study of Computer Science or related subjects and is applicable for any career path involving programming, software development, web development and engineering.",21,content,32
 45,Computer Science is valued by universities and employers since it requires the development of analytical and problem-solving skills,22,motivation,20
 46,GCSE Computer Science Computer Science is a very practical subject – students will be able to use the knowledge and skills they learn in the classroom on real-world problems.,1,motivation,32
-46,"In addition, this is a highly creative subject calls on learners to be inventive.",15,transferrable,16
+46,"In addition, this is a highly creative subject calls on learners to be inventive.",15,transferable,16
 46,There are many career choices within the Computer Science field.,17,motivation,11
 46,"These include software developer, computer hardware engineer, computer system analyst, information security analyst, computer programmer, drone operator and Cyber security consultant.",2,motivation,27
-46,"You will gain valuable thinking and programming skills that are extremely attractive in the modern workplace, a deep understanding of problem solving and experience in creating logical and efficient solutions, ability to write down solutions to problems for other people to understand.",14,transferrable,45
+46,"You will gain valuable thinking and programming skills that are extremely attractive in the modern workplace, a deep understanding of problem solving and experience in creating logical and efficient solutions, ability to write down solutions to problems for other people to understand.",14,transferable,45
 46,What is the Course Content? •,12,logistics,7
 46,"Real world programming skills, understanding of the fundamental principles including programming, data representation, computer systems, computer networks, cyber security and ethical, legal and environmental impacts of digital technology on wider society.",21,content,38
 46,How is the Course Assessed? •,9,logistics,7
@@ -801,16 +801,16 @@ description_id,sentence,cluster,cluster_type,n_tokens
 46,"There are two exam papers at the end, one focusing on computer systems and one with a focus on computational thinking, algorithms and programming.",7,logistics,27
 46,Each paper lasts 1.5 hours and is worth 50% of the total GCSE each.,10,logistics,16
 46,Students will undertake a programming project in the final year of the course.,20,content,14
-46,This allows for you to gain practical experience of using the skills developed throughout the specification.,14,transferrable,17
+46,This allows for you to gain practical experience of using the skills developed throughout the specification.,14,transferable,17
 46,"Students will engage in an authentic experience, which supports their learning and exam preparation.",12,logistics,16
-46,What do our students think?,15,transferrable,6
-46,“I enjoy that we have full control of the pace of learning.,15,transferrable,14
+46,What do our students think?,15,transferable,6
+46,“I enjoy that we have full control of the pace of learning.,15,transferable,14
 46,It is worth doing it if you are good at maths.,12,logistics,12
-46,It's a satisfying subject because you feel you've achieved something when you make a program.”,15,transferrable,19
-46,“I enjoy solving puzzles and problems.,15,transferrable,8
+46,It's a satisfying subject because you feel you've achieved something when you make a program.”,15,transferable,19
+46,“I enjoy solving puzzles and problems.,15,transferable,8
 46,"Taking this GCSE has allowed me to develop this into a real skill, applying it to real life problems to create my own programs.”",1,motivation,27
 47,"Course Outline A GCSE in Computer Science is engaging and practical, encouraging creativity and problem solving.",1,motivation,18
-47,It encourages students to develop their understanding and application of core concepts.,15,transferrable,13
+47,It encourages students to develop their understanding and application of core concepts.,15,transferable,13
 47,"Students analyse problems and devise creative solutions by designing, writing, testing and evaluating programs using the Python programming language.",21,content,22
 47,By the end of the course students will be able to: •,12,logistics,13
 47,"Understand and apply the fundamental principles and concepts of Computer Science, including abstraction, decomposition, logic, algorithms, and data representation. •",5,content,26

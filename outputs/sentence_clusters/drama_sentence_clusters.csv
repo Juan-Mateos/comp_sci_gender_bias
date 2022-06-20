@@ -13,11 +13,11 @@ description_id,sentence,cluster,cluster_type,n_tokens
 1,Component 1 - Exploring the Performing Arts.,22,content,8
 1,You will examine the work of performing arts professionals and document this through coursework and practical work.,24,content,18
 1,Component 2 - Developing Skills and Techniques in Performing Arts.,22,content,11
-1,You will develop their skills and techniques through both practical and written work.,26,transferrable,14
+1,You will develop their skills and techniques through both practical and written work.,26,transferable,14
 1,3 - Responding to a Brief.,5,content,7
 1,"You will work as a group to create a piece of theatre, based on a performance brief.",40,content,19
 2,"This acting course is suitable for students who have demonstrated a level of enthusiasm, motivation and dedication to performing arts and in particular drama.",39,content,26
-2,Students choosing this course must be willing to perform.,21,transferrable,10
+2,Students choosing this course must be willing to perform.,21,transferable,10
 2,"Students gain a practical understanding of drama, and apply this knowledge to their performances as they develop their practical skills.",48,motivation,22
 2,"Students can choose to be a performer or can take on the role of designer in lighting, sound, set or costume.",25,content,24
 2,Students must choose one role throughout the component but can choose different roles.,27,logistics,14
@@ -31,16 +31,16 @@ description_id,sentence,cluster,cluster_type,n_tokens
 2,This is a written external exam—40%,16,logistics,8
 3,Why choose Drama?,43,motivation,4
 3,"Drama remains one of the most popular GCSE examination choices in the country, because it is one of the few subjects which can demonstrate, to employers and university interviewers, a young person’s ability to work creatively and co-operatively within a group situation, to achieve a common goal.",0,content,53
-3,"Students learn to collaborate with others, think analytically and evaluate effectively.",23,transferrable,13
-3,"They gain the confidence to pursue their own ideas, reflect and refine their efforts.",31,transferrable,16
+3,"Students learn to collaborate with others, think analytically and evaluate effectively.",23,transferable,13
+3,"They gain the confidence to pursue their own ideas, reflect and refine their efforts.",31,transferable,16
 3,"Whatever the future holds, students of GCSE Drama emerge with a toolkit of transferable skills, applicable both in further studies and in the workplace.",0,content,27
 3,"It offers preparation for students wishing to go on to do ‘A’ Level and degree courses in the Arts and promotes the development of personal and social skills, of vital importance in the world beyond education.",22,content,40
 3,Aims of the Course,29,content,4
-3,The course is designed to enable students to achieve: •,21,transferrable,11
-3,Increased confidence in personal communication and presentation skills •,31,transferrable,9
-3,"The development of creative, cognitive and imaginative abilities •",31,transferrable,10
-3,Greater awareness of themselves as unique individuals and of their role within a group •,31,transferrable,15
-3,A heightened sensitivity to the range of human experience •,31,transferrable,10
+3,The course is designed to enable students to achieve: •,21,transferable,11
+3,Increased confidence in personal communication and presentation skills •,31,transferable,9
+3,"The development of creative, cognitive and imaginative abilities •",31,transferable,10
+3,Greater awareness of themselves as unique individuals and of their role within a group •,31,transferable,15
+3,A heightened sensitivity to the range of human experience •,31,transferable,10
 3,"Awareness of social, historical and cultural contexts and influences on drama and theatre •",46,content,15
 3,"An appreciation of the ways in which playwrights achieve their effects and an ability to communicate an author’s intentions to an audience, through performance •",46,content,27
 3,Skills in the shaping of dramatic performance •,46,content,8
@@ -48,16 +48,16 @@ description_id,sentence,cluster,cluster_type,n_tokens
 3,An appreciation of the role of theatre in contemporary culture •,42,content,11
 3,Understanding of how to critically evaluate theatre productions How We Begin,33,content,11
 3,"The first 2 terms of the course are spent developing and diversifying students’ understanding of drama, through participation in practical workshops, exploring such key concepts as narrative structure, tension, focus and sub-text AND developing their skills in writing analytically about performance.",48,motivation,48
-3,"They learn to work from a script, shape work of their own devising and reflect, in writing, upon their work and that of others.",31,transferrable,28
+3,"They learn to work from a script, shape work of their own devising and reflect, in writing, upon their work and that of others.",31,transferable,28
 3,"Attending the theatre to witness different approaches to performance and design, is an ESSENTIAL part of learning – and assessment – in this subject.",40,content,26
 3,"In the final examination, students are required to answer questions on performances they have attended on the course.",33,content,20
 3,"The Drama Department organises several trips a year to carefully selected productions outside of Grantham, which are also a basis for work in class.",39,content,26
 3,"Additionally, visits to Grantham’s own Guildhall are promoted and students will be expected to attend the school’s own annual drama production (unless they are appearing in it!)",39,content,33
 3,What is Assessed?,3,logistics,4
 3,"The AQA course presently followed by the department requires students during the course to demonstrate skills in the crafting of performance, showing awareness of social, historical and cultural influences upon their work and a recognition of how to work together creatively to develop a drama product.",39,content,49
-3,"Students are also required, as part of this coursework, to reflect, in writing, upon those factors which influenced their practical work.",21,transferrable,26
+3,"Students are also required, as part of this coursework, to reflect, in writing, upon those factors which influenced their practical work.",21,transferable,26
 3,"The final, written examination tests students’ ability to critically evaluate live theatre, which they have experienced as part of the course, together with their ability to think imaginatively and with sensitivity to22Shared:Y9 GCSE OPT – 21-23 text, as an actor or director in relation to play scripts studied.",33,content,56
-3,"Students’ understanding of work is assessed through their ability to express their understanding orally, in writing, and through practical demonstration of their skills.",20,transferrable,27
+3,"Students’ understanding of work is assessed through their ability to express their understanding orally, in writing, and through practical demonstration of their skills.",20,transferable,27
 3,"The subject content for GCSE Drama is divided into three components- Understanding Drama, Devising Drama and Texts in Practice.",0,content,22
 3,Practical Assessment (60% of total marks),16,logistics,9
 3,The practical assessment is broken up into two components - Devising Drama and Texts in Practice.,34,content,17
@@ -90,14 +90,14 @@ description_id,sentence,cluster,cluster_type,n_tokens
 5,Drama GCSE provides opportunities for students to attend professional and community dramatic performances and to develop their skills as informed and thoughtful audience members.,0,content,25
 5,Why choose this subject:,8,content,5
 5,The course is for students who have a love of theatre and the acting process.,39,content,16
-5,Students will be expected to perform devised and scripted work and deconstruct set texts and performances within written course work.,20,transferrable,21
+5,Students will be expected to perform devised and scripted work and deconstruct set texts and performances within written course work.,20,transferable,21
 5,This subject is worth one GCSE grade.,8,content,8
 5,A significant number of Scalby School students have gone on to study A Level Drama and theatre studies or BTEC level 3 in Acting Studies.,10,logistics,26
 5,"From here, students have been accepted into Drama schools and carved out a career in the Performing Arts or teaching.",48,motivation,22
 5,"Other popular routes have included retail, travel and tourism, marketing, theatre, film, media or any career, which involves meeting people face to face.",40,content,30
 5,Many employers now actively seek those who have studied the arts.,7,motivation,12
-5,"Steve Jobs, founder of Apple, was fond of saying his success was due to his hiring artists and musicians fascinated by technology rather than computer geeks.",31,transferrable,29
-5,"Top talent management agency, The Curve Group, specialising in financial and business services, declares that employees with arts degrees have developed more quickly in their roles from the start and has found them to have discipline, confidence and the ability to accept criticism.",26,transferrable,48
+5,"Steve Jobs, founder of Apple, was fond of saying his success was due to his hiring artists and musicians fascinated by technology rather than computer geeks.",31,transferable,29
+5,"Top talent management agency, The Curve Group, specialising in financial and business services, declares that employees with arts degrees have developed more quickly in their roles from the start and has found them to have discipline, confidence and the ability to accept criticism.",26,transferable,48
 6,BTEC CERTIFICATE IN PERFORMING ARTS Equivalent to one GCSE (120 hours over Year 10 and 11),10,logistics,18
 6,UNIT 1: INDIVIDUAL SHOWCASE (30 hours),28,logistics,9
 6,This is a core unit that is externally marked.,18,logistics,10
@@ -117,21 +117,21 @@ description_id,sentence,cluster,cluster_type,n_tokens
 6,Actors interact with other actors/characters and with the audience and therefore they must be excellent communicators.,47,content,19
 6,This unit is about building your foundations as an actor; it is not just about performance.,40,content,18
 6,WHY TAKE DRAMA?,43,motivation,4
-6,"As well as leading you into areas of performance and Expressive Arts in college, University or Drama School, a Drama qualification will be of great benefit in any career involving team work, team management, presenting, or dealing with the public in any way",45,transferrable,48
+6,"As well as leading you into areas of performance and Expressive Arts in college, University or Drama School, a Drama qualification will be of great benefit in any career involving team work, team management, presenting, or dealing with the public in any way",45,transferable,48
 7,What is GCSE Drama ? •,0,content,6
 7,"A vibrant, lively and enjoyable GCSE.",0,content,8
 7,"Mostly practical, but with written homework, a portfolio and written exam.",6,content,14
 7,Why should I choose Drama? •,43,motivation,7
 7,Because you love drama and have a passion for creating interesting and thought provoking pieces of theatre. •,43,motivation,19
 7,You are interested in a career in technical theatre production. •,36,motivation,12
-7,You want to improve your confidence and communication skills.,31,transferrable,10
+7,You want to improve your confidence and communication skills.,31,transferable,10
 7,These are important transferable skills in any sector.,30,motivation,9
-7,What will I do in Drama? •,44,transferrable,8
+7,What will I do in Drama? •,44,transferable,8
 7,"You will create a piece of theatre from a stimulus, taking complete ownership over it. •",42,content,18
 7,"You will study scripts from different viewpoints, whether that be actor, director or designer. •",40,content,18
 7,"You will take part in rehearsals, workshops and theatre trips. •",40,content,13
 7,You will live and breathe theatre.,33,content,7
-7,What Coursework will I have to do? •,21,transferrable,9
+7,What Coursework will I have to do? •,21,transferable,9
 7,"A performance created by students in small groups, based on given stimuli.",25,content,14
 7,You will create and then perform your piece in front of an audience.,38,content,14
 7,A portfolio and evaluation will also be completed.,6,content,9
@@ -156,27 +156,27 @@ description_id,sentence,cluster,cluster_type,n_tokens
 8,Exposing pupils to great practitioners and works from a diverse range of styles and genres. •,25,content,17
 8,"Placing a focus on performance of a different range of plays and stages, giving pupils the opportunity to explore drama •",48,motivation,22
 8,"Offering pupils the chance to be creative and imaginative through opportunities involving performance, presentation, directing and script writing. •",25,content,22
-8,"Building a space for challenging and thoughtful discussions and debate, allowing pupils to explore different viewpoints and perspectives. •",23,transferrable,21
+8,"Building a space for challenging and thoughtful discussions and debate, allowing pupils to explore different viewpoints and perspectives. •",23,transferable,21
 8,"Encouraging independent learning and creativity,allowing pupils to have freedom.",25,content,12
 8,BUILD FUTURES BY: •,8,content,5
 8,"Gaining a broad understanding of drama/acting as a vocation, with an insight into careers available in the Arts, theatre, broadcasting and more. •",35,motivation,29
 8,"Developing skills prized by employers in all sectors such as independence, research and problem-solving skills. •",30,motivation,20
-8,"Boosting your ability to communicate and work as part of a team, with frequent opportunities to work collaboratively in a creative setting. •",31,transferrable,25
-8,"Using creative skills such a ‘script writing’ for learning and creating, equipping pupils with skills of literacy that are extremely valuable to employers and are relevant to many aspects of everyday life.",26,transferrable,37
+8,"Boosting your ability to communicate and work as part of a team, with frequent opportunities to work collaboratively in a creative setting. •",31,transferable,25
+8,"Using creative skills such a ‘script writing’ for learning and creating, equipping pupils with skills of literacy that are extremely valuable to employers and are relevant to many aspects of everyday life.",26,transferable,37
 8,FULL COURSE SPECIFICATION AND DETAILS CAN BE FOUND HERE: BTEC Performing Arts,10,logistics,13
 9,What does GCSE Drama involve?,0,content,6
-9,To study Drama you must have a keen interest in the subject.,45,transferrable,13
-9,Drama involves group work but one of the biggest challenges you will face is the confidence to perform alone and the ability to work independently.,44,transferrable,26
-9,You will need to be resilient and understand it takes hard work and commitment to improve.,31,transferrable,17
+9,To study Drama you must have a keen interest in the subject.,45,transferable,13
+9,Drama involves group work but one of the biggest challenges you will face is the confidence to perform alone and the ability to work independently.,44,transferable,26
+9,You will need to be resilient and understand it takes hard work and commitment to improve.,31,transferable,17
 9,"Lastly creativity is one of the key skills you will need, so don’t be afraid to experiment and make mistakes, this is all part of the learning process.",24,content,32
-9,"Drama is a practical course which allows you to learn and develop performance and devising skills, however 70% of the course is written so you will need to consider this when opting.",45,transferrable,35
+9,"Drama is a practical course which allows you to learn and develop performance and devising skills, however 70% of the course is written so you will need to consider this when opting.",45,transferable,35
 9,"It is open to all students, although some experience of drama is necessary.",48,motivation,15
-9,It is essential that students commit to extra-curricular sessions to rehearse and develop their skills.,23,transferrable,16
-9,"You will often work in groups and develop skills such as, confidence and presentation skills which are transferable to other subjects and areas of life.",31,transferrable,27
+9,It is essential that students commit to extra-curricular sessions to rehearse and develop their skills.,23,transferable,16
+9,"You will often work in groups and develop skills such as, confidence and presentation skills which are transferable to other subjects and areas of life.",31,transferable,27
 9,What will I study?,4,content,5
 9,The course is split into three components:,27,logistics,8
 9,"Performance, Devising and Drama Appreciation.",47,content,7
-9,Devising Drama = 30%,44,transferrable,5
+9,Devising Drama = 30%,44,transferable,5
 9,"You will research and explore a stimulus, working collaboratively to create your own devised piece.",14,logistics,17
 9,Alongside the practical element you also write a portfolio reflecting and evaluating on your process and finished piece.,6,content,19
 9,This unit is broken down in the following way: 20% written portfolio and 10% practical performance.,6,content,20
@@ -192,10 +192,10 @@ description_id,sentence,cluster,cluster_type,n_tokens
 10,This includes two pieces of practical work: one of which is a performance of two extracts from a text and one which is a devised piece from a given stimulus.,14,logistics,32
 10,"Students also have to study a separate set text, ‘Blood Brothers’ by Willy Russell, and will have to watch a live performance of a different play to evaluate for their written examination.",32,content,37
 10,Subject Content: See above.,8,content,6
-10,Teaching and Learning styles involved:,21,transferrable,6
-10,Teacher led study of texts and written technique.,20,transferrable,9
-10,"Practical work in groups, which is essentially student led.",23,transferrable,11
-10,High levels of self-discipline and concentration will be required whilst an ability to work closely with others is essential.,31,transferrable,22
+10,Teaching and Learning styles involved:,21,transferable,6
+10,Teacher led study of texts and written technique.,20,transferable,9
+10,"Practical work in groups, which is essentially student led.",23,transferable,11
+10,High levels of self-discipline and concentration will be required whilst an ability to work closely with others is essential.,31,transferable,22
 10,The devised practical work is internally assessed and externally moderated.,19,logistics,11
 10,"Pupils must produce an accompanying devising log which is either written, recorded, or both.",13,content,17
 10,The devised work overall is out of 80 marks.,16,logistics,10
@@ -204,22 +204,22 @@ description_id,sentence,cluster,cluster_type,n_tokens
 10,Examination Level: Examination Board: AQA GCSE Grades 9-1 Details of exam components:,17,logistics,17
 10,40% Devised Practical Performance including the devising log.,16,logistics,10
 10,20% Text Performance 40% Written Exam – 1 ¾ hour paper Details of coursework components:,11,logistics,18
-10,"Coursework involves learning lines, preparation for performances and the devised work, and the study of a set text.",21,transferrable,21
+10,"Coursework involves learning lines, preparation for performances and the devised work, and the study of a set text.",21,transferable,21
 10,"However, there will be ongoing written practice coursework in preparation for the written exam.",16,logistics,16
-10,"How is ICT used: Students use the internet to research plays, films and literature in order to prepare both their coursework and practical work.",20,transferrable,27
+10,"How is ICT used: Students use the internet to research plays, films and literature in order to prepare both their coursework and practical work.",20,transferable,27
 10,Any special requirements:,30,motivation,4
 10,Students need to understand that they will have to perform on stage in front of live audiences and be able to work successfully within a team.,38,content,27
-10,Excellent attendance is therefore essential.,26,transferrable,6
+10,Excellent attendance is therefore essential.,26,transferable,6
 10,Theatre trips take place throughout the course to see professional work and exam-based plays.,40,content,17
 10,"In addition, there may be an opportunity to attend workshops.",13,content,12
 10,There will be costs involved with these.,8,content,8
 10,What the pupils say: “Year 10 and 11 Drama is very different to KS3.,47,content,17
 10,You need the drive to entertain.”,33,content,8
-10,“It is fun because you work with your friends doing something different from other lessons.’,23,transferrable,18
-10,"‘You are able to be more independent, and work with a like-minded group who also want to do well.",31,transferrable,24
+10,“It is fun because you work with your friends doing something different from other lessons.’,23,transferable,18
+10,"‘You are able to be more independent, and work with a like-minded group who also want to do well.",31,transferable,24
 10,You get to learn from a script and perform to a live audience.,38,content,14
 11,"Qualification Type GCSE Examination Board AQA Students learn to collaborate with others, think analytically and evaluate effectively.",17,logistics,19
-11,"They gain the confidence to pursue their own ideas, reflect and refine their efforts.",31,transferrable,16
+11,"They gain the confidence to pursue their own ideas, reflect and refine their efforts.",31,transferable,16
 11,"Whatever the future holds, students of GCSE Drama emerge with a toolkit of transferable skills, applicable both in further studies and in the workplace.",0,content,27
 11,"What is the course like and what will be studied Students will explore Drama and theatre as a practical art form in which ideas and meaning are communicated to an audience through choices of form, style and convention.",39,content,40
 11,"Students will create, perform and respond to Drama informed by their theoretical knowledge of drama and theatre.",48,motivation,19
@@ -236,7 +236,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 11,"{""https://www.clrchs.co.uk/"",""BTEC",10,logistics,4
 11,"Arts is about learning how the dramatic process works, how to use dramatic technique to explore themes and issues and a playwright’s intention.",39,content,26
 11,It is also about how to create a character and perform using a variety of styles and genres.,37,motivation,19
-11,Students will explore a various script and devising techniques throughout the course.,20,transferrable,13
+11,Students will explore a various script and devising techniques throughout the course.,20,transferable,13
 11,Students will be assessed on 3 units:,19,logistics,8
 11,Unit 1: Exploring the Performing Arts ( internally assessed),22,content,11
 11,Unit 2: Developing Skills and Techniques for Performance (internally assessed),8,content,13
@@ -264,9 +264,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 12,"A Dedicated Dance Studio with a sprung wooden floor , mirrors, visual/ audio equipment and resource cupboard Fully resourced Music department, with independent practice rooms and a wide range of instrumental classes available.",22,content,37
 12,We go on theatre trips with every exam course to provide applied learning experiences.,40,content,15
 12,"We have a rich and dynamic extra-curricular programme for all students (i.e. Musical, Drama Club, school productions, Touring Theatre Company and showcases).",39,content,28
-12,We have something for everyone.,26,transferrable,6
+12,We have something for everyone.,26,transferable,6
 12,"Drama encourages students to develop critical thinking skills, and become effective and independent learners.",48,motivation,16
-12,"There is a strong focus on working imaginatively, collaborating creatively and communicating effectively.",31,transferrable,15
+12,"There is a strong focus on working imaginatively, collaborating creatively and communicating effectively.",31,transferable,15
 12,"Students study all aspects of Drama and Theatre studies including devising, directing, and performing through practical and written work.",48,motivation,22
 12,"The departments offers extra curricular opportunities including a weekly drama club leading to involvement in the annual drama showcase (where students can also perform their GCSE and A-Level work), the school musical and theatre trips.",39,content,41
 12,The department has educational links to the college and university to provide workshops.,13,content,14
@@ -274,7 +274,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 12,GCSE Drama provides a solid foundation for further Drama studies and vocational opportunities.,0,content,14
 12,Students who have study Drama at GCSE have the opportunity to continue to study Drama and Theatre studies as an A level in 6th form.,0,content,26
 12,"A-Level – 100% pass rate for many years.Students have continued to study Drama and Theatre studies at university and gain scholarships for acting schools (Bristol, Leicester and ALRA).""}, {""http://www.budehaven.cornwall.sch.uk/"",""We believe that Drama is a vital and defining cultural art form.",35,motivation,56
-12,"Throughout time, human beings have enacted events in order to help us make sense of the complex world we live in.",31,transferrable,23
+12,"Throughout time, human beings have enacted events in order to help us make sense of the complex world we live in.",31,transferable,23
 12,We structure lessons that strike a balance between exploring process drama (learning by imagined experience) and product or skills based drama – the craft of theatre making.,47,content,30
 12,We develop schemes of work that provoke engagement and enthusiasm through our choice of theme and topic and apply early in our teaching the principles and assessment criteria that the exam boards recognise.,22,content,34
 12,"Our lessons typically start with a starter or warm up, an introduction to the stimulus, a focusing convention or strategy that frames the whole group or small group work and an opportunity to create, perform and evaluate in a welcoming, safe and supportive studio environment.""}, {""https://www.aldercarhigh.co.uk/curriculum/"",""Do you have a passion for performance?",25,content,65
@@ -324,15 +324,15 @@ description_id,sentence,cluster,cluster_type,n_tokens
 12,Exam Board: AQA Subject Leader: Ms Alonge,17,logistics,9
 12,What is the subject about?,8,content,6
 12,"Drama GCSE is an opportunity for young people to explore challenging themes, topics and issues through performance.",0,content,19
-12,It allows students to grow in public speaking and builds effective team work over time.,23,transferrable,16
+12,It allows students to grow in public speaking and builds effective team work over time.,23,transferable,16
 12,During the course students will be expected to study a variety of plays and explore a wide range of different theatre styles.,39,content,23
 12,During the course students will be expected to write theatre reviews and keep an extended diary of their practical work each lesson.,39,content,23
 12,This is used as a reflection to develop exam knowledge.,17,logistics,11
 12,"Drama GCSE will help to develop practical skills, enhance imagination and explore creativity.",0,content,15
 12,Students will devise performances from topics or ideas suggested by the teacher or by the students themselves.,25,content,18
 12,Where will this qualification take me?,30,motivation,7
-12,"Students will develop a multitude of skills, including collaboration, communication and an understanding of how to amend and refine work in order to make a smooth transition to the next level of study.",23,transferrable,36
-12,Drama will give you the skills to present yourself in any type of business or organisation you choose.,44,transferrable,19
+12,"Students will develop a multitude of skills, including collaboration, communication and an understanding of how to amend and refine work in order to make a smooth transition to the next level of study.",23,transferable,36
+12,Drama will give you the skills to present yourself in any type of business or organisation you choose.,44,transferable,19
 12,"Candidates who study Drama go on to work in a range of jobs and careers from acting, stage and screen, to business and leadership.",35,motivation,27
 12,Roles involving writing plays are also possible.,35,motivation,8
 12,Component 1: Understanding Drama (40%) Practical exploration and study of one set text and one live theatre review •,34,content,23
@@ -349,13 +349,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 12,Arts is our second assessment which will be a combination of coursework and practical work. •,22,content,17
 12,"Component 3: Performing to a Brief is our third and final assessment which takes place in three areas; performance, coursework and a controlled assessment.",5,content,28
 12,Preparing for Success in Performing Arts,24,content,6
-12,To be successful students must be organised and manage their time well as there will be a number of deadlines to meet throughout the course.,21,transferrable,26
+12,To be successful students must be organised and manage their time well as there will be a number of deadlines to meet throughout the course.,21,transferable,26
 12,Students should also be willing to share their creative ideas as well as listen and respond to the suggestions made by others.,25,content,23
-12,It is vital that they are supportive of their peers and are ready to build new relationships and work closely with others. •,31,transferrable,24
+12,It is vital that they are supportive of their peers and are ready to build new relationships and work closely with others. •,31,transferable,24
 12,Component 1: Developing Skills and Techniques in the Performing Arts- 30%,22,content,14
 12,The entire process will be documented through analytical and evaluative coursework. •,19,logistics,13
 12,Component 2: Exploring the Performing Arts- 30%,22,content,10
-12,This is a practical exploration of different performance styles and industry jobs chronicled through coursework culminating in an assessed presentation of your findings. •,26,transferrable,25
+12,This is a practical exploration of different performance styles and industry jobs chronicled through coursework culminating in an assessed presentation of your findings. •,26,transferable,25
 12,Component 3: Performing to a Brief- 40%,5,content,10
 12,An externally set task where you will work in groups of 3-7 to create a performance based on a set brief.,14,logistics,24
 12,"Assessment is based on coursework, performance and an evaluative report written under controlled conditions.",19,logistics,16
@@ -364,7 +364,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 12,"Or students might want to find work in teaching, performing arts or as an apprentice or a trainee.",7,motivation,20
 13,"BTEC Level 2 Performing Arts is about learning how the dramatic process works, how to use dramatic technique to explore themes and issues and a playwright’s intention.",10,logistics,30
 13,It is also about how to create a character and perform using a variety of styles and genres.,37,motivation,19
-13,Students will explore a various script and devising techniques throughout the course.,20,transferrable,13
+13,Students will explore a various script and devising techniques throughout the course.,20,transferable,13
 13,Students will be assessed on 3 units:,19,logistics,8
 13,Unit 1: Exploring the Performing Arts ( internally assessed),22,content,11
 13,Unit 2: Developing Skills and Techniques for Performance (internally assessed),8,content,13
@@ -391,7 +391,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 15,Written examination on your practical exploration and study of one performance text (An Inspector Calls) and a live theatre evaluation (this year students had the opportunity to see ‘The Curious Incident of the Dog in the Night-Time in London’s West End).,33,content,50
 15,Assessment: Component 1: 40% of the qualification 60 marks Component 2: 20% of the qualification 48 marks Component 3: 40% of the qualification 60 marks,17,logistics,32
 16,We believe that Drama is a vital and defining cultural art form.,47,content,13
-16,"Throughout time, human beings have enacted events in order to help us make sense of the complex world we live in.",31,transferrable,23
+16,"Throughout time, human beings have enacted events in order to help us make sense of the complex world we live in.",31,transferable,23
 16,We structure lessons that strike a balance between exploring process drama (learning by imagined experience) and product or skills based drama – the craft of theatre making.,47,content,30
 16,We develop schemes of work that provoke engagement and enthusiasm through our choice of theme and topic and apply early in our teaching the principles and assessment criteria that the exam boards recognise.,22,content,34
 16,"Our lessons typically start with a starter or warm up, an introduction to the stimulus, a focusing convention or strategy that frames the whole group or small group work and an opportunity to create, perform and evaluate in a welcoming, safe and supportive studio environment.",25,content,50
@@ -443,15 +443,15 @@ description_id,sentence,cluster,cluster_type,n_tokens
 21,AQA Subject Leader: Ms Alonge,18,logistics,6
 21,What is the subject about?,8,content,6
 21,"Drama GCSE is an opportunity for young people to explore challenging themes, topics and issues through performance.",0,content,19
-21,It allows students to grow in public speaking and builds effective team work over time.,23,transferrable,16
+21,It allows students to grow in public speaking and builds effective team work over time.,23,transferable,16
 21,During the course students will be expected to study a variety of plays and explore a wide range of different theatre styles.,39,content,23
 21,During the course students will be expected to write theatre reviews and keep an extended diary of their practical work each lesson.,39,content,23
 21,This is used as a reflection to develop exam knowledge.,17,logistics,11
 21,"Drama GCSE will help to develop practical skills, enhance imagination and explore creativity.",0,content,15
 21,Students will devise performances from topics or ideas suggested by the teacher or by the students themselves.,25,content,18
 21,Where will this qualification take me?,30,motivation,7
-21,"Students will develop a multitude of skills, including collaboration, communication and an understanding of how to amend and refine work in order to make a smooth transition to the next level of study.",23,transferrable,36
-21,Drama will give you the skills to present yourself in any type of business or organisation you choose.,44,transferrable,19
+21,"Students will develop a multitude of skills, including collaboration, communication and an understanding of how to amend and refine work in order to make a smooth transition to the next level of study.",23,transferable,36
+21,Drama will give you the skills to present yourself in any type of business or organisation you choose.,44,transferable,19
 21,"Candidates who study Drama go on to work in a range of jobs and careers from acting, stage and screen, to business and leadership.",35,motivation,27
 21,Roles involving writing plays are also possible.,39,content,8
 21,Component 1: Understanding Drama (40%) Practical exploration and study of one set text and one live theatre review •,34,content,23
@@ -467,13 +467,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 22,Arts is our second assessment which will be a combination of coursework and practical work. •,22,content,17
 22,"Component 3: Performing to a Brief is our third and final assessment which takes place in three areas; performance, coursework and a controlled assessment.",5,content,28
 22,Preparing for Success in Performing Arts,24,content,6
-22,To be successful students must be organised and manage their time well as there will be a number of deadlines to meet throughout the course.,21,transferrable,26
+22,To be successful students must be organised and manage their time well as there will be a number of deadlines to meet throughout the course.,21,transferable,26
 22,Students should also be willing to share their creative ideas as well as listen and respond to the suggestions made by others.,25,content,23
-22,It is vital that they are supportive of their peers and are ready to build new relationships and work closely with others. •,31,transferrable,24
+22,It is vital that they are supportive of their peers and are ready to build new relationships and work closely with others. •,31,transferable,24
 22,Component 1: Developing Skills and Techniques in the Performing Arts- 30%,22,content,14
 22,The entire process will be documented through analytical and evaluative coursework. •,19,logistics,13
 22,Component 2: Exploring the Performing Arts- 30%,22,content,10
-22,This is a practical exploration of different performance styles and industry jobs chronicled through coursework culminating in an assessed presentation of your findings. •,20,transferrable,25
+22,This is a practical exploration of different performance styles and industry jobs chronicled through coursework culminating in an assessed presentation of your findings. •,20,transferable,25
 22,Component 3: Performing to a Brief- 40%,5,content,10
 22,An externally set task where you will work in groups of 3-7 to create a performance based on a set brief.,14,logistics,24
 22,"Assessment is based on coursework, performance and an evaluative report written under controlled conditions.",19,logistics,16
@@ -485,16 +485,16 @@ description_id,sentence,cluster,cluster_type,n_tokens
 23,You will learn how to use different drama mediums within your performance such as music and physical theatre.,46,content,19
 23,Studying Drama and Theatre Arts allows students to go on to study the subject at A-Level or as part of a BTEC in Performing Arts and then perhaps on to degree level.,35,motivation,35
 23,It can also help if you decide to continue into working in technical theatre or dance and music.,7,motivation,19
-23,"Even if you decide you don’t want to continue studying the subject, Drama will help build your confidence and ensure that your skills in teamwork are well developed.",45,transferrable,31
+23,"Even if you decide you don’t want to continue studying the subject, Drama will help build your confidence and ensure that your skills in teamwork are well developed.",45,transferable,31
 23,This could help in careers such as law or government.,7,motivation,11
 23,Students will expect to develop a range of skills by studying CAPA such as: Working as a professional theatre company Creating and performing pieces in regular showcases.,38,content,29
 23,"Producing rehearsal diaries, in-depth self-evaluations and working independently.",25,content,14
 24,What will I be studying?,4,content,6
 24,"Year 1 Acting: Performing texts Context: Understanding exactly how dialogue and conversation works, how this is reflected in good dramatic writing and how an actor ‘lifts’ such speech ‘off the page’ is important for those wishing to work in the theatre or as performers more widely.",46,content,54
-24,"The ability to sight read competently and bring dialogue to life is essential for most television, film, radio, voice over and commercial work.",31,transferrable,27
+24,"The ability to sight read competently and bring dialogue to life is essential for most television, film, radio, voice over and commercial work.",31,transferable,27
 24,To develop the skills necessary for analysing a piece of dialogue in dramatic writing and to be able to perform it appropriately.,46,content,23
-24,"To give learners practical experience in these skills, using both modern and classic texts.",20,transferrable,16
-24,The purpose of this unit is to enable learners to develop the skills to perform text appropriately.,20,transferrable,18
+24,"To give learners practical experience in these skills, using both modern and classic texts.",20,transferable,16
+24,The purpose of this unit is to enable learners to develop the skills to perform text appropriately.,20,transferable,18
 24,Year 2 Live performance Context:,40,content,6
 24,Any aspiring professional performer will need to learn a variety of performance skills to perform in a way that will meet the expectations of their audience and also accurately represent them as performers.,24,content,34
 24,"Beyond just performing effectively, performers need to think about the other performers, technical crew, performance, equipment, the expectations of the audience, quality and variety in the set and the practice and rehearsal schedule it takes to get to the final performance itself.",24,content,49
@@ -507,13 +507,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 24,Career pathways in performing and directing theatre.,36,motivation,8
 24,Student experience visits from guest speakers and professional practitioners who deliver workshops from a range of cultures and backgrounds.,13,content,20
 24,"Employability skills – Developing skills in research, recall and evaluation in order to refine and improve their practice.",30,motivation,20
-24,Building confidence for independent learning and how to set and meet targets in a timely manner.,23,transferrable,17
+24,Building confidence for independent learning and how to set and meet targets in a timely manner.,23,transferable,17
 24,Year 10 RSL Acting: Careers –,36,motivation,7
 24,Career pathways in performing and directing theatre.,36,motivation,8
 24,Student experience visits from guest speakers and professional practitioners who deliver workshops.,13,content,13
 24,Student are offered the opportunity to see live theatre and experience a range of cultures beyond Halifax.,40,content,18
 24,"Employability skills – Equipping students with the knowledge to make decisions and justify choices, to be able to make mistakes and learn from them using a professional approach.",30,motivation,30
-24,Developing team work skills and learning about how respond to others behaviour when contributing to a wider common goal.,31,transferrable,20
+24,Developing team work skills and learning about how respond to others behaviour when contributing to a wider common goal.,31,transferable,20
 24,In Performing Arts we open up opportunities to gain knowledge of types of employment and build upon useful IT and project management skills for future careers.,7,motivation,27
 24,How will I be assessed?,1,logistics,6
 24,"Two units of study, one internal and one externally assessed 50% each unit, 20 credits are required in total for level 2 Each unit is assessed on their creating, performing and evaluating skills in context to the style.",19,logistics,43
@@ -528,7 +528,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 25,"The aim of the course is to develop students’ ability to create, perform and respond to drama.",48,motivation,20
 25,"In addition, students will explore performance texts and seek to understand their social, cultural and historical contexts.",6,content,20
 25,"Throughout the two years, students will develop a range of theatrical skills and apply them to theatrical performance.",38,content,20
-25,Confidence in performance and communication are essential skills for this course.,21,transferrable,12
+25,Confidence in performance and communication are essential skills for this course.,21,transferable,12
 25,Grades Available 1 - 9 Outline of the Course Devising Drama: Students will be given a stimulus from which they must create a piece of drama.,48,motivation,28
 25,Students will create a portfolio to accompany the creative processes of this unit.,6,content,14
 25,"Performance from text: Students will be given two extracts from a text which will be performed to, and externally marked by, a visiting examiner.",14,logistics,28
@@ -548,15 +548,15 @@ description_id,sentence,cluster,cluster_type,n_tokens
 25,"Further Study Drama offer a clear route into further and higher education for drama, performance and English- related courses.",48,motivation,22
 25,"Career opportunities are numerous, for example, acting, presenting, stage managing, drama therapy and directing.",36,motivation,20
 25,"In addition, students develop skills which support other further/higher education courses and career pathways.",30,motivation,18
-25,"These include the ability to collaborate with others, think analytically and evaluate effectively",31,transferrable,14
+25,"These include the ability to collaborate with others, think analytically and evaluate effectively",31,transferable,14
 26,Performing Arts: Drama AQA: GCSE Drama Course Outline YOU WILL DO WELL ON THIS COURSE IF...,0,content,19
 26,You apply a range of theatrical and dramatic techniques and skills to your own work.,46,content,16
-26,You apply Health and Safety rules to your preparation and practice.,21,transferrable,12
-26,You are a critical yet constructive audience to the work of others.,26,transferrable,13
-26,You are a positive and enthusiastic member of an ensemble and keep up to date with work.,26,transferrable,18
-26,Your attendance and commitment are exemplary.,26,transferrable,7
-26,We need you to show commitment and positivity at all times!,26,transferrable,12
-26,You will not do well if you are absent frequently and are not prepared to work hard and generously with others.,26,transferrable,22
+26,You apply Health and Safety rules to your preparation and practice.,21,transferable,12
+26,You are a critical yet constructive audience to the work of others.,26,transferable,13
+26,You are a positive and enthusiastic member of an ensemble and keep up to date with work.,26,transferable,18
+26,Your attendance and commitment are exemplary.,26,transferable,7
+26,We need you to show commitment and positivity at all times!,26,transferable,12
+26,You will not do well if you are absent frequently and are not prepared to work hard and generously with others.,26,transferable,22
 26,HOW IS THE COURSE ASSESSED?,19,logistics,6
 26,It is assessed both theoretically and practically with students taking part in Performances as well as completing a Written Exam at the end of Year 11.,19,logistics,27
 26,The course is delivered in 3 components:,27,logistics,8
@@ -587,11 +587,11 @@ description_id,sentence,cluster,cluster_type,n_tokens
 27,Section B: Live Theatre Evaluation ●,33,content,7
 27,This section consists of two questions requiring students to analyse and evaluate a live theatre performance they have seen.,33,content,20
 27,Why choose this subject?,8,content,5
-27,You will enjoy this course if you want to study a subject that is both practical and creative.,21,transferrable,19
+27,You will enjoy this course if you want to study a subject that is both practical and creative.,21,transferable,19
 27, GCSE Drama follows on from drama work that you will have done already in Drama in Years 7-8.,0,content,22
 27,You will develop your improvisation and acting skills to a higher level.,37,motivation,13
 27,You will look at plays in more detail and look at different ways of bringing a script alive on stage.,42,content,21
-27,You get to explore different themes and issues through empathising with different opinions and viewpoints.,20,transferrable,16
+27,You get to explore different themes and issues through empathising with different opinions and viewpoints.,20,transferable,16
 27,You will get the opportunity to go on some theatre trips to extend your learning.,40,content,16
 27,What can you do next with this subject?,8,content,9
 27,You may wish to study Drama and Theatre Arts in more depth at A Level or a Level 3 Diploma in Performing Arts.,10,logistics,24
@@ -604,13 +604,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 28,Will it help me get a job?,13,content,8
 28,Some people may be of the opinion that you don’t need drama for a particular job but it does relate to all of them!,43,motivation,26
 28,"As well as learning about drama, students will also develop their personal and social skills.",48,motivation,17
-28,This includes;  confidence  team working skills  presentation skills  communication skills  confidence  team working skills  presentation skills  communication skills,31,transferrable,27
+28,This includes;  confidence  team working skills  presentation skills  communication skills  confidence  team working skills  presentation skills  communication skills,31,transferable,27
 28,These are all really desirable skills that an employer will look for in their employee.,30,motivation,16
 28,It also looks really good on your CV which is the first point of contact when applying for jobs.,13,content,20
 28,The above skills are essential in any job.,30,motivation,9
 28,How will I be assessed?,1,logistics,6
 28,You will explore a stimulus provided by the exam board.,2,logistics,11
-28,You will work in groups to create your own devised drama based on your exploration.,44,transferrable,16
+28,You will work in groups to create your own devised drama based on your exploration.,44,transferable,16
 28,You will work as a performer creating a portfolio and a final performance.,6,content,14
 28,Non- examined assessment 30% 20% Portfolio 10% Performance Presenting and Performing Texts,6,content,16
 28,You will explore a text and perform two scenes to a Visiting Examiner.,12,logistics,14
@@ -654,9 +654,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 30,Component 3 - Interpreting,9,logistics,4
 30,"You will complete a written examination based on a set text studied and an evaluation of one live theatre production, seen during the course.",33,content,26
 30,How will I learn?,4,content,5
-30,"You will learn on the course through practical exploration of set texts and stimuli, along with chosen scripts.",20,transferrable,20
+30,"You will learn on the course through practical exploration of set texts and stimuli, along with chosen scripts.",20,transferable,20
 30,This will be within workshops and rehearsals which then develop into final performances to invited audiences.,40,content,17
-30,"The course requires you to work in groups, use your own initiative and demonstrate discipline thorough-out rehearsals.",21,transferrable,21
+30,"The course requires you to work in groups, use your own initiative and demonstrate discipline thorough-out rehearsals.",21,transferable,21
 30,What homework can I expect?,17,logistics,6
 30,You will be expected to participate within research based on the performance/play being studied along with learning lines and performance preparation.,25,content,24
 30,"You will also be required to complete written evaluations of practical work, live theatre reviews and written questions linked to set texts.",33,content,24
@@ -672,16 +672,16 @@ description_id,sentence,cluster,cluster_type,n_tokens
 31,The course requires students to work in a group to devise and create an original performance in the style of a theatre practitioner or genre they study in Year 10.,38,content,31
 31,"The second element of the course requires students to prepare an extract of a published play (again, working in a group), and perform this to a visiting examiner during Year 11.",33,content,36
 31,"The third and final aspect of the course is to sit a written exam focussing on a set text they have studied and explored practically throughout the two year course,as well as evaluate a live theatre performance they have seen throughout the course.",33,content,46
-32,Why study Drama?,45,transferrable,4
-32,You should study Drama if you enjoy: •,45,transferrable,9
-32,participating in group work and leading others •,26,transferrable,8
-32,having the opportunity to be creative and imaginative in devising your own work •,31,transferrable,14
+32,Why study Drama?,45,transferable,4
+32,You should study Drama if you enjoy: •,45,transferable,9
+32,participating in group work and leading others •,26,transferable,8
+32,having the opportunity to be creative and imaginative in devising your own work •,31,transferable,14
 32,exploring a variety of plays.,33,content,6
 32,"You will gain a good knowledge and understanding of different practitioners, styles of drama and drama techniques, exploring how they are effective in performance.",47,content,27
 32,The course will cover,29,content,4
 32,"The forms, styles, and contexts of drama and you will learn to work collaboratively to develop ideas, to express feelings, to experiment with technical elements and to reflect on your own and others’ performances.",47,content,40
 32,The course provides opportunities for you to attend professional performances and to develop your skills as informed and thoughtful audience members.,39,content,22
-32,You will be given opportunities to participate in and interpret your own and others’ drama.,44,transferrable,17
+32,You will be given opportunities to participate in and interpret your own and others’ drama.,44,transferable,17
 32,"It promotes your involvement in and enjoyment of drama as performers, devisers, directors and designers.",47,content,18
 32,"You can opt for this subject as an Acting candidate, but also a Design candidate where you can specialise in either lighting, sound or costume design.",37,motivation,29
 32,School contact Miss Hadley Exam board OCR Subject code J316 Qualification number 601/8975/7 Component Weighting Duration 1 Devised performance 30% Performance 2 Presenting and performing text 30% Performance 3 Performance and response 40% 1 hour 30 mins,16,logistics,40
@@ -691,11 +691,11 @@ description_id,sentence,cluster,cluster_type,n_tokens
 33,"Students will have opportunity to develop their acting skills, as well as explore puppetry, mask work and theatre production.",38,content,22
 33,"All students will be required to act throughout the length of the GCSE, and whilst there will be some elements of production and design (lighting & sound) this will not form a main focus.",0,content,38
 33,Is Drama for you?,43,motivation,5
-33,The course will demand that students are organised individuals who understand the requirement to learn lines alongside completing set homework tasks.,21,transferrable,22
+33,The course will demand that students are organised individuals who understand the requirement to learn lines alongside completing set homework tasks.,21,transferable,22
 33,"Whilst it will not be every week, students will be expected to attend rehearsals out of the usual school day as per a set timetable as deadlines and examinations approach.",40,content,32
-33,"Students will develop problem solving skills, the ability to think on the spot, and challenge their interpersonal skills.",23,transferrable,21
+33,"Students will develop problem solving skills, the ability to think on the spot, and challenge their interpersonal skills.",23,transferable,21
 33,"Opting for Drama will require students to be a team player with a want to contribute ideas, lead, challenge and develop.",48,motivation,24
-34,Why study Drama?,45,transferrable,4
+34,Why study Drama?,45,transferable,4
 34,"GCSE Drama will allow pupils to explore a range of drama as a practical art form, allowing pupils to create their own drama performances, study plays and evaluate the work of others.",0,content,35
 34,As well as developing confidence and knowledge you will also cultivate the following skills: * Acting skills * How to make informed artistic choices * Drama techniques and terminology *,37,motivation,31
 34,How to create and develop drama * Group work and collaboration skills * How to evaluate the work of others * Understand the dramatic potential of the text * Time management and problem-solving skills,48,motivation,36
@@ -710,13 +710,13 @@ description_id,sentence,cluster,cluster_type,n_tokens
 34,1 hour 45 minutes •,12,logistics,5
 34,Practical exploration and study of one complete performance text. •,14,logistics,11
 34,Live theatre evaluation – free choice of production.,33,content,9
-34,How can your parents/ carers help you with this course?,21,transferrable,12
+34,How can your parents/ carers help you with this course?,21,transferable,12
 34,Taking you see live theatre as much as possible!,33,content,10
 34,"Exam board, specification and level of qualification Pearson Edexcel Level 1/Level 2 GCSE (9 - 1) in Drama (1DR0) Who is the contact in school for more information?",0,content,36
 35,What is included in the course?,29,content,7
 35,The BTEC Acting course is a very practical course that explores the skills of an actor.,10,logistics,17
 35,You will train as an actor and participate in lots of staged performances to different audiences.,37,motivation,17
-35,The course relies heavily on you working and co-operating as part of a team as you will be staging a range of performances in groups including all the technical aspects of putting on a performance.,21,transferrable,36
+35,The course relies heavily on you working and co-operating as part of a team as you will be staging a range of performances in groups including all the technical aspects of putting on a performance.,21,transferable,36
 35,The course consists of 3 components which are split up over the three years.,27,logistics,15
 35,They cover the following areas: •,8,content,7
 35,Exploring the Performing Arts industry •,22,content,6
@@ -738,9 +738,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 35,Level 2 Distinction - 7 •,18,logistics,6
 35,Level 2 Distinction* - 8/9 Possible next steps Students wanting to progress further with Acting Skills can go on to Level 3 or A Level course at college.,36,motivation,32
 35,Then go on to study a BA Hons Degree in Acting/Drama at University.,35,motivation,16
-35,Skills Developed • Confidence •,31,transferrable,5
+35,Skills Developed • Confidence •,31,transferable,5
 35,Working from a Stimulus •,14,logistics,5
-35,Ability to realise ideas •,31,transferrable,5
+35,Ability to realise ideas •,31,transferable,5
 35,Independence Career Opportunities •,7,motivation,4
 35,Actor - TV Film •,36,motivation,5
 35,Actor - Theatre Performer •,37,motivation,5
@@ -775,29 +775,29 @@ description_id,sentence,cluster,cluster_type,n_tokens
 37,They will be assessed on acting or design.,40,content,9
 37,A 90-minute written examination.,12,logistics,7
 37,Section A: Students answer a series of questions on the 1989 play Hard to Swallow by Mark Wheeler.,32,content,20
-37,"In preparation, learners will explore the text practically as a performer, designer and director.",20,transferrable,17
+37,"In preparation, learners will explore the text practically as a performer, designer and director.",20,transferable,17
 37,"Section B: Learners answer one question, from a choice of two, requiring analysis and evaluation of a given aspect of a live theatre production seen during the course.",33,content,32
-37,"Skills and knowledge you will need Drama is about creativity, communication and cooperation.",44,transferrable,15
+37,"Skills and knowledge you will need Drama is about creativity, communication and cooperation.",44,transferable,15
 37,It is a collaborative art form and throughout the course students will be required to create work as a team.,25,content,21
 37,"Public performance is a requirement of the course, and all students will have an assessed performance every term.",19,logistics,20
-37,"Drama develops your evaluative and analytical skills, encourages you to take risks and think beyond yourself, exploring a wide variety of contexts.",44,transferrable,25
+37,"Drama develops your evaluative and analytical skills, encourages you to take risks and think beyond yourself, exploring a wide variety of contexts.",44,transferable,25
 37,Assessment Drama is assessed both practically and theoretically: •,34,content,10
 37,Devising Theatre (40% of GCSE) •,0,content,9
 37,Performing from a Text (20% of GCSE) •,11,logistics,11
 37,Interpreting Theatre (40% of GCSE) 90-minute written examination Progression GCSE Drama is perfect preparation for A Level Drama and Theatre Studies; Vocational A Level in Performing Arts; BTEC National Certificate or Diploma in Performing Arts; Performance Design and Technology.,0,content,48
-37,"Drama is also ideal preparation for any other A Level course that requires textual analysis, evaluation and interpretation of source material.",45,transferrable,23
+37,"Drama is also ideal preparation for any other A Level course that requires textual analysis, evaluation and interpretation of source material.",45,transferable,23
 37,Specification Awarding body and Specification Number: Eduqas (601/8420/6,17,logistics,12
 38,The course is suitable for students with a genuine interest in drama and theatre.,39,content,15
-38,You must enjoy group work and have excellent punctuality and attendance.,26,transferrable,12
+38,You must enjoy group work and have excellent punctuality and attendance.,26,transferable,12
 38,Drama students should enjoy the challenge of practical drama work and be interested in learning about technical and design aspect of theatre.,48,motivation,23
-38,"You will learn to write reflectively, analytically and creatively.",20,transferrable,11
+38,"You will learn to write reflectively, analytically and creatively.",20,transferable,11
 38,"You should be self-motivated and able to carry out independent research, complete detailed notes on practical sessions, homework and coursework tasks set, as well as organise and run rehearsals out of lessons.",25,content,38
-38,Will I enjoy the course?,21,transferrable,6
-38,You will enjoy this course if you are prepared to work hard and you want to study a subject that is both practical and creative.,21,transferrable,26
+38,Will I enjoy the course?,21,transferable,6
+38,You will enjoy this course if you are prepared to work hard and you want to study a subject that is both practical and creative.,21,transferable,26
 38,You may have done some acting before or helped out backstage on a production.,37,motivation,15
 38,"You may have always wanted to have a go directing a play, performing, making costumes, building a set or operating the lights but never had the chance.",41,content,31
-38,You will enjoy this course if you enjoy working as part of a team as drama involves a lot of group work.,45,transferrable,23
-38,"But be warned, it is not a soft option!",20,transferrable,11
+38,You will enjoy this course if you enjoy working as part of a team as drama involves a lot of group work.,45,transferable,23
+38,"But be warned, it is not a soft option!",20,transferable,11
 38,What could I do next with GCSE Drama?,0,content,9
 38,How does it follow on from what I have learned before?,4,content,12
 38,GCSE Drama follows on from drama work that you may have done at Key Stage 3.,0,content,17
@@ -805,8 +805,8 @@ description_id,sentence,cluster,cluster_type,n_tokens
 38,You can pursue theatrical design and technical options if those are your strengths.,36,motivation,14
 38,"You will look at plays in more detail, both in the studio and at the theatre, and look at different ways of bringing a script to life on stage",42,content,31
 38,What about my results?,14,logistics,5
-38,"As well as acquiring the skills involved in creating and performing drama, you will also be able to acquire skills in working with others, problem solving and communication.",44,transferrable,31
-38,You will also find that drama will help you feel more self- confident and prepare you to deal with a range of different situations and people.,44,transferrable,28
+38,"As well as acquiring the skills involved in creating and performing drama, you will also be able to acquire skills in working with others, problem solving and communication.",44,transferable,31
+38,You will also find that drama will help you feel more self- confident and prepare you to deal with a range of different situations and people.,44,transferable,28
 38,What’s in the exam Specification?,17,logistics,7
 38,This exam is taken in the summer of Year 11 Component 1: Devising Theatre Practical work–,33,content,18
 38,Internally assessed 60 marks/40% Learners devise a piece of original theatre in response to a stimulus using either acting or design.,33,content,25
@@ -815,20 +815,20 @@ description_id,sentence,cluster,cluster_type,n_tokens
 38,The written paper comprises three sections: A– Set Text – answer a series of questions related to performance of the set text studied.,14,logistics,26
 38,45 marks B– Live Theatre Review – an analysis and evaluation of a given performance aspect of a production seen.,33,content,22
 38,15 marks 24 There are many things you can go on to do with a GCSE in Drama.,0,content,19
-38,"If you are unsure about what to do next, the best thing to do is to speak to your drama teacher who will know about the choices on offer.",45,transferrable,31
+38,"If you are unsure about what to do next, the best thing to do is to speak to your drama teacher who will know about the choices on offer.",45,transferable,31
 38,"You could go on to take an AS or Advanced GCE in Drama and Theatre Studies, or an Advanced Vocational Certificate of Education in Performing Arts or a BTEC National Certificate or Diploma in Performing Arts.",10,logistics,38
 38,"You may wish to take a GCSE in Drama for its own sake, perhaps to form the basis of a future interest or as part of a range of other subjects.",0,content,33
-38,"You might wish to use some of the skills developed during this course to enhance your career prospects, especially any career that involves meeting people face to face.",21,transferrable,30
-38,The study of drama can help you develop transferable skills you can take into any career or job.,45,transferrable,19
+38,"You might wish to use some of the skills developed during this course to enhance your career prospects, especially any career that involves meeting people face to face.",21,transferable,30
+38,The study of drama can help you develop transferable skills you can take into any career or job.,45,transferable,19
 38,Careers Drama provides you with the widest possible range of transferable skills of any subject.,35,motivation,16
-38,"Drama can equip you for any profession where you need good communication skills, creative thinking, work as part of a team, analytical skills etc.",44,transferrable,28
+38,"Drama can equip you for any profession where you need good communication skills, creative thinking, work as part of a team, analytical skills etc.",44,transferable,28
 38,"Possible careers include: practising law; practising medicine; teaching; performing; directing; theatre administration; theatre design; sound and lighting technician; social worker; therapist; management training; education officer in theatres, art galleries, museums and other public institutions.",36,motivation,49
 38,Specific careers linked with Drama are:,35,motivation,7
 38,"Theatre, TV and film work including performance, make-up, costume, set design, technical professions such as stage management, lighting and sound technicians, directors, producers, radio, multi-media, teaching, Drama Therapy and ANY career that requires good commitment, team work and presentation skill",36,motivation,55
 39,What is it?,18,logistics,4
 39,"GCSE Drama is a highly appealing course due to the diverse range of activities, combining both practical and theoretical approaches to learning.",0,content,24
 39,GCSE Drama enables students to learn and hone a variety of dramatic skills and techniques whilst developing students’ knowledge of key dramatic genres.,0,content,25
-39,"In addition to this, students will be given the opportunity to explore real life in a safe environment, preparing them for the wider world.",20,transferrable,27
+39,"In addition to this, students will be given the opportunity to explore real life in a safe environment, preparing them for the wider world.",20,transferable,27
 39,Why should I take it?,8,content,6
 39,"GCSE Drama nurtures the use of transferable skills such as communication, public speaking, analysis and evaluation, problem-solving and collaboration, research and decision making.",0,content,30
 39,"These are all vital skills for the world of work, regardless of whether you intend to pursue further Drama qualifications or have an ambition to work in the creative industry post GCSEs.",0,content,34
@@ -846,7 +846,7 @@ description_id,sentence,cluster,cluster_type,n_tokens
 39,GCSE Drama is an excellent starting point for further study at A Level and for University degree courses.,0,content,19
 39,"Students of Drama develop creative skills, as well as knowledge and understanding of the Arts thus preparing them to study subjects such as: Performance Studies, Drama and Theatre Studies, Performing Arts, Media Studies, English Language and Literature, Philosophy, Sociology and Psychology, Dance, Music and Art.",48,motivation,56
 39,"The study of GCSE Drama paves the way to a wide range of career possibilities, including those involved in public speaking and presenting, leadership and management, group co-operation and interaction, performing and communicating, teaching and learning, problem solving and investigation, and analysis and evaluation",0,content,51
-40,This course will help you to become a confident performer and designer with the skills you need for a bright and successful future.,21,transferrable,24
+40,This course will help you to become a confident performer and designer with the skills you need for a bright and successful future.,21,transferable,24
 40,"These skills, both theatrical and transferable will help to expand your horizons.",37,motivation,14
 40,As part of the course you will: •,29,content,9
 40,Explore texts practically and work on two text-based performances •,14,logistics,12
@@ -857,21 +857,21 @@ description_id,sentence,cluster,cluster_type,n_tokens
 40,The devising log and devised performance are marked by your teacher and then moderated.,16,logistics,15
 40,‘Texts in Practice’ is marked by an external examiner.,12,logistics,12
 40,"Future Study and Careers: Actor, arts administrator, drama teacher, drama therapist, television production assistant, radio presenter, theatre director, Youth and Community worker, personnel manager, social worker, journalist, marketing manager, charities administrator.",36,motivation,45
-40,Any profession in which confidence and the spoken word are important.,31,transferrable,12
+40,Any profession in which confidence and the spoken word are important.,31,transferable,12
 40,"Whatever the future holds, students of GCSE Drama emerge with a toolkit of transferable skills, applicable both in further studies and in the workplace.",0,content,27
-40,Our Students Say...,23,transferrable,4
-40,"“Drama is not just about acting, you can work backstage as well.”",44,transferrable,16
-40,“It’s fun and you can express your feelings,23,transferrable,10
+40,Our Students Say...,23,transferable,4
+40,"“Drama is not just about acting, you can work backstage as well.”",44,transferable,16
+40,“It’s fun and you can express your feelings,23,transferable,10
 41,What skills will I develop?,30,motivation,6
-41,•Confidence •Team work •Creativity •,31,transferrable,7
-41,How to persuade and argue •,26,transferrable,6
+41,•Confidence •Team work •Creativity •,31,transferable,7
+41,How to persuade and argue •,26,transferable,6
 41,Alternative forms of expression,15,logistics,4
 41,What career opportunities can this subject lead to?,7,motivation,9
 41,"Community and Social Services, business, retail, hotels, restaurants, education, manufacturing, public administration.",8,content,20
 41,"Drama-specific; television and radio, arts administration, backstage, acting, drama therapy, teaching.",35,motivation,18
 41,Three units to be completed 1.,28,logistics,7
 41,Learning about all element of the stage and theatre 2.,42,content,11
-41,Text in practice Course content:,20,transferrable,6
+41,Text in practice Course content:,20,transferable,6
 41,You will learn the following: •,4,content,7
 41,How to create a devised performance?,14,logistics,7
 41,How to work with a script/ text\? •,15,logistics,10
@@ -879,9 +879,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 41,How to analyse live performance?,14,logistics,6
 41,How theatre works and the key elements of the stage?,42,content,11
 41,What attributes will I need to be successful in this subject?,30,motivation,12
-41,•Independent learner •,23,transferrable,4
+41,•Independent learner •,23,transferable,4
 41,Confidence to learn from and reflect upon mistakes •A love of the theatre and acting •,46,content,16
-41,The will to succeed no matter what!,31,transferrable,8
+41,The will to succeed no matter what!,31,transferable,8
 41,What extra support is available ?,8,content,6
 41,•Theatre trips and visiting artists •,40,content,7
 41,After school study support •,28,logistics,5
@@ -895,19 +895,19 @@ description_id,sentence,cluster,cluster_type,n_tokens
 42,"These will be physical theatre, minimal theatre and naturalism  Read and review a variety of play scripts  Visit local and regional theatres to see live performances ",42,content,30
 42,"You will keep an on-going journal of your work which will include notes on characters, form, style, structure and plot etc.",6,content,27
 42,What you’ll study in Year 11:  Respond to an exam brief and devise an original piece of theatre for a specific target audience,33,content,26
-42,"You should opt for this subject if you:  Enjoy drama and want to work with others  Like to work imaginatively and creatively, generating and communicating ideas  Want to perform  Want to develop line learning skills ",44,transferrable,42
+42,"You should opt for this subject if you:  Enjoy drama and want to work with others  Like to work imaginatively and creatively, generating and communicating ideas  Want to perform  Want to develop line learning skills ",44,transferable,42
 42,"Are good at written records – recording the journey that you are involved in  Want to develop a basis for your future role as an active citizen in employment and society in general, as well as for the possible further study of Drama or Performing Arts at A-level  Want to actively engage in the process of dramatic study in order to develop as an effective, independent learner and as a critical and reflective thinker",24,content,80
 42,How learning will be assessed in Year 10: ,28,logistics,10
 42,All research and scripted work will be internally assessed for both practical and written work  Vocal and physical skills will be audited at regular intervals  Teacher observations throughout will be written and work will be filmed  All work is externally verified,38,content,44
 43,Brief Summary of Course Content The AQA GCSE in Drama is a general qualification in Drama as a single arts discipline subject.,0,content,23
 43,"It is a natural progression from the Drama studied within Key Stage 3 and builds on knowledge, understanding and skills previously acquired.",47,content,24
-43,To have a Drama qualification shows an ability to communicate with others and practically present work to a high standard.,44,transferrable,21
-43,Drama is not just acting; it is confidence building through the development of communication skills.,44,transferrable,17
+43,To have a Drama qualification shows an ability to communicate with others and practically present work to a high standard.,44,transferable,21
+43,Drama is not just acting; it is confidence building through the development of communication skills.,44,transferable,17
 43,The skills acquired in this course are not just GCSE specific but life skills that will benefit pupils in any future line of work.,30,motivation,25
 43,The GCSE Drama course is designed for anyone with a keen interest in the theatre.,0,content,16
 43,Many aspects of the theatre are explored and you will have the opportunity to work on a variety of different dramatic styles and topics.,42,content,25
 43,As the course progresses you will have the opportunity to work on improvisations and scripted work in a variety of different forms.,38,content,23
-43,"The course is highly demanding, and it is expected that you are able to rehearse for practical module assessments in your own time.",21,transferrable,25
+43,"The course is highly demanding, and it is expected that you are able to rehearse for practical module assessments in your own time.",21,transferable,25
 43,The Course is split into three components:,27,logistics,8
 43,Component 1 – Written Component 2 – Practical/Written Component 3 – Practical 80 marks = 40% 80 marks = 40% 40 marks = 20% Component 1: Understanding Drama Written Paper – 1 hour 45 minutes,9,logistics,41
 43,What is assessed: •,3,logistics,5
@@ -932,19 +932,19 @@ description_id,sentence,cluster,cluster_type,n_tokens
 43,How it is assessed: Performance of Extract 1 (20 marks) and Extract 2 (20 marks),16,logistics,20
 43,Internally assessed and externally moderated,3,logistics,5
 44,Why choose GCSE Drama?,0,content,5
-44,"The content of the course is designed to allow students to develop their practical, theoretical and analytical skills.",21,transferrable,20
+44,"The content of the course is designed to allow students to develop their practical, theoretical and analytical skills.",21,transferable,20
 44,"The focus of creativity, communication and culture runs through student work at KS3, KS4 and KS5 and their deconstruction of live theatre, devised theatre and published texts strengthens their deeper understanding of the performing arts.",42,content,39
 44,GCSE Drama is not simply about ‘becoming an actor’.,0,content,12
-44,The course has many transferable skills which can be applied to other areas of study and future careers.,21,transferrable,19
+44,The course has many transferable skills which can be applied to other areas of study and future careers.,21,transferable,19
 44,Transferable skills include:,30,motivation,4
 44,"This course provides a strong foundation for courses in Drama, Media, Law and the Performing Arts.",39,content,19
 44,Future career pathways include: Actor/Presenter/Voice Over Drama therapist Television/Theatre Crew Teacher Researcher Playwright Director/Producer Lighting/Sound/Costume Designer Lawyer Drama at KAA  Teachers with a diverse background in theatre and media who have worked professionally.,36,motivation,48
 44, Workshops helping to consolidate practical skills with links to LAMDA.,13,content,12
 44, Frequent theatre trips.,40,content,5
 44,Excellent facilities including a professional theatre.,40,content,7
-44,Creativity Organisational skills Cultural understanding Self-discipline Confidence Time management Research skills Self-awareness Communication skills Team work,31,transferrable,20
+44,Creativity Organisational skills Cultural understanding Self-discipline Confidence Time management Research skills Self-awareness Communication skills Team work,31,transferable,20
 44,"The ability to deal with critique Leadership skills GCSE Drama will help you to develop practical and evaluative skills - whilst gaining an appreciation of drama through performance, devising and critical deconstruction of live theatre.",0,content,37
-44,You will demonstrate your own abilities through practical elements of the course as well as your theory and understanding in the written paper.,21,transferrable,24
+44,You will demonstrate your own abilities through practical elements of the course as well as your theory and understanding in the written paper.,21,transferable,24
 45,"The Eduqas GCSE Drama course allows students to explore the role of an actor or designer through using different styles, devising strategies, and exploration of practical texts.",0,content,30
 45,They will also be expected to analyse live theatre and theoretically understand how to write from the perspective of a director and performer.,33,content,24
 45,What will you study?,4,content,5
@@ -961,9 +961,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 45,Year 11: practical examination –performance/design from a test (20%) Present a performance from a script to a visiting examiner.,12,logistics,27
 45,The approximate date of the exam is within the first 2 weeks back from the Easter holidays Year 11: written examination (40%) This examination is 1 hour 30 minutes and is based on a set text and a review of a live performance.,12,logistics,48
 45,(Shakespeare’s “The Tempest”) Career Ideas/Progression Route:,35,motivation,14
-45,"Drama can be an aid to subjects like English, history or media as it allows students to immerse themselves into texts in a creative and practical way.",45,transferrable,29
-45,"Even though it is a highly practical subject, the theoretically aspect makes up 40% of the subject and allows students to respond analytically to pieces.",21,transferrable,28
-45,"It explores confidence in the use of voice and promotes ‘people skills’ that are vital for every world of work including law, medicine, media, education and business.",31,transferrable,33
+45,"Drama can be an aid to subjects like English, history or media as it allows students to immerse themselves into texts in a creative and practical way.",45,transferable,29
+45,"Even though it is a highly practical subject, the theoretically aspect makes up 40% of the subject and allows students to respond analytically to pieces.",21,transferable,28
+45,"It explores confidence in the use of voice and promotes ‘people skills’ that are vital for every world of work including law, medicine, media, education and business.",31,transferable,33
 45,We have had many students go on to study A level Drama and Theatre Studies and many successful candidates have gone to acting school and university to pursue a performance career,35,motivation,31
 46,The course provides students with the opportunity to develop prior learning whilst exploring drama and developing a love for the theatre.,39,content,22
 46,Learners are able to demonstrate their skills as performers or through technical options.,25,content,14
@@ -971,9 +971,9 @@ description_id,sentence,cluster,cluster_type,n_tokens
 46,"Creative and imaginative powers and the practical skills for communicating and expressing ideas, feelings and meanings in drama •",47,content,20
 46,"Knowledge and understanding of drama within a social, cultural and historical context. •",47,content,15
 46,"Understanding of how plays & ideas relate to their social, historical & cultural context. •",46,content,17
-46,Inter-personal and group working skills •,31,transferrable,6
-46,Creative and performance skills •,31,transferrable,5
-46,Communication and evaluative skills •,31,transferrable,5
+46,Inter-personal and group working skills •,31,transferable,6
+46,Creative and performance skills •,31,transferable,5
+46,Communication and evaluative skills •,31,transferable,5
 46,"A wider understanding of the performing arts, including the technical aspects of sound, lighting, makeup, costume and set design.",24,content,24
 46,What is the Course Content?,29,content,6
 46,The course consists of three units of work especially created to enhance and develop performance and technical skills and prepare the learners for practical examinations.,29,content,26
@@ -989,15 +989,15 @@ description_id,sentence,cluster,cluster_type,n_tokens
 46,This course has one tier of entry and all grades from 1-9 are available •,28,logistics,17
 46,"There is a coursework element to this exam, worth 30% of the final exam grade •",17,logistics,18
 46,Students will sit one written paper that is worth 40% of the final grade.,16,logistics,16
-46,What do our students think?,23,transferrable,6
+46,What do our students think?,23,transferable,6
 46,“I chose drama because I wanted to develop my self- confidence.,43,motivation,14
-46,"I have done that, and more!",26,transferrable,8
-46,I have developed new relationships with people and it’s been a form of release from academic studies” “Drama has really helped with my speech skills and having the confidence to get up in front of people.,44,transferrable,40
+46,"I have done that, and more!",26,transferable,8
+46,I have developed new relationships with people and it’s been a form of release from academic studies” “Drama has really helped with my speech skills and having the confidence to get up in front of people.,44,transferable,40
 46,I now have a real thrill when performing!”,24,content,10
 47,"The course is designed to allow students the opportunity to explore Drama as a practical art form in which ideas and meaning are communicated to an audience through choices of form, style and convention.",39,content,36
 47,"Students will create, perform and respond to Drama, informed by their theoretical knowledge of Drama and Theatre.",48,motivation,20
-47,"They will learn to collaborate with others, think analytically and evaluate effectively.",31,transferrable,14
-47,"They will gain the confidence to pursue their own ideas, reflect and refine their efforts.",31,transferrable,17
+47,"They will learn to collaborate with others, think analytically and evaluate effectively.",31,transferable,14
+47,"They will gain the confidence to pursue their own ideas, reflect and refine their efforts.",31,transferable,17
 47,The course is organised into practical assessments and written coursework.,19,logistics,11
 47,There is a 1 hour 45 minute written examination paper.,12,logistics,11
 47,Component 1 (40%) Understanding Drama (Written Exam) Students will be assessed on their knowledge and understanding of Drama and Theatre.,34,content,26
@@ -1031,5 +1031,5 @@ description_id,sentence,cluster,cluster_type,n_tokens
 48,Students may complete this component as a performer or designer or as a combination of both.,25,content,17
 48,Where can this take me?,4,content,6
 48,"There are many skills you will develop and you will be able to pursue careers in Acting, Drama therapist, Theatre Director, Stage Manager, Teacher, Sound-Engineer, Entertainer and Youth and Community Worker.",36,motivation,40
-48,"This course will allow you to develop life skills such as confidence, empathy and communication skills.",21,transferrable,18
+48,"This course will allow you to develop life skills such as confidence, empathy and communication skills.",21,transferable,18
 48,"This course will prepare you for everyday communication skills, a acting career, A- level Theatre Studies, University or Drama school",39,content,25
