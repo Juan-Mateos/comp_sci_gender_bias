@@ -119,7 +119,7 @@ This will generate boxplots and their underlying data in `outputs/figures/readab
 To split the course descriptions (scraped by Nesta) into sentences, vectorise the sentences and cluster them, run:
 
 ```bash
-python comp_sci_gender_bias/pipeline/sentence_clusters/sentence_clusters.py
+python comp_sci_gender_bias/pipeline/sentence_clusters/create_clusters.py
 ```
 
 This will save three csv files `{subj}_sentence_clusters.csv` to `comp_sci_gender_bis/outputs/sentence_clusters`.
