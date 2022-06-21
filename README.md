@@ -1,6 +1,12 @@
 # Gender Bias in GCSE Options
 
-<img src="https://github.com/nestauk/comp_sci_gender_bias/blob/dev/outputs/figures/girls_entry_percentage/girls_entry_percentage_img.png?raw=true" width="400" />
+<img
+  src="https://github.com/nestauk/comp_sci_gender_bias/blob/dev/outputs/figures/girls_entry_percentage/girls_entry_percentage_img.png?raw=true"
+  width="400"
+  style="display: block;
+         margin-left: auto;
+         margin-right: auto;"
+/>
 
 There is a disparity in the proportion of students choosing to take different subjects at GCSE level according to their gender. Typically, boys are overrepresented in subjects like computer science, while the same is true for girls in subjects like drama. Some subjects, such as geography exhibit a more even split in uptake between boys and girls.
 
