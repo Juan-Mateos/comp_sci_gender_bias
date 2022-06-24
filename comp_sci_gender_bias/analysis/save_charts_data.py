@@ -35,6 +35,10 @@ GROUPED_SUBJECTS = [
     "English & mathematics",
 ]
 
+POS_QUERIES = ["POS == 'Noun'", "POS == 'Verb'", "POS == 'Adj/Adv'"]
+POS_TITLES = ["Nouns", "Verbs", "Adjectives/Adverbs"]
+MGD_SAVE_FN = ["mean_gend_diff_noun", "mean_gend_diff_verb", "mean_gend_diff_adjadv"]
+
 
 def save_single_histplot(
     data: pd.DataFrame,
@@ -347,54 +351,40 @@ if __name__ == "__main__":
     plt.close()
     girls_entry.to_csv(SAVE_FIGS_GIRLS_ENTRY_DIR / "girls_entry_percentage_data.csv")
 
-    mgd_bit = mean_gender_differences("bit")
+    mgd_bit_no_removal = mean_gender_differences("bit", word_removal=None)
+    mgd_bit_crucial_removal = mean_gender_differences("bit", word_removal="crucial")
+    mgd_bit_optional_removal = mean_gender_differences("bit", word_removal="optional")
+    mgd_scraped_no_removal = mean_gender_differences("scraped", word_removal=None)
 
-    save_mgd_barplot(
-        data=mgd_bit.query("POS == 'Noun'"),
-        palette=CS_GEO_PALETTE,
-        title="Nouns",
-        save_dir=SAVE_FIGS_MGD_DIR,
-        save_fn="mean_gend_diff_noun_bit",
-    )
+    for query, title, save_fn in zip(POS_QUERIES, POS_TITLES, MGD_SAVE_FN):
+        save_mgd_barplot(
+            data=mgd_bit_no_removal.query(query),
+            palette=CS_GEO_PALETTE,
+            title=f"{title} (No words removed)",
+            save_dir=SAVE_FIGS_MGD_DIR,
+            save_fn=f"{save_fn}_bit_no_words_removed",
+        )
 
-    save_mgd_barplot(
-        data=mgd_bit.query("POS == 'Verb'"),
-        palette=CS_GEO_PALETTE,
-        title="Verbs",
-        save_dir=SAVE_FIGS_MGD_DIR,
-        save_fn="mean_gend_diff_verb_bit",
-    )
+        save_mgd_barplot(
+            data=mgd_bit_crucial_removal.query(query),
+            palette=CS_GEO_PALETTE,
+            title=f"{title} (Crucial subject words removed)",
+            save_dir=SAVE_FIGS_MGD_DIR,
+            save_fn=f"{save_fn}_bit_crucial_words_removed",
+        )
 
-    save_mgd_barplot(
-        data=mgd_bit.query("POS == 'Adj/Adv'"),
-        palette=CS_GEO_PALETTE,
-        title="Adj/Adv",
-        save_dir=SAVE_FIGS_MGD_DIR,
-        save_fn="mean_gend_diff_adjadv_bit",
-    )
+        save_mgd_barplot(
+            data=mgd_bit_optional_removal.query(query),
+            palette=CS_GEO_PALETTE,
+            title=f"{title} (Optional subject words removed)",
+            save_dir=SAVE_FIGS_MGD_DIR,
+            save_fn=f"{save_fn}_bit_optional_words_removed",
+        )
 
-    mgd_scraped = mean_gender_differences("scraped")
-
-    save_mgd_barplot(
-        data=mgd_scraped.query("POS == 'Noun'"),
-        palette=SUBJECT_PALETTE,
-        title="Nouns",
-        save_dir=SAVE_FIGS_MGD_DIR,
-        save_fn="mean_gend_diff_noun_scraped",
-    )
-
-    save_mgd_barplot(
-        data=mgd_scraped.query("POS == 'Verb'"),
-        palette=SUBJECT_PALETTE,
-        title="Verbs",
-        save_dir=SAVE_FIGS_MGD_DIR,
-        save_fn="mean_gend_diff_verb_scraped",
-    )
-
-    save_mgd_barplot(
-        data=mgd_scraped.query("POS == 'Adj/Adv'"),
-        palette=SUBJECT_PALETTE,
-        title="Adj/Adv",
-        save_dir=SAVE_FIGS_MGD_DIR,
-        save_fn="mean_gend_diff_adjadv_scraped",
-    )
+        save_mgd_barplot(
+            data=mgd_scraped_no_removal.query(query),
+            palette=SUBJECT_PALETTE,
+            title=f"{title} (No words removed)",
+            save_dir=SAVE_FIGS_MGD_DIR,
+            save_fn=f"{save_fn}_scraped_no_words_removed",
+        )
