@@ -95,10 +95,10 @@ def save_bit_mean_gender_diff(
             "crucial", "optional" or None
     """
     mgd_bit_cs = calc_mean_gender_diff(
-        cs_bit_word_pos_corpus, glove_dists, "BIT", "cs", word_removal
+        cs_bit_word_pos_corpus, glove_dists, "BIT", "CS", word_removal
     )
     mgd_bit_geo = calc_mean_gender_diff(
-        geo_bit_word_pos_corpus, glove_dists, "BIT", "geo", word_removal
+        geo_bit_word_pos_corpus, glove_dists, "BIT", "Geo", word_removal
     )
     mgd_bit = pd.concat([mgd_bit_cs, mgd_bit_geo])
     remove_lbl = "no" if word_removal is None else word_removal
@@ -171,20 +171,20 @@ if __name__ == "__main__":
     )
 
     mgd_scraped_cs = calc_mean_gender_diff(
-        cs_scraped_word_pos_corpus, glove_dists, "Scraped", "cs", word_removal=None
+        cs_scraped_word_pos_corpus, glove_dists, "Scraped", "CS", word_removal=None
     )
     mgd_scraped_drama = calc_mean_gender_diff(
         drama_scraped_word_pos_corpus,
         glove_dists,
         "Scraped",
-        "drama",
+        "Drama",
         word_removal=None,
     )
     mgd_scraped_geo = calc_mean_gender_diff(
         geo_scraped_word_pos_corpus,
         glove_dists,
         "Scraped",
-        "geo",
+        "Geo",
         word_removal=None,
     )
     mgd_scraped = pd.concat([mgd_scraped_cs, mgd_scraped_drama, mgd_scraped_geo])
