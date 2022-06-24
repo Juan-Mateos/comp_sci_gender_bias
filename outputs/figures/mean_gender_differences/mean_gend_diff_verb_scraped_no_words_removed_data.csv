@@ -1,0 +1,4 @@
+,POS,mean_gender_diff,subject,data_source,words_removed
+2,Verb,0.011062213,CS,Scraped,
+5,Verb,0.008222863,Drama,Scraped,
+8,Verb,0.009098942,Geo,Scraped,
