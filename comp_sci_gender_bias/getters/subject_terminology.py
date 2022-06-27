@@ -27,7 +27,6 @@ def subject_specific_words(subject: str, specific_word_type: str) -> list:
         subject: "geo" or "cs"
         specific_word_type: "crucial" or "optional"
 
-
     Returns:
         List of subject specific words
     """
