@@ -7,10 +7,13 @@ from comp_sci_gender_bias.pipeline.glove_differences.process_text_utils import (
 from comp_sci_gender_bias.getters.school_data import text_descriptions
 from comp_sci_gender_bias.getters.scraped_data import scraped_data
 from comp_sci_gender_bias.getters.subject_terminology import subject_specific_words
-import pandas as pd
-from comp_sci_gender_bias import PROJECT_DIR
 from comp_sci_gender_bias.utils.io import make_path_if_not_exist
+from comp_sci_gender_bias import PROJECT_DIR
+
+import pandas as pd
+
 from typing import Union
+
 
 MEAN_DIFFERENCES_SAVE_PATH = PROJECT_DIR / "outputs/mean_differences"
 GLOVE_DIMENSIONS = 300
