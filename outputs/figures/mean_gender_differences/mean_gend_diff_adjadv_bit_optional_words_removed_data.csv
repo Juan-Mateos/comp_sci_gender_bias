@@ -1,0 +1,3 @@
+,POS,mean_gender_diff,subject,data_source,words_removed
+1,Adj/Adv,0.017018078,CS,BIT,optional
+4,Adj/Adv,0.015631685,Geo,BIT,optional

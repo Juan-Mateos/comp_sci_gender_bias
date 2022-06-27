@@ -63,7 +63,10 @@ python comp_sci_gender_bias/pipeline/glove_differences/make_mean_differences.py
 
 The results are saved to csv files in `comp_sci_gender_bias/outputs/mean_differences/`.
 
-The results can be loaded with getter at `comp_sci_gender_bias.getters.mean_gender_differences.mean_gender_differences`
+The results can be loaded with getter at `comp_sci_gender_bias.getters.mean_gender_differences.mean_gender_differences`.
+
+Mean gender differences are created with no words removed, with 'optional' words removed and with 'crucial' words removed.
+'Optional' words are subject specific words that could be potentially changed in the course descriptions, for example 'erosion' or 'algorithm'. 'Crucial' words are subject specific words that need to be used in the course descriptions, for example 'computer' or 'geography'.
 
 ## Make sentence embeddings of school course descriptions
 

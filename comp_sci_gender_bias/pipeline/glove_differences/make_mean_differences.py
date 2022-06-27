@@ -6,9 +6,14 @@ from comp_sci_gender_bias.pipeline.glove_differences.process_text_utils import (
 )
 from comp_sci_gender_bias.getters.school_data import text_descriptions
 from comp_sci_gender_bias.getters.scraped_data import scraped_data
-import pandas as pd
-from comp_sci_gender_bias import PROJECT_DIR
+from comp_sci_gender_bias.getters.subject_terminology import subject_specific_words
 from comp_sci_gender_bias.utils.io import make_path_if_not_exist
+from comp_sci_gender_bias import PROJECT_DIR
+
+import pandas as pd
+
+from typing import Union
+
 
 MEAN_DIFFERENCES_SAVE_PATH = PROJECT_DIR / "outputs/mean_differences"
 GLOVE_DIMENSIONS = 300
@@ -21,7 +26,8 @@ def calc_mean_gender_diff(
     sub_word_pos_corpus: pd.DataFrame,
     glove_dists: GloveDistances,
     data_source_lbl: str,
-    subject_lbl: str,
+    subject: str,
+    word_removal: Union[str, None],
 ):
     """Calculate the mean gender difference for each POS
     for all the words in a subject corpus
@@ -31,7 +37,9 @@ def calc_mean_gender_diff(
             with associated POS and Corpus label
         glove_dists: GloveDistances class object
         data_source_lbl: Data source label
-        subject_lbl: Subject label
+        subject: Subject
+        word_removal: Subject related words to remove.
+            "crucial", "optional" or None
 
     Returns:
         Dataframe with columns for:
@@ -39,22 +47,68 @@ def calc_mean_gender_diff(
             - mean_gender_diff
             - subject
             - data_source
+            - words_removed
     """
-    glove_sims = glove_dists.gender_similarity_difference_word_list(
-        sub_word_pos_corpus["Word"].tolist()
-    )
+    if word_removal is not None and subject != "drama":
+        words_to_remove = subject_specific_words(
+            subject=subject, specific_word_type=word_removal
+        )
+    else:
+        words_to_remove = []
+
+    words = [
+        word
+        for word in sub_word_pos_corpus["Word"].tolist()
+        if word not in words_to_remove
+    ]
+    glove_sims = glove_dists.gender_similarity_difference_word_list(words)
     sub_word_pos_corpus["Male - Female"] = sub_word_pos_corpus["Word"].map(glove_sims)
     sub_word_pos_corpus = sub_word_pos_corpus.dropna()
+    mgds = [
+        sub_word_pos_corpus.query(query)["Male - Female"].mean()
+        for query in POS_QUERIES
+    ]
     return pd.DataFrame.from_dict(
         {
             "POS": POS_LABELS,
-            "mean_gender_diff": [
-                sub_word_pos_corpus.query(query)["Male - Female"].mean()
-                for query in POS_QUERIES
-            ],
-            "subject": [subject_lbl] * len(POS_LABELS),
-            "data_source": [data_source_lbl] * len(POS_LABELS),
+            "mean_gender_diff": mgds,
+            "subject": subject,
+            "data_source": data_source_lbl,
+            "words_removed": word_removal,
         }
+    )
+
+
+def save_bit_mean_gender_diff(
+    cs_bit_word_pos_corpus: pd.DataFrame,
+    geo_bit_word_pos_corpus: pd.DataFrame,
+    glove_dists: GloveDistances,
+    word_removal: Union[str, None],
+):
+    """Saves dataframe of mean gender differences for each POS
+    and subject
+
+    Args:
+        cs_bit_word_pos_corpus: Dataframe containing each word in corpus
+            with associated POS and Corpus label for CS using BIT data
+        geo_bit_word_pos_corpus: Dataframe containing each word in corpus
+            with associated POS and Corpus label for Geography using BIT data
+        glove_dists: GloveDistances class object
+        word_removal: Subject related words to remove.
+            "crucial", "optional" or None
+    """
+    mgd_bit_cs = calc_mean_gender_diff(
+        cs_bit_word_pos_corpus, glove_dists, "BIT", "CS", word_removal
+    )
+    mgd_bit_geo = calc_mean_gender_diff(
+        geo_bit_word_pos_corpus, glove_dists, "BIT", "Geo", word_removal
+    )
+    mgd_bit = pd.concat([mgd_bit_cs, mgd_bit_geo])
+    remove_lbl = "no" if word_removal is None else word_removal
+    mgd_bit.to_csv(
+        MEAN_DIFFERENCES_SAVE_PATH
+        / f"mean_differences_pos_bit_remove_{remove_lbl}_words.csv",
+        index=False,
     )
 
 
@@ -82,16 +136,15 @@ if __name__ == "__main__":
         lemma=False,
     )
 
-    mgd_bit_cs = calc_mean_gender_diff(cs_bit_word_pos_corpus, glove_dists, "BIT", "CS")
-    mgd_bit_geo = calc_mean_gender_diff(
-        geo_bit_word_pos_corpus, glove_dists, "BIT", "Geography"
-    )
-
-    mgd_bit = pd.concat([mgd_bit_cs, mgd_bit_geo])
     make_path_if_not_exist(MEAN_DIFFERENCES_SAVE_PATH)
-    mgd_bit.to_csv(
-        MEAN_DIFFERENCES_SAVE_PATH / "mean_differences_pos_bit.csv", index=False
-    )
+
+    for word_removal in ["crucial", "optional", None]:
+        save_bit_mean_gender_diff(
+            cs_bit_word_pos_corpus,
+            geo_bit_word_pos_corpus,
+            glove_dists,
+            word_removal=word_removal,
+        )
 
     scraped = scraped_data()
     compsci_descr_scraped = list(scraped["CompSci"].values)
@@ -121,15 +174,24 @@ if __name__ == "__main__":
     )
 
     mgd_scraped_cs = calc_mean_gender_diff(
-        cs_scraped_word_pos_corpus, glove_dists, "Scraped", "CS"
+        cs_scraped_word_pos_corpus, glove_dists, "Scraped", "CS", word_removal=None
     )
     mgd_scraped_drama = calc_mean_gender_diff(
-        drama_scraped_word_pos_corpus, glove_dists, "Scraped", "Drama"
+        drama_scraped_word_pos_corpus,
+        glove_dists,
+        "Scraped",
+        "Drama",
+        word_removal=None,
     )
     mgd_scraped_geo = calc_mean_gender_diff(
-        geo_scraped_word_pos_corpus, glove_dists, "Scraped", "Geography"
+        geo_scraped_word_pos_corpus,
+        glove_dists,
+        "Scraped",
+        "Geo",
+        word_removal=None,
     )
     mgd_scraped = pd.concat([mgd_scraped_cs, mgd_scraped_drama, mgd_scraped_geo])
     mgd_scraped.to_csv(
-        MEAN_DIFFERENCES_SAVE_PATH / "mean_differences_pos_scraped.csv", index=False
+        MEAN_DIFFERENCES_SAVE_PATH / "mean_differences_pos_scraped_remove_no_words.csv",
+        index=False,
     )
