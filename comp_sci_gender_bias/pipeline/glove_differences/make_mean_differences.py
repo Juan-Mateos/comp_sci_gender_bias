@@ -64,7 +64,6 @@ def calc_mean_gender_diff(
     glove_sims = glove_dists.gender_similarity_difference_word_list(words)
     sub_word_pos_corpus["Male - Female"] = sub_word_pos_corpus["Word"].map(glove_sims)
     sub_word_pos_corpus = sub_word_pos_corpus.dropna()
-    row_length = len(POS_LABELS)
     return pd.DataFrame.from_dict(
         {
             "POS": POS_LABELS,
@@ -72,9 +71,9 @@ def calc_mean_gender_diff(
                 sub_word_pos_corpus.query(query)["Male - Female"].mean()
                 for query in POS_QUERIES
             ],
-            "subject": [subject] * row_length,
-            "data_source": [data_source_lbl] * row_length,
-            "words_removed": [word_removal] * row_length,
+            "subject": subject,
+            "data_source": data_source_lbl,
+            "words_removed": word_removal,
         }
     )
 
